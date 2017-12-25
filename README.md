@@ -1,7 +1,7 @@
 
 This repository was created as a central location to store all my research on Konami's
-Dance Dance Revolution game engines, as well as versions of the engine derived directly
-from the main DDR engine.
+Dance Dance Revolution game enginess, as well as versions of the engine derived directly
+from these engines.
 
 I am extremely maticulous about organizing the data, which will become apparent while
 browsing the repository.  Hopefully, this will allow people to not only clearly see what 
