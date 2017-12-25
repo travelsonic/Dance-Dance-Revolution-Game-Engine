@@ -1,5 +1,4 @@
 # **ABOUT THE ENGINE:**
-
 "Legacy Engine" is an unofficial name given to a game engine used in Konami's 
 Dance Dance Revolution series.  The engine's official use started wtih Dance Dance
 Revolution, which was released in arcades on November 18th, 1998, and was last
