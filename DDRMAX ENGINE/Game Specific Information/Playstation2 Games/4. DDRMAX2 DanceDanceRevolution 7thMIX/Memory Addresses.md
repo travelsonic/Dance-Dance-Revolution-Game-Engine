@@ -21,8 +21,8 @@ Address       Description
               extended the number of song wheel slots in the array at 0x005674A8, and then append the list, 
               the song wheel slots you added will show up without issue.  The values that represent each song 
               are, essentially, the indexd/order of the song data definitions, so a value of 0001 would be Long 
-              Train Runnin', 0002 would be Maximum Overdrive, 0003 Waka Laka, etc.  It is worth noting that a value 
-              of 00C7 is the Roulette option, and a value of 00FF marks a "COMING SOON" dummy slot. 
+              Train Runnin', 0002 would be Maximum Overdrive, 0003 Waka Laka, etc.  It is worth noting that a 
+              value of 00C7 is the Roulette option, and a value of 00FF marks a "COMING SOON" dummy slot. 
               
               (TODO: put up a full list of values?)
 
@@ -47,11 +47,12 @@ Address       Description
 0x0056F508    Player's displayed score.  Editing this value fails, as it is automatically replaced with the score
               value stored at 0x0056F510 (see below).
 
-0x0056F510    Player's actual score.  Completely editable, with a value range -2,147,483,648 <= X <= 2,147,483,647.
-              Note that the display you see in game is only 9 digits wide, so if you exceed 999,999,999, the score
-              counter will not show that 10th digit. Also note that if you enter a negative value, or enter a
-              value so great that the score becomes negative due to arithmetic overflow, the score counter will
-              become a garbled mess.
+0x0056F510    Player's actual score.
+              Possible numerical value range:-2,147,483,648 <= X <= 2,147,483,647.
+              Note that the display you see in game is only 9 digits wide, so if you exceed 
+              999,999,999, the score counter will not show that 10th digit. Also note that if 
+              you enter a negative value, or enter a value so great that the score becomes negative 
+              due to arithmetic overflow, the score counter will become a garbled mess.
 
 0x0056F5AC    Player's perfect count.
 0x0056F5B0    Player's great count.
