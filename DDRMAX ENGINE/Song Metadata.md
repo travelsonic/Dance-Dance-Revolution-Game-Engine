@@ -23,6 +23,7 @@ DDRMAX2 -DanceDanceRevolution-               North America                152
 Dance Dance Revolution Party Collection          Japan                    152
 Dance Dance Revolution EXTREME                   Japan                    152
 Dance Dance Revolution EXTREME               North America                160
+Dance Dance Revolution EXTREME 2             North America                160
 ```
 
 ## Composition of the music\_info Struct:
