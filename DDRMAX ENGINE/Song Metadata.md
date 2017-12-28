@@ -44,7 +44,8 @@ bpm_min               2              Minimum song BPM
 bpm_max               2              Minimum song BPM
 difficulty            8              Song foot ratings
 ```
+### min\_bpm and max\_bpm:
 
 ### difficulty:
 The song's foot rating data is stored with the single mode foot ratings first, followed by the doubles mode foot ratings.
-Each foot rating takes one nibble of data.  This means that the maximum value for a song step chart's foot rating is 15.  The foot ratings are stored in the order: Standard, Light, Oni, Heavy.  If a song does not have a foot rating for a particular difficulty, that foot rating will be 0x00.  IF you change that value to any number 1 <= x <= 15, that difficulty will be selectable, even if the song does not actually have a stepchart for that difficulty.
+Each foot rating takes one nibble of data.  This means that the maximum value for a song step chart's foot rating is 15.  The foot ratings are stored in the order: Standard, Light, Oni, Heavy.  If a song does not have a foot rating for a particular difficulty, that foot rating will be 0x00.  IF you change that value to any number 1 <= x <= 15, that difficulty will be selectable, even if the song does not actually have a stepchart for that difficulty.  The game will not crash if an empty stepchart is loaded, you will just have to wait until the song finished playing.
