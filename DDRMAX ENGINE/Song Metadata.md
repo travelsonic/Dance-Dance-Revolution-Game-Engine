@@ -11,6 +11,7 @@ DDRMAX -DanceDanceRevolution 6thMIX-             Japan                     80
 DDRMAX2 -DanceDanceRevolution 7thMIX-            Japan                    108
 Dancing Stage EuroMIX 2                         Europe                    108
 Dance Dance Revolution EXTREME                   Japan                    128
+Dancing Stage Fusion                            Europe                    160
 ```
 ### Playstation2 Mixes:
 ```
@@ -20,10 +21,13 @@ DDRMAX -DanceDanceRevolution-                North America                120
 DDRMAX2 -DanceDanceRevolution 7thMIX-            Japan                    136
 DDRMAX2 -DanceDanceRevolution- DEMO DISK     North America                152
 DDRMAX2 -DanceDanceRevolution-               North America                152
+Dancing Stage Megamix                           Europe                    152
 Dance Dance Revolution Party Collection          Japan                    152
+Dancing Stage Fever                             Europe                    152
 Dance Dance Revolution EXTREME                   Japan                    152
 Dance Dance Revolution EXTREME               North America                160
 Dance Dance Revolution EXTREME 2             North America                160
+Dancing Stage Fusion                            Europe                    160
 ```
 
 ## Composition of the music\_info Struct:
