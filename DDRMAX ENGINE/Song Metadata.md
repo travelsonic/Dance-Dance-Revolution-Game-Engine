@@ -6,18 +6,23 @@ The size of this structure varies from game to game.
 ## music\_info struct sizes:
 ### Bemani System573 (Arcade) Mixes:
 ```
-Game Name                                 Game Region:        Struct Size (in bytes):
-DDRMAX -DanceDanceRevolution 6thMIX-         Japan                     80
-DDRMAX2 -DanceDanceRevolution 7thMIX-        Japan                    108
-Dancing Stage EuroMIX 2                      Europe                   108
-Dance Dance Revolution EXTREME               Japan                    128
+Game Name                                     Game Region:        Struct Size (in bytes):
+DDRMAX -DanceDanceRevolution 6thMIX-             Japan                     80
+DDRMAX2 -DanceDanceRevolution 7thMIX-            Japan                    108
+Dancing Stage EuroMIX 2                         Europe                    108
+Dance Dance Revolution EXTREME                   Japan                    128
 ```
 ### Playstation2 Mixes:
 ```
-Game Name                                 Game Region:        Struct Size (in bytes):
-DDRMAX2 -DanceDanceRevolution 7thMIX-        Japan                    136
-DDRMAX2 -DanceDanceRevolution-           North America                152
-Dance Dance Revolution EXTREME               Japan                    152
+Game Name                                     Game Region:        Struct Size (in bytes):
+DDRMAX -DanceDanceRevolution 6thMIX-             Japan                    100
+DDRMAX -DanceDanceRevolution-                North America                120
+DDRMAX2 -DanceDanceRevolution 7thMIX-            Japan                    136
+DDRMAX2 -DanceDanceRevolution- DEMO DISK     North America                152
+DDRMAX2 -DanceDanceRevolution-               North America                152
+Dance Dance Revolution Party Collection          Japan                    152
+Dance Dance Revolution EXTREME                   Japan                    152
+Dance Dance Revolution EXTREME               North America                160
 ```
 
 ## Composition of the music\_info Struct:
