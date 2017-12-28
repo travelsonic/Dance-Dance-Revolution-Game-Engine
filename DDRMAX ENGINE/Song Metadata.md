@@ -4,7 +4,7 @@ Dance Dance Revolution games utilizing the DDRMAX Engine keep specific metadata 
 The size of this structure varies from game to game.
 
 ## music\_info struct sizes:
-### Bemani System573 (Arcade) Mixes:**
+### Bemani System573 (Arcade) Mixes:
 ```
 Game Name                                 Game Region:        Struct Size (in bytes):
 DDRMAX -DanceDanceRevolution 6thMIX-         Japan                     80
