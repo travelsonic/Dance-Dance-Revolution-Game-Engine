@@ -44,6 +44,10 @@ bpm_min               2              Minimum song BPM
 bpm_max               2              Minimum song BPM
 difficulty            8              Song foot ratings
 ```
+
+### album:
+The album is the CD icon that spins at the upper right corner of the song banner on the music selection screen.  This value is one byte in size.  The specific values will vary from game to game, but there will usually be icons for Konami originals, Dancemania titles where applicable, Licenses where applicable, and game crossovers when applicable.
+
 ### bpm\_min and bpm\_max:
 
 ### difficulty:
