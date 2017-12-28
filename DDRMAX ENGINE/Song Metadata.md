@@ -31,12 +31,16 @@ Dancing Stage Fusion                            Europe                    160
 ```
 
 ## Composition of the music\_info Struct:
-**Note:** This information builds upon the work of Aaron in Japan user Taren, who has figured out a great deal of information about this, and other aspects of the DDRMAX era games. [You can see a good deal of his work here.](http://aaronin.jp/boards/viewtopic.php?t=10509&highlight=iso)
+**Note:** This information builds upon the work of Aaron in Japan user Taren, who has figured out a great deal of information about this, and other aspects of the DDRMAX era games. [You can see a good deal of his work preserved here.](http://aaronin.jp/boards/viewtopic.php?t=10509&highlight=iso)
 
 This work is mainly to take what has been already figured out, and complete that work.
 
 ```
-Field Name:  Size (in bytes):  Description:
-base_name
-
+Field Name:     Size (in bytes):     Description:
+base_name             7              Song abbreviated name
+album                 1              Determines the CD icon that spins at the 
+                                     upper right corner of the song banner
+bpm_min               2              Minimum song BPM
+bpm_max               2              Minimum song BPM
+difficulty            4              Song foot ratings
 ```
