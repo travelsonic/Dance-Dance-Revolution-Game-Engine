@@ -1,7 +1,7 @@
 # Song Metadata:
 Dance Dance Revolution games utilizing the DDRMAX Engine keep specific metadata about each song, which is primarily used on the music selection screen.  This information is kept in the game's executable, and the metadata for each song is stored in a structure called music\_info.  
 
-The size of this structure varies from game to game.
+The size of this structure went up as the series of games utilizing the MAX engine increased, and more data per song needed to be tracked.
 
 ## music\_info struct sizes:
 ### Bemani System573 (Arcade) Mixes:
