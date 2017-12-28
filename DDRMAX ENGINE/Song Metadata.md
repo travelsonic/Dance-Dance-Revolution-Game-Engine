@@ -44,7 +44,7 @@ bpm_min               2              Minimum song BPM
 bpm_max               2              Minimum song BPM
 difficulty            8              Song foot ratings
 ```
-### min\_bpm and max\_bpm:
+### bpm\_min and bpm\_max:
 
 ### difficulty:
 The song's foot rating data is stored with the single mode foot ratings first, followed by the doubles mode foot ratings.
