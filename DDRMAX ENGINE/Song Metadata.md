@@ -7,6 +7,7 @@ The size of this structure varies from game to game.
 **Bemani System573 (Arcade) Mixes:**
 ```
 Game Name                                   Region:        Struct Size (in bytes):
+ DDRMAX -DanceDanceRevolution 6thMIX-        Japan                  80
 DDRMAX2 -DanceDanceRevolution 7thMIX-        Japan                 108
 Dancing Stage EuroMIX 2                     Europe                 108
 Dance Dance Revolution EXTREME               Japan                 128
