@@ -3,10 +3,10 @@
 
 The game engine needs a way to locate chunks in the filedata.bin containing music, graphics, stepdata, and background videos.  This is accomplished through a table stored in the game executable.
 
-Each entry in this table is a structure that contains 3 fields:
+Each entry in this table is a structure that takes up 8 bytes, and contains 3 fields:
 ```
 Field:            Size (in bytes):   Description:
-file\_position        2              The index of the entry in the filedata table.
+file_position         2              The index of the entry in the filedata table.
 address               3              The address within filedata.bin where the data is located.
                                      The address is packed to fit into 3 bytes.  To get the full,
                                      uncompressed address, multiply the value here by 0x800, or
