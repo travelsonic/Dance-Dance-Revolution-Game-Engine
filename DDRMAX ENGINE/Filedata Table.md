@@ -16,3 +16,4 @@ size                  3              The size of the data chunk.
                                      uncompressed file size, multiply the value here by 0x800, or
                                      2048 in decimal.
 ```
+For some reason, Dancing Stage Fusion's table is separated in a few places by indistinguishable chunks of data.
