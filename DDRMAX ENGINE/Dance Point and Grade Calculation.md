@@ -40,16 +40,16 @@ The game then puts the quotient, stored in $LO, into the register that previousl
 
 From there, it does a series of comparisons with the quotient against hard coded values, using the results to determine your letter grade.
 ```
-Value                 Grade Earned:
-0x64 (100%)           AAA if the quotient is equal to this value
-0x5D ( 93%)            AA if the quotient is greater than this value
-0x50 ( 80%)             A if the quotient is greater than this value
-0x41 ( 65%)             B if the quotient is greater than this value
-0x20 ( 45%)             C if the quotient is greater than this value
-Less than 0x20 (45%)    D if the player's health gauge had not been depleted before the song ended.
+Value                     Grade Earned:
+0x64 (100%)               AAA if the quotient is equal to this value
+0x5D ( 93%)                AA if the quotient is greater than this value
+0x50 ( 80%)                 A if the quotient is greater than this value
+0x41 ( 65%)                 B if the quotient is greater than this value
+0x20 ( 45%)                 C if the quotient is greater than this value
+Less than 0x20 (45%)        D if the player's health gauge had not been depleted before the song ended.
 
 Health gauge depleted
 (irrespective of        E
 quotient value)
 ```
-Basically, the above non-E grades are all predicated on the player's health gauge remaining non-empty, that is, irrespective of if the player were somehow able to deplete his or her health gauge, and still rack up enough DP for an "A" grade, that player would still earn an E.
+The above non-E grades are all predicated on the player's health gauge remaining non-empty, that is, irrespective of if the player were somehow able to deplete his or her health gauge, and still rack up enough DP for an "A" grade, that player would still earn an E.
