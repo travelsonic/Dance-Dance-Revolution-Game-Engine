@@ -52,4 +52,4 @@ Health gauge depleted
 (irrespective of                E
 quotient value)
 ```
-* The non-E grades can only be earned if the player is able to keep their health gauge from becoming completely empty.  Once the health gauge runs out, the game defaults to assigning a grade of E, even if, for instance, the player anaged to earn enough D.P to earn an A after the health gauge depleted.
+* The non-E grades can only be earned if the player is able to keep their health gauge from becoming completely empty.  Once the health gauge runs out, the game defaults to assigning a grade of E, even if, for instance, the player managed to earn enough D.P to earn an A after the health gauge depleted.
