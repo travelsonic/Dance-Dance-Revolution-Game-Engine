@@ -41,22 +41,15 @@ The game then puts the quotient, stored in $LO, into the register that previousl
 From there, it does a series of comparisons with the quotient against hard coded values, using the results to determine your letter grade.
 ```
 Value                 Grade Earned:
-0x64 (100%)           AAA if the quotient is equal to the value the quotient is being compared against
-0x5D ( 93%)            AA if the quotient is greater than the value the quotient is being compared against
-0x50 ( 80%)             A if the quotient is greater than the value the quotient is being compared against
-0x41 ( 65%)             B if the quotient is greater than the value the quotient is being compared against 
-0x20 ( 45%)             C if the quotient is greater than the value the quotient is being compared against
+0x64 (100%)           AAA if the quotient is equal to this value
+0x5D ( 93%)            AA if the quotient is greater than this value
+0x50 ( 80%)             A if the quotient is greater than this value
+0x41 ( 65%)             B if the quotient is greater than this value
+0x20 ( 45%)             C if the quotient is greater than this value
 Less than 0x20 (45%)    D if the player's health gauge had not been depleted before the song ended.
+
+Health gauge depleted
+(irrespective of        E
+quotient value)
 ```
-Is the quotient equal to 100 (0x64)?  If it is, the game gives you a AAA.  If it is not, then the game branches to the next comparison.
-
-Is the quotient less than 93 (0x5D)?  If it is not, the game gives you a AA.  If it is, then the game branches to the next comparison.
-
-Is the quotient less than 80 (0x50)?  If it is not, the game gives you an A.  If it is, then the game branches to the next comparison.
-
-Is the quotient less than 65 (0x41)?  If it is not, the game gives you a B.  If it is, then the game branches to the next comparison.
-
-Is the quotient less than 45 (0x20)?  If it is not, the game gives you a C. If it is, then the game branches to the next comparison.
-
-If you get a lower percentage than that, and passed the song (as in, you didn't deplete your health gauge), you get a "D."  If you depleted your health gauge, irrespective of your DP percentage, you get an "E."
-
+Basically, the above non-E grades are all predicated on the player's health gauge remaining non-empty, that is, irrespective of if the player were somehow able to deplete his or her health gauge, and still rack up enough DP for an "A" grade, that player would still earn an E.
