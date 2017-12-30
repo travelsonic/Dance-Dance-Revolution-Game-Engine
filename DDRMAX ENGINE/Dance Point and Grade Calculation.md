@@ -15,9 +15,7 @@ O.K.                    6
 N.G.               Not Tracked
 ```
 
-To calculate the amount of earned DP, the game takes the number of steps that fall into a particular judgment quality, multiply it by the associated multipliers, then takes that product, and adds it to a sum.
-
-Boos and Misses, as you can see, take away earned D.P. - the algorithm uses negative values because this allows the algorithm to take away D.P. through the addition of negative values, which keeps the algorithm simple, and consistent.
+To calculate the amount of earned D.P, the game takes the number of steps that fall into a particular judgment quality, multiply it by the associated multipliers, then takes that product, and adds it to a sum.
 
 ```
 Let:
@@ -29,7 +27,28 @@ M = Miss Count, MM = Miss Multiplier,
 O = O.K Count, and OM = O.K Multiplier.
 
 DP = (P * PM) + (G*GM) + (Go * GoM) + (B * BM) + (M * MM) + (O * OM)
-
 ```
 
+Boos and Misses, as you can see, take away earned D.P - the algorithm uses negative values because this allows the algorithm to take away D.P through the addition of negative values, which keeps the algorithm simple, and consistent.
+
 ## Grade Calculations:
+After the game has calculated the amount of D.P you've earned, it divides that number by the maximum number of D.P that one can earn for a given song/chart difficulty.  This max D.P value is loaded into memory when you select the song from the song wheel.
+
+The result of this DIV instruction puts the quotient (earned D.P / max D.P) in $LO, the remainder (earned DP % max DP) in $HI, $LO and $HI being special registers used to access the results of a division operation on a system using a MIPS architecture.
+
+The game then puts the quotient, stored in $LO, into the register that previously held the maximum earnable D.P.
+
+From there, it does a series of comparisons with the quotient against hard coded values, using the results to determine your letter grade.
+
+Is the quotient equal to 100 (0x64)?  If it is, the game gives you a AAA.  If it is not, then the game branches to the next comparison.
+
+Is the quotient less than 93 (0x5D)?  If it is not, the game gives you a AA.  If it is, then the game branches to the next comparison.
+
+Is the quotient less than 80 (0x50)?  If it is not, the game gives you an A.  If it is, then the game branches to the next comparison.
+
+Is the quotient less than 65 (0x41)?  If it is not, the game gives you a B.  If it is, then the game branches to the next comparison.
+
+Is the quotient less than 45 (0x20)?  If it is not, the game gives you a C. If it is, then the game branches to the next comparison.
+
+If you get a lower percentage than that, and passed the song (as in, you didn't deplete your health gauge), you get a "D."  If you depleted your health gauge, irrespective of your DP percentage, you get an "E."
+```
