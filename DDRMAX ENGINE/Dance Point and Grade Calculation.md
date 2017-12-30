@@ -39,7 +39,13 @@ The result of this DIV instruction puts the quotient (earned D.P / max D.P) in $
 The game then puts the quotient, stored in $LO, into the register that previously held the maximum earnable D.P.
 
 From there, it does a series of comparisons with the quotient against hard coded values, using the results to determine your letter grade.
-
+```
+Value Being Compared Against:  Grade Earned:
+0x64 (100 in decimal)           AAA if the quotient is equal to the value the quotient is being compared against
+0x5D ( 93 in decimal)            AA if the quotient is greater than the value the quotient is being compared against
+0x50 ( 80 in decimal)             A if the quotient is greater than the value the quotient is being compared against
+0x41 ( 65 in decimal)             B if the quotient is greater than the value the quotient is being compared against 
+0x20 ( 45 in decimal)             C if the quotient is greater than the value the quotient is being compared against
 Is the quotient equal to 100 (0x64)?  If it is, the game gives you a AAA.  If it is not, then the game branches to the next comparison.
 
 Is the quotient less than 93 (0x5D)?  If it is not, the game gives you a AA.  If it is, then the game branches to the next comparison.
@@ -51,4 +57,4 @@ Is the quotient less than 65 (0x41)?  If it is not, the game gives you a B.  If 
 Is the quotient less than 45 (0x20)?  If it is not, the game gives you a C. If it is, then the game branches to the next comparison.
 
 If you get a lower percentage than that, and passed the song (as in, you didn't deplete your health gauge), you get a "D."  If you depleted your health gauge, irrespective of your DP percentage, you get an "E."
-```
+
