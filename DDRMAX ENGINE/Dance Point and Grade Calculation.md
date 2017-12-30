@@ -9,9 +9,9 @@ Judgment:       Multiplier Value:
 Perfect                 2
 Great                   1
 Good                    0
-Boo
-Miss
-O.K.
+Boo                    -4
+Miss                   -8
+O.K.                    6
 N.G.               Not Tracked
 ```
 
