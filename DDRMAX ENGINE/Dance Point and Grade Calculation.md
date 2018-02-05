@@ -5,15 +5,15 @@ During a song, the game keeps track of how many steps of each judgment quality (
 Associated with each of these timing judgments is a multiplier value.
 
 ```
-                     Multiplier Value
-Judgment:        (Hexadecimal) (Decimal):
-Perfect            0x00000002      2
-Great              0x00000001      1
-Good               0x00000000      0
-Boo                0xFFFFFFF4     -4
-Miss               0xFFFFFFF8     -8
-O.K.               0x00000006      6
-N.G.               Not Tracked
+                     
+Judgment:     Multiplier Value (Hexadecimal/Decimal):
+Perfect               0x00000002   /    2
+Great                 0x00000001   /    1
+Good                  0x00000000   /    0
+Boo                   0xFFFFFFF4   /   -4
+Miss                  0xFFFFFFF8   /   -8
+O.K.                  0x00000006   /    6
+N.G.                  Not Tracked
 ```
 
 To calculate the amount of earned D.P, the game takes the number of steps that fall into a particular judgment quality, multiply it by the associated multipliers, then takes that product, and adds it to a sum.
@@ -41,7 +41,7 @@ The game then puts the quotient, stored in $LO, into the register that previousl
 
 From there, it does a series of comparisons with the quotient against hard coded values, using the results to determine your letter grade.
 ```
-Value                                     Grade Earned:*
+Value:                                     Grade Earned:*
 0x64 (100%)                               AAA if the quotient is equal to this value
 0x5D ( 93%)                                AA if the quotient is greater than this value
 0x50 ( 80%)                                 A if the quotient is greater than this value
