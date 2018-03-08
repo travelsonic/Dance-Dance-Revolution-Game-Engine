@@ -7,12 +7,12 @@ Associated with each of these timing judgments is a multiplier value.
 ```
                      
 Judgment:     Multiplier Value (Hexadecimal/Decimal):
-Perfect               0x00000002   /    2
-Great                 0x00000001   /    1
-Good                  0x00000000   /    0
-Boo                   0xFFFFFFF4   /   -4
-Miss                  0xFFFFFFF8   /   -8
-O.K.                  0x00000006   /    6
+Perfect               0x00000002<sub>16</sub>, 2<sub>10</sub>
+Great                 0x00000001<sub>16</sub>, 1<sub>10</sub>
+Good                  0x00000000<sub>16</sub>, 0<sub>10</sub>
+Boo                   0xFFFFFFF4<sub>16</sub>, -4<sub>10</sub>
+Miss                  0xFFFFFFF8<sub>16</sub>, -8<sub>10</sub>
+O.K.                  0x00000006<sub>16</sub>, 6<sub>10</sub>
 N.G.                  Not Tracked
 ```
 
