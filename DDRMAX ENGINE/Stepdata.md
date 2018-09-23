@@ -1,6 +1,5 @@
 # Stepdata
-# Playstation2 Specific Information
-## Storage in Filedata.bin
+### Storage in Filedata.bin
 In Playstation2 mixes, the game's stepdata is stored in one giant chunk.
 
 At the very beginning of this chunk is an array of offsets.  The offset values are relative to the start
