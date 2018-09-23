@@ -5,7 +5,7 @@ In Playstation2 mixes, the game's stepdata is stored in one giant chunk.
 
 At the very beginning of this chunk is an array of offsets.  The offset values are relative to the start
 of the file.  For example, if the first SSQ file was 314 bytes into the file, the first offset in the 
-array would be 0x0000013A (viewed as 00003A01 due to endiness, of course).
+array would be 0000013A (viewed as 3A010000 due to endiness, of course).
 
 The overall length of this array is equal to 4 * the number of songs in the game.  For example, in
 DDRMAX2 -DanceDanceRevolution 7thMIX- for the Playstation2, there are 74 songs.  Ergo, the array of
