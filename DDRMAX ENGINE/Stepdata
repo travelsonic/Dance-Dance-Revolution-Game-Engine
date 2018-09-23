@@ -7,6 +7,3 @@ At the very beginning of this chunk is an array of offsets, relative to the star
 Each value is 4 bytes long, and there is one offset for each song in the game.  For example, in
 DDRMAX2 -DanceDanceRevolution 7thMIX-, there are 74 songs, therefore the array of offsets is 296 bytes long.
 
-
-```
-```
