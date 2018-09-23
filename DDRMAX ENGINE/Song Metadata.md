@@ -52,4 +52,7 @@ The album is the CD icon that spins at the upper right corner of the song banner
 
 ### difficulty:
 The song's foot rating data is stored with the single mode foot ratings first, followed by the doubles mode foot ratings.
-Each foot rating takes one nibble of data.  This means that the maximum value for a song step chart's foot rating is 15.  The foot ratings are stored in the order: Standard, Light, Oni, Heavy.  If a song does not have a foot rating for a particular difficulty, that foot rating will be 0x00.  IF you change that value to any number from 1 to 15, that difficulty will be selectable, even if the song does not actually have a stepchart for that difficulty.  The game will not crash if an empty stepchart is loaded, you will just have to wait until the song finished playing.
+
+Each foot rating takes one nibble of data, and that value is treated as an unsigned value.  This means that the maximum value for a song step chart's foot rating is 15.  The foot ratings are stored in the order: Standard, Light, Oni, Heavy.  If a song does not have a foot rating for a particular difficulty, that foot rating will be 0x00.  IF you change that value to any number from 1 to 15, that difficulty will be selectable, even if the song does not actually have a stepchart for that difficulty.  
+
+Note that the game will not crash if an empty stepchart is loaded.  You will just have to wait until the song finished playing.
