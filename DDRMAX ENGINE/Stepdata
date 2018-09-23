@@ -1,5 +1,6 @@
-#Stepdata
-##Playstation2 Mixe Specific Information
+# Stepdata
+# Playstation2 Specific Information
+
 In Playstation2 mixes, the game's stepdata is stored in one giant chunk.
 
 At the very beginning of this chunk is an array of offsets, relative to the start of the data chunk.  
