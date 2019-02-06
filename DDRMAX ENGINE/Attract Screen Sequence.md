@@ -7,7 +7,7 @@ Value (hex):      Screen:
 0x04              Konami Logo
 0x08              Bemani Logo
 0x0C              Dancemania Series Ad
-0x1C              itle Screen
+0x1C              Title Screen
 0x20              Demo Song
 0x18              Unlock Progress / Points To Next Unlock
 0x28              High Scores (ONI + Nonstop)
