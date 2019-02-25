@@ -5,10 +5,13 @@ it is a separate program like Cheat Engine, or the built in debugger functionali
 great emulator for this).
 
 ## **In a Game Stage**
-0xF29A4: Player Perfects, 4 bytes
-0xF29A8: Player Greats, 4 Bytes
-0xF29AC: Player Goods, 4 Bytes
-0xF29B0: Player Boos, 4 Bytes
-0xF29B4: Player Misses, 4 Bytes
-0xF29BC Player Current Max Combo, 4 Bytes
-0xF29C0: Player Current Max Combo repeated, 4 Bytes
+```
+ADDRESS:    DESCRIPTION:                              SIZE:
+0xF29A4:    Player Perfects                           4 bytes
+0xF29A8:    Player Greats                             4 Bytes
+0xF29AC:    Player Goods                              4 Bytes
+0xF29B0:    Player Boos                               4 Bytes
+0xF29B4:    Player Misses                             4 Bytes
+0xF29BC     Player Current Max Combo                  4 Bytes
+0xF29C0:    Player Current Max Combo repeated         4 Bytes
+```
