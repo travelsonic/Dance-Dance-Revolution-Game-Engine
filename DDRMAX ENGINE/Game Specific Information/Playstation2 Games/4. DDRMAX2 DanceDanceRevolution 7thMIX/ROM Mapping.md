@@ -1,6 +1,6 @@
 Note: This document is far from complete. 
 
-For the purpose of this document, "physical address" will refer to the address of the data / information in the game's executable, and the logical address will refer to where the information resides from the perspective of an executing program, or a system executing a program.
+For the purpose of this document, "physical address" will refer to the address of the data / information in the game's executable, and the logical address will refer to where the information resides from the perspective of the Playstation2, or a Playstation2 emulator.
 
 In this game, the difference between the physical, and logical addresses, is 0xFFF80
 
