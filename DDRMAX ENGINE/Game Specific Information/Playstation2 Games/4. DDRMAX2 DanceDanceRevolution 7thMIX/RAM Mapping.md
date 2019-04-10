@@ -1,5 +1,4 @@
-#Note: This document is far from complete.
-
+Note: This document is far from complete.
 ```
 0x005674A4: Current Index In Songwheel Index Array
 0x005674A8: Number Of Slots In Song Wheel
