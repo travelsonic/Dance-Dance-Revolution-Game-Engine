@@ -13,10 +13,10 @@ Physical Address(es):       Logical Address(es):        Description:
              0x00160C58                  0x00260BD8     Baby Love Me
              0x00160CE0                  0x00260C60     D2R
              0x00160D68                  0x00260CE8     Destiny
-                                         0x00260D70     Living In America
-                                         0x00260DF8     Sweet Sweet ♥ Magic
-                                         0x00260E80     Ever Snow
-                                         0x00260E08     AM-3P (303 BASS MIX)
+             0x00160DF0                  0x00260D70     Living In America
+             0x00160E78                  0x00260DF8     Sweet Sweet ♥ Magic
+             0x00160F00                  0x00260E80     Ever Snow
+             0x00160E88                  0x00260E08     AM-3P (303 BASS MIX)
                                          0x00260F90     The Reflex
                                          0x00261018     So Fabulous So Fierce (Freak Out!)
                                          0x002610A0     Drifting Away
