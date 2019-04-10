@@ -17,9 +17,9 @@ Physical Address(es):       Logical Address(es):        Description:
              0x00160E78                  0x00260DF8     Sweet Sweet ♥ Magic
              0x00160F00                  0x00260E80     Ever Snow
              0x00160E88                  0x00260E08     AM-3P (303 BASS MIX)
-                                         0x00260F90     The Reflex
-                                         0x00261018     So Fabulous So Fierce (Freak Out!)
-                                         0x002610A0     Drifting Away
+             0x00161010                  0x00260F90     The Reflex
+             0x00161098                  0x00261018     So Fabulous So Fierce (Freak Out!)
+             0x00161120                  0x002610A0     Drifting Away
                                          0x00261128     Stay
                                          0x002611B0     Secret Rendez-vous
                                          0x00261238     Little Boy (Boy Oh Boy Mix)
