@@ -25,8 +25,8 @@ Physical Address(es):       Logical Address(es):        Description:
              0x001612B8                  0x00261238     Little Boy (Boy Oh Boy Mix)
              0x00161340                  0x002612C0     Rain of Sorrow
              0x001613C8                  0x00261348     Maxx Unlimited
-                                         0x002613D0     Dive To The Night
-                                         0x00261458     Tsugaru
+             0x00161450                  0x002613D0     Dive To The Night
+             0x001614D8                  0x00261458     Tsugaru
                                          0x002614E0     BRE∀K DOWN!
                                          0x00261568     Burning Heat! (3 Option Mix)
                                          0x002615F0     Nothing Gonna Stop
