@@ -1,6 +1,5 @@
-# Note: this document is far from complete.
+Note: this document is far from complete.
 
-```
 0x005674A4: Current Index In Songwheel Index Array
 0x005674A8: Number Of Slots In Song Wheel
 0x005675B8 - 00567604: Songwheel Index Array 
@@ -31,4 +30,3 @@
 0x00654594: Edit Mode Step Count
 0x0065459C: Edit Mode Current Beat For Editing
 0x00685FBC: Training Mode Bar Start, Bar End, And Music Speed
-```
