@@ -81,10 +81,11 @@ Note: This document is far from complete.
              0x00263328 - Empty Slot
              0x002633B0 - Empty Slot
              0x00263438 - Empty Slot
-0x0026D670 DP Multiplier - Perfects
-0x0026D674 DP Multiplier - Greats
-0x0026D678 DP Multiplier - Goods
-0x0026D67C DP Multiplier - Boos
-0x0026D680 DP Multiplier - Misses
-0x0026D690 DP Multiplier - OKs
+0x0026D670 - 0x0026D690 - Dance Point Multipliers    
+             0x0026D670 - D.P Multiplier For Perfects
+             0x0026D674 - D.P Multiplier For Greats
+             0x0026D678 - D.P Multiplier For Goods
+             0x0026D67C - D.P Multiplier For Boos
+             0x0026D680 - D.P Multiplier For Misses
+             0x0026D690 - D.P Multiplier For OKs
 ```
