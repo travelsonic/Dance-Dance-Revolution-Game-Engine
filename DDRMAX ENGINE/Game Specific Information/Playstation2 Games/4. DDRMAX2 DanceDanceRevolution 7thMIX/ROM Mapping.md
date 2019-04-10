@@ -8,11 +8,11 @@ In this game, the difference between the physical, and logical addresses, is 0xF
 Physical Address(es):       Logical Address(es):        Description: 
 0x00160AC0 - 0x00163540     0x00260A40 - 0x002634C0     Song Metadata Structures
              0x00160AC0                  0x00260A40     Long Train Runnin'
-                                         0x00260AC8     Maximum Overdrive
-                                         0x00260B50     Waka Laka
-                                         0x00260BD8     Baby Love Me
-                                         0x00260C60     D2R
-                                         0x00260CE8     Destiny
+             0x00160B48                  0x00260AC8     Maximum Overdrive
+             0x00160BD0                  0x00260B50     Waka Laka
+             0x00160C58                  0x00260BD8     Baby Love Me
+             0x00160CE0                  0x00260C60     D2R
+             0x00160D68                  0x00260CE8     Destiny
                                          0x00260D70     Living In America
                                          0x00260DF8     Sweet Sweet ♥ Magic
                                          0x00260E80     Ever Snow
