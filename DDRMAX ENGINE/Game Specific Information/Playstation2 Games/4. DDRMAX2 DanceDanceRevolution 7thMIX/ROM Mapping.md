@@ -87,6 +87,7 @@ Physical Address(es):       Logical Address(es):        Description:
              0x001633A8                  0x00263328     Empty Metadata Structure With Name "sele"
              0x00163430                  0x002633B0     Empty Metadata Structure With Name "stae"
              0x001634B8                  0x00263438     Empty Metadata Structure With Name "staf"
+0x00163650 - 000x16377C     0x002635D0 - 0x002636FC     Sound Index Array
 0x0016D6F0 - 0x0016D710     0x0026D670 - 0x0026D690     Dance Point Multipliers    
              0x0016D6F0                  0x0026D670     D.P Multiplier For Perfects
              0x0016D6F4                  0x0026D674     D.P Multiplier For Greats
