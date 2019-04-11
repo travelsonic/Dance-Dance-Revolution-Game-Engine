@@ -87,7 +87,84 @@ Physical Address(es):       Logical Address(es):        Description:
              0x001633A8                  0x00263328     Empty Metadata Structure With Name "sele"
              0x00163430                  0x002633B0     Empty Metadata Structure With Name "stae"
              0x001634B8                  0x00263438     Empty Metadata Structure With Name "staf"
-0x00163650 - 000x16377C     0x002635D0 - 0x002636FC     Sound Index Array
+0x001635C8 - 0x0016364C     0x00263548 - 0x002635CC     UNUSED SPACE - 132 BYTES
+0x00163650 - 0x0016377C     0x002635D0 - 0x002636FC     Sound Index Array
+             0x00163650                  0x002635D0     Sound Index Value For Long Train Runnin'
+             0x00163654                  0x002635D4     Sound Index Value For Maximum Overdrive
+             0x00163658                  0x002635D8     Sound Index Value For Waka Laka
+             0x0016365C                  0x002635DC     Sound Index Value For Baby Love Me
+             0x00163660                  0x002635E0     Sound Index Value For D2R
+             0x00163664                  0x002635E4     Sound Index Value For Destiny
+             0x00163668                  0x002635E8     Sound Index Value For Living In America
+             0x0016366C                  0x002635EC     Sound Index Value For Sweet Sweet ♥ Magic
+             0x00163670                  0x002635F0     Sound Index Value For Ever Snow
+             0x00163674                  0x002635F4     Sound Index Value For AM-3P (303 BASS MIX)
+             0x00163678                  0x002635F8     Sound Index Value For The Reflex
+             0x0016367C                  0x002635FC     Sound Index Value For So Fabulous So Fierce (Freak Out!)
+             0x00163680                  0x00263600     Sound Index Value For Drifting Away
+             0x00163684                  0x00263604     Sound Index Value For Stay
+             0x00163688                  0x00263608     Sound Index Value For Secret Rendez-vous
+             0x0016368C                  0x0026360C     Sound Index Value For Little Boy (Boy Oh Boy Mix)
+             0x00163690                  0x00263610     Sound Index Value For Rain of Sorrow
+             0x00163694                  0x00263614     Sound Index Value For Maxx Unlimited
+             0x00163698                  0x00263618     Sound Index Value For Dive To The Night
+             0x0016369C                  0x0026361C     Sound Index Value For Tsugaru
+             0x001636A0                  0x00263620     Sound Index Value For BRE∀K DOWN!
+             0x001636A4                  0x00263624     Sound Index Value For Burning Heat! (3 Option Mix)
+             0x001636A8                  0x00263628     Sound Index Value For Nothing Gonna Stop
+             0x001636AC                  0x0026362C     Sound Index Value For Fantasy
+             0x001636B0                  0x00263630     Sound Index Value For i feel ...
+             0x001636B4                  0x00263634     Sound Index Value For CANDY ♥ 
+             0x001636B8                  0x00263638     Sound Index Value For Spin the Disc
+             0x001636BC                  0x0026363C     Sound Index Value For Trance De Janeiro
+             0x001636C0                  0x00263640     Sound Index Value For Look At Us
+             0x001636C4                  0x00263644     Sound Index Value For The Whistle Song (Blow My Whistle Bitch)
+             0x001636C8                  0x00263648     Sound Index Value For 革命 (Kakumei)
+             0x001636CC                  0x0026364C     Sound Index Value For AFRONOVA (From Nonstop Megamix)
+             0x001636D0                  0x00263650     Sound Index Value For AM-3P (AM EAST MIX)
+             0x001636D4                  0x00263654     Sound Index Value For Brillant 2U (K.O.G G3 Mix)
+             0x001636D8                  0x00263658     Sound Index Value For B4U (B4 ZA BEAT MIX)
+             0x001636DC                  0x0026365C     Sound Index Value For DROP OUT (From Nonstop Megamix)
+             0x001636E0                  0x00263660     Sound Index Value For Dynamite Rave (B4 ZA BEAT MIX)
+             0x001636E4                  0x00263664     Sound Index Value For Hysteria 2001
+             0x001636E8                  0x00263668     Sound Index Value For 祭 JAPAN (From Nonstop Megamix)
+             0x001636EC                  0x0026366C     Sound Index Value For SEXY PLANET (From Nonstop Megamix)
+             0x001636F0                  0x00263670     Sound Index Value For Super Star (From Nonstop Megamix)
+             0x001636F4                  0x00263674     Sound Index Value For Still In My Heart (MOMO MIX)
+             0x001636F8                  0x00263678     Sound Index Value For Wild Rush (From Nonstop Megamix)
+             0x001636FC                  0x0026367C     Sound Index Value For Burnin' The Floor (BLUE Fire mix)
+             0x00163700                  0x00263680     Sound Index Value For Tsugaru (Apple Mix)
+             0x00163704                  0x00263684     Sound Index Value For Ecstacy (Mifnight Blue Mix)
+             0x00163708                  0x00263688     Sound Index Value For Silent Hill (3rd Christmas Mix)
+             0x0016370C                  0x0026368C     Sound Index Value For Celebrate Nite (Euro Trance Style)
+             0x00163710                  0x00263690     Sound Index Value For Higher (Next Morning Mix)
+             0x00163714                  0x00263694     Sound Index Value For My Summer Love (Tommy's Smile Mix)
+             0x00163718                  0x00263698     Sound Index Value For Look to the Sky (True Color Mix)
+             0x0016371C                  0x0026369C     Sound Index Value For Cutie Chaser (Morning Mix)
+             0x00163720                  0x002636A0     Sound Index Value For Do It Right (Harmonized 25step Mix)
+             0x00163724                  0x002636A4     Sound Index Value For Drop the Bomb -System S.F Mix-
+             0x00163728                  0x002636A8     Sound Index Value For Dynamite Rave (Down Bird SOTA Mix)
+             0x0016372C                  0x002636AC     Sound Index Value For I'm For Real
+             0x00163730                  0x002636B0     Sound Index Value For Jam & Marmalade
+             0x00163734                  0x002636B4     Sound Index Value For Kind Lady
+             0x00163738                  0x002636B8     Sound Index Value For Logical Dash
+             0x0016373C                  0x002636BC     Sound Index Value For Overblast!!
+             0x00163740                  0x002636C0     Sound Index Value For Peace-Out
+             0x00163744                  0x002636C4     Sound Index Value For So In Love
+             0x00163748                  0x002636C8     Sound Index Value For The Shining Polaris
+             0x0016374C                  0x002636CC     Sound Index Value For Look To The Sky (Trance Mix)
+             0x00163750                  0x002636D0     Sound Index Value For Do It Right (80s Electro Mix)
+             0x00163754                  0x002636D4     Sound Index Value For Kind Lady (Interlude)
+             0x00163758                  0x002636D8     Sound Index Value For B4U
+             0x0016375C                  0x002636DC     Sound Index Value For Crash!
+             0x00163760                  0x002636E0     Sound Index Value For Dead End
+             0x00163764                  0x002636E4     Sound Index Value For Drop Out
+             0x00163768                  0x002636E8     Sound Index Value For Dynamite Rave
+             0x0016376C                  0x002636EC     Sound Index Value For LOVE ♥ SHINE
+             0x00163770                  0x002636F0     Sound Index Value For PARANOiA Survivor
+             0x00163774                  0x002636F4     Sound Index Value For PARANOiA Rebirth
+             0x00163778                  0x002636F8     Empty Song Index Array Element
+             0x0016377C                  0x002636FC     Empty Song Index Array Element
 0x0016D6F0 - 0x0016D710     0x0026D670 - 0x0026D690     Dance Point Multipliers    
              0x0016D6F0                  0x0026D670     D.P Multiplier For Perfects
              0x0016D6F4                  0x0026D674     D.P Multiplier For Greats
