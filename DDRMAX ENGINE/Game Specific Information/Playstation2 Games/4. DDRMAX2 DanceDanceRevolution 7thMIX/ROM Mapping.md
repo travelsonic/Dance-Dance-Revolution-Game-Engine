@@ -5,8 +5,8 @@ For the purpose of this document, "physical address" will refer to the address o
 In this game, the difference between the physical, and logical addresses, is 0xFFF80
 
 ```
-Physical Address(es):       Logical Address(es):        Description:  
-0x00160AC0 - 0x00163540     0x00260A40 - 0x002634C0     Song Metadata Structures
+#Physical Address(es):       Logical Address(es):        Description:  
+#0x00160AC0 - 0x00163540     0x00260A40 - 0x002634C0     Song Metadata Structures
              0x00160AC0                  0x00260A40     Metadata Structure For Long Train Runnin'
              0x00160B48                  0x00260AC8     Metadata Structure For Maximum Overdrive
              0x00160BD0                  0x00260B50     Metadata Structure For Waka Laka
@@ -87,8 +87,8 @@ Physical Address(es):       Logical Address(es):        Description:
              0x001633A8                  0x00263328     Empty Metadata Structure With Name "sele"
              0x00163430                  0x002633B0     Empty Metadata Structure With Name "stae"
              0x001634B8                  0x00263438     Empty Metadata Structure With Name "staf"
-0x001635C8 - 0x0016364C     0x00263548 - 0x002635CC     UNUSED SPACE - 132 BYTES
-0x00163650 - 0x0016377C     0x002635D0 - 0x002636FC     Sound Index Array
+#0x001635C8 - 0x0016364C     0x00263548 - 0x002635CC     UNUSED SPACE - 132 BYTES
+#0x00163650 - 0x0016377C     0x002635D0 - 0x002636FC     Sound Index Array
              0x00163650                  0x002635D0     Sound Index Value For Long Train Runnin'
              0x00163654                  0x002635D4     Sound Index Value For Maximum Overdrive
              0x00163658                  0x002635D8     Sound Index Value For Waka Laka
@@ -165,14 +165,14 @@ Physical Address(es):       Logical Address(es):        Description:
              0x00163774                  0x002636F4     Sound Index Value For PARANOiA Rebirth
              0x00163778                  0x002636F8     Empty Song Index Array Element
              0x0016377C                  0x002636FC     Empty Song Index Array Element
-0x0016D6F0 - 0x0016D710     0x0026D670 - 0x0026D690     Dance Point Multipliers    
+#0x0016D6F0 - 0x0016D710     0x0026D670 - 0x0026D690     Dance Point Multipliers    
              0x0016D6F0                  0x0026D670     D.P Multiplier For Perfects
              0x0016D6F4                  0x0026D674     D.P Multiplier For Greats
              0x0016D6F8                  0x0026D678     D.P Multiplier For Goods
              0x0016D6FC                  0x0026D67C     D.P Multiplier For Boos
              0x0016D700                  0x0026D680     D.P Multiplier For Misses
              0x0016D710                  0x0026D690     D.P Multiplier For OKs
-0x0016E290 - 0x0016E2B4     0x0026E210 - 0x0026E234     Jump Table - Title Screen Menu Navigation Options
+#0x0016E290 - 0x0016E2B4     0x0026E210 - 0x0026E234     Jump Table - Title Screen Menu Navigation Options
              0x0016E290                  0x0026E210     Menu Choice For Game Mode
              0x0016E294                  0x0026E214     Menu Choice For Diet Mode
              0x0016E298                  0x0026E218     Menu Choice Default Case?  Brings you back to the main menu
@@ -183,4 +183,5 @@ Physical Address(es):       Logical Address(es):        Description:
              0x0016E2AC                  0x0026E22C     Menu Choice For Information   
              0x0016E2B0                  0x0026E230     Menu Choice For Endless Mode
              0x0016E2B4                  0x0026E234     EMPTY/UNUSED
+0x0027DD68 - 0x0027F278
 ```
