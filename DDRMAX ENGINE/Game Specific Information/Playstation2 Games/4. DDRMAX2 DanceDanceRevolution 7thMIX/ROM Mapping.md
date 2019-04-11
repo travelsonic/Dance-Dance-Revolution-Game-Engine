@@ -172,4 +172,15 @@ Physical Address(es):       Logical Address(es):        Description:
              0x0016D6FC                  0x0026D67C     D.P Multiplier For Boos
              0x0016D700                  0x0026D680     D.P Multiplier For Misses
              0x0016D710                  0x0026D690     D.P Multiplier For OKs
+0x0016E290 - 0x0016E2B4     0x0026E210 - 0x0026E234     Jump Table - Title Screen Menu Navigation Options
+             0x0016E290                  0x0026E210     Menu Choice For Game Mode
+             0x0016E294                  0x0026E214     Menu Choice For Diet Mode
+             0x0016E298                  0x0026E218     Menu Choice Default Case?  Brings you back to the main menu
+             0x0016E29C                  0x0026E21C     Menu Choice For Training Mode
+             0x0016E2A0                  0x0026E220     Menu Choice For Edit Mode
+             0x0016E2A4                  0x0026E224     Menu Choice For Options  
+             0x0016E2A8                  0x0026E228     Menu Choice For Records
+             0x0016E2AC                  0x0026E22C     Menu Choice For Information   
+             0x0016E2B0                  0x0026E230     Menu Choice For Endless Mode
+             0x0016E2B4                  0x0026E234     EMPTY/UNUSED
 ```
