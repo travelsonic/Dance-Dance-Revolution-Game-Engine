@@ -58,35 +58,35 @@ Physical Address(es):       Logical Address(es):        Description:
              0x00162440                  0x002623C0     Higher (Next Morning Mix)
              0x001624C8                  0x00262448     My Summer Love (Tommy's Smile Mix)
              0x00162550                  0x002624D0     Look to the Sky (True Color Mix)
-                                         0x00262558     Cutie Chaser (Morning Mix)
-                                         0x002625E0     Do It Right (Harmonized 25step Mix)
-                                         0x00262668     Drop the Bomb -System S.F Mix-
-                                         0x002626F0     Dynamite Rave (Down Bird SOTA Mix)
-                                         0x00262778     I'm For Real
-                                         0x00262800     Jam & Marmalade
-                                         0x00262888     Kind Lady
-                                         0x00262910     Logical Dash
-                                         0x00262998     Overblast!!
-                                         0x00262A20     Peace-Out
-                                         0x00262AA8     So In Love
-                                         0x00262B30     The Shining Polaris
-                                         0x00262BB8     Look To The Sky (Trance Mix)
-                                         0x00262C40     Do It Right (80s Electro Mix)
-                                         0x00262CC8     Kind Lady (Interlude)
-                                         0x00262D50     B4U
-                                         0x00262DD8     Crash!
-                                         0x00262E60     Dead End
-                                         0x00262EE8     Drop Out
-                                         0x00262F70     Dynamite Rave
-                                         0x00262FF8     LOVE ♥ SHINE
-                                         0x00263080     PARANOiA Survivor
-                                         0x00263108     PARANOiA Rebirth
-                                         0x00263190     Empty Slot
-                                         0x00263218     Empty Slot
-                                         0x002632A0     Empty Slot
-                                         0x00263328     Empty Slot
-                                         0x002633B0     Empty Slot
-                                         0x00263438     Empty Slot
+             0x001625D8                  0x00262558     Cutie Chaser (Morning Mix)
+             0x00162660                  0x002625E0     Do It Right (Harmonized 25step Mix)
+             0x001626E8                  0x00262668     Drop the Bomb -System S.F Mix-
+             0x00162770                  0x002626F0     Dynamite Rave (Down Bird SOTA Mix)
+             0x001627F8                  0x00262778     I'm For Real
+             0x00162880                  0x00262800     Jam & Marmalade
+             0x00162908                  0x00262888     Kind Lady
+             0x00162990                  0x00262910     Logical Dash
+             0x00162A18                  0x00262998     Overblast!!
+             0x00162AA0                  0x00262A20     Peace-Out
+             0x00162B28                  0x00262AA8     So In Love
+             0x00162BB0                  0x00262B30     The Shining Polaris
+             0x00162C38                  0x00262BB8     Look To The Sky (Trance Mix)
+             0x00162CC0                  0x00262C40     Do It Right (80s Electro Mix)
+             0x00162D48                  0x00262CC8     Kind Lady (Interlude)
+             0x00162DD0                  0x00262D50     B4U
+             0x00162E58                  0x00262DD8     Crash!
+             0x00162EE0                  0x00262E60     Dead End
+             0x00162F68                  0x00262EE8     Drop Out
+             0x00162FF0                  0x00262F70     Dynamite Rave
+             0x00163078                  0x00262FF8     LOVE ♥ SHINE
+             0x00163100                  0x00263080     PARANOiA Survivor
+             0x00163188                  0x00263108     PARANOiA Rebirth
+             0x00163210                  0x00263190     Empty Slot
+             0x00163298                  0x00263218     Empty Slot
+             0x00163320                  0x002632A0     Empty Slot
+             0x001633A8                  0x00263328     Empty Slot
+             0x00163430                  0x002633B0     Empty Slot
+             0x001634B8                  0x00263438     Empty Slot
 0x0016D6F0 - 0x0016D710     0x0026D670 - 0x0026D690     Dance Point Multipliers    
              0x0016D6F0                  0x0026D670     D.P Multiplier For Perfects
              0x0016D6F4                  0x0026D674     D.P Multiplier For Greats
