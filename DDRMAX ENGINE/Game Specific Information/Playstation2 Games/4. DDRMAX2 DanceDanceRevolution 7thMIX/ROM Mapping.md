@@ -87,11 +87,11 @@ Physical Address(es):       Logical Address(es):        Description:
                                          0x00263328     Empty Slot
                                          0x002633B0     Empty Slot
                                          0x00263438     Empty Slot
-                            0x0026D670 - 0x0026D690     Dance Point Multipliers    
-                                         0x0026D670     D.P Multiplier For Perfects
-                                         0x0026D674     D.P Multiplier For Greats
-                                         0x0026D678     D.P Multiplier For Goods
-                                         0x0026D67C     D.P Multiplier For Boos
-                                         0x0026D680     D.P Multiplier For Misses
-                                         0x0026D690     D.P Multiplier For OKs
+0x0016D6F0 - 0x0016D710     0x0026D670 - 0x0026D690     Dance Point Multipliers    
+             0x0016D6F0                  0x0026D670     D.P Multiplier For Perfects
+             0x0016D6F4                  0x0026D674     D.P Multiplier For Greats
+             0x0016D6F8                  0x0026D678     D.P Multiplier For Goods
+             0x0016D6FC                  0x0026D67C     D.P Multiplier For Boos
+             0x0016D700                  0x0026D680     D.P Multiplier For Misses
+             0x0016D710                  0x0026D690     D.P Multiplier For OKs
 ```
