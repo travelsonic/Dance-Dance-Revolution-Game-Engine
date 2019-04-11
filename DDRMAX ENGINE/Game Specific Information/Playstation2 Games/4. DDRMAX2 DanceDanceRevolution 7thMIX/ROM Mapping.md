@@ -27,8 +27,8 @@ Physical Address(es):       Logical Address(es):        Description:
              0x001613C8                  0x00261348     Maxx Unlimited
              0x00161450                  0x002613D0     Dive To The Night
              0x001614D8                  0x00261458     Tsugaru
-                                         0x002614E0     BRE∀K DOWN!
-                                         0x00261568     Burning Heat! (3 Option Mix)
+             0x00161560                  0x002614E0     BRE∀K DOWN!
+             0x001615E8                  0x00261568     Burning Heat! (3 Option Mix)
                                          0x002615F0     Nothing Gonna Stop
                                          0x00261678     Fantasy
                                          0x00261700     i feel ...
