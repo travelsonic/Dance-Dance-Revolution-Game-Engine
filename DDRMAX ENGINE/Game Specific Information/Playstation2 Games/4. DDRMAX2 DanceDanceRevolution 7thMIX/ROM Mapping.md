@@ -6,6 +6,11 @@ In this game, the difference between the physical, and logical addresses, is 0xF
 
 ```
 Physical Address(es):       Logical Address(es):        Description:  
+0x00157600 - 0x0015760C     0x00257580 - 0x0025758C     Main Menu Graphics Indexes
+             0x00157600                  0x00257580     Index For Main Menu Option Text Graphic
+             0x00157604                  0x00257584     Index For Main Menu Background Graphic
+             0x00157608                  0x00257588     Index For Main Menu "NEW!" Icon Graphic
+             0x0015760C                  0x0025758C     Index For Main Menu Information Footer Graphic
 0x00160AC0 - 0x00163540     0x00260A40 - 0x002634C0     Song Metadata Structures
              0x00160AC0                  0x00260A40     Metadata Structure For Long Train Runnin'
              0x00160B48                  0x00260AC8     Metadata Structure For Maximum Overdrive
@@ -172,6 +177,7 @@ Physical Address(es):       Logical Address(es):        Description:
              0x0016D6FC                  0x0026D67C     D.P Multiplier For Boos
              0x0016D700                  0x0026D680     D.P Multiplier For Misses
              0x0016D710                  0x0026D690     D.P Multiplier For OKs
+             0x0026DEE8
 0x0016E290 - 0x0016E2B4     0x0026E210 - 0x0026E234     Jump Table - Title Screen Menu Navigation Options
              0x0016E290                  0x0026E210     Menu Choice For Game Mode
              0x0016E294                  0x0026E214     Menu Choice For Diet Mode
