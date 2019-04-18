@@ -283,6 +283,7 @@ Physical Address(es):       Logical Address(es):        Description:
              0x00163774                  0x002636F4     Preview Sound Index Value For PARANOiA Rebirth
              0x00163778                  0x002636F8     Empty Preview Sound Index Array Element
              0x0016377C                  0x002636FC     Empty Preview Sound Index Array Element
+                            0x0026D100 - 0x0026D114     In-Stage Timing Judgment Label Widths
 0x0016D6F0 - 0x0016D710     0x0026D670 - 0x0026D690     Dance Point Multipliers    
              0x0016D6F0                  0x0026D670     D.P Multiplier For Perfects
              0x0016D6F4                  0x0026D674     D.P Multiplier For Greats
