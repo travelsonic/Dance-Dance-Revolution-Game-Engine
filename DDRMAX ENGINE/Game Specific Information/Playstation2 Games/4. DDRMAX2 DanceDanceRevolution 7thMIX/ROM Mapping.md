@@ -24,7 +24,15 @@ Physical Address(es):       Logical Address(es):        Description:
              0x0015647C                  0x002563FC     MAX2 Licenses & Konami Originals Song Grouping - Blue Channel Value
              0x00156480                  0x00256400     MAX2 Licenses & Konami Originals Song Grouping - Blue Channel Value
              0x00156484                  0x00256404     MAX2 Licenses & Konami Originals Song Grouping - Blue Channel Value
-             
+             0x001564AC                  0x0025642C     ORDER 1/ORDER 2/ORDER 3 Nonstop Course Choices - Red Channel Value
+             0x001564B0                  0x00256430     ORDER 1/ORDER 2/ORDER 3 Nonstop Course Choices - Red Channel Value
+             0x001564B4                  0x00256434     ORDER 1/ORDER 2/ORDER 3 Nonstop Course Choices - Red Channel Value
+             0x001564B8                  0x00256438     ORDER 1/ORDER 2/ORDER 3 Nonstop Course Choices - Green Channel Value
+             0x001564BC                  0x0025643C     ORDER 1/ORDER 2/ORDER 3 Nonstop Course Choices - Green Channel Value
+             0x001564C0                  0x00256440     ORDER 1/ORDER 2/ORDER 3 Nonstop Course Choices - Green Channel Value
+             0x001564C4                  0x00256444     ORDER 1/ORDER 2/ORDER 3 Nonstop Course Choices - Blue Channel Value
+             0x001564C8                  0x00256448     ORDER 1/ORDER 2/ORDER 3 Nonstop Course Choices - Blue Channel Value
+             0x001564CC                  0x0025644C     ORDER 1/ORDER 2/ORDER 3 Nonstop Course Choices - Blue Channel Value
              
 0x001566E0 - 0x0015670C     0x00256660 - 0x0025668C     Foot Rating Foot Color RGB Values
              0x001566E0                  0x00256660     Light Difficulty Foot Color - Red Channel Value
