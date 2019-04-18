@@ -6,6 +6,17 @@ In this game, the difference between the physical, and logical addresses, is 0xF
 
 ```
 Physical Address(es):       Logical Address(es):        Description:  
+0x001566B0 - 0x001566D4     0x00256630 - 0x00256654     Groove Radar Label Positions
+             0x001566B0                  0x00256630     Groove Radar Label - Stream - X Position
+             0x001566B4                  0x00256634     Groove Radar Label - Stream - Y Position
+             0x001566B8                  0x00256638     Groove Radar Label - Voltage - X Position
+             0x001566BC                  0x0025663C     Groove Radar Label - Voltage - Y Position
+             0x001566C0                  0x00256640     Groove Radar Label - Air - X Position
+             0x001566C4                  0x00256644     Groove Radar Label - Air - Y Position
+             0x001566C8                  0x00256648     Groove Radar Label - Freeze - X Position
+             0x001566CC                  0x0025664C     Groove Radar Label - Freeze - Y Position
+             0x001566D0                  0x002566D0     Groove Radar Label - Chaos - X Position
+             0x001566D4                  0x002566D4     Groove Radar Label - Chaos - Y Position   
 0x00156D60 - 0x00156D7C     0x00256CE0 - 0x00256CFC     Difficulty Selection Cursor Positions
              0x00156D60                  0x00256CE0     Light Mode - X Position
              0x00156D64                  0x00256CE4     Light Mode - Y Position
