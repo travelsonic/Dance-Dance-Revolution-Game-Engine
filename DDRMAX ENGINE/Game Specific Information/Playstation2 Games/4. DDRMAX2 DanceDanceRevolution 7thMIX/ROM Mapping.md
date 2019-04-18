@@ -5,25 +5,27 @@ For the purpose of this document, "physical address" will refer to the address o
 In this game, the difference between the physical, and logical addresses, is 0xFFF80
 
 ```
-Physical Address(es):       Logical Address(es):        Description:  
-             0x001564D0                  0x00256450     Challenge-Only Song Grouping - Red Channel Value
-             0x001564D4                  0x00256464     Challenge-Only Song Grouping - Red Channel Value
-             0x001564D8                  0x00256468     Challenge-Only Song Grouping - Red Channel Value
-             0x001564DC                  0x0025645C     Challenge-Only Song Grouping - Green Channel Value
-             0x001564E0                  0x00256460     Challenge-Only Song Grouping - Green Channel Value
-             0x001564E4                  0x00256464     Challenge-Only Song Grouping - Green Channel Value
-             0x001564E8                  0x00256468     Challenge-Only Song Grouping - Blue Channel Value
-             0x001564EC                  0x0025646C     Challenge-Only Song Grouping - Blue Channel Value
-             0x001564F0                  0x00256470     Challenge-Only Song Grouping - Blue Channel Value
-             0x001564F4                  0x00256474     Boss Song Grouping - Red Channel Value
-             0x001564F8                  0x00256478     Boss Song Grouping - Red Channel Value
-             0x001564FC                  0x0025647C     Boss Song Grouping - Red Channel Value
-             0x00156500                  0x00256480     Boss Song Grouping - Green Channel Value
-             0x00156504                  0x00256484     Boss Song Grouping - Green Channel Value
-             0x00156508                  0x00256488     Boss Song Grouping - Green Channel Value
-             0x0015650C                  0x0025648C     Boss Song Grouping - Blue Channel Value
-             0x00156510                  0x00256490     Boss Song Grouping - Blue Channel Value
-             0x00156514                  0x00256484     Boss Song Grouping - Blue Channel Value
+Physical Address(es):       Logical Address(es):        Description:   
+             0x00156440                  0x002563C0     Returning DanceDanceRevolution Song Grouping - Red Channel Value
+             0x00156444                  0x002563C4     Returning DanceDanceRevolution Song Grouping - Red Channel Value
+             0x00156448                  0x002563C8     Returning DanceDanceRevolution Song Grouping - Red Channel Value
+             0x0015644C                  0x002563CC     Returning DanceDanceRevolution Song Grouping - Green Channel Value
+             0x00156450                  0x002563D0     Returning DanceDanceRevolution Song Grouping - Green Channel Value
+             0x00156454                  0x002563D4     Returning DanceDanceRevolution Song Grouping - Green Channel Value
+             0x00156458                  0x002563D8     Returning DanceDanceRevolution Song Grouping - Blue Channel Value
+             0x0015645C                  0x002563DC     Returning DanceDanceRevolution Song Grouping - Blue Channel Value
+             0x00156460                  0x002563E0     Returning DanceDanceRevolution Song Grouping - Blue Channel Value
+             0x00156464                  0x002563E4     MAX2 Licenses & Konami Originals Song Grouping - Red Channel Value
+             0x00156468                  0x002563E8     MAX2 Licenses & Konami Originals Song Grouping - Red Channel Value
+             0x0015646C                  0x002563EC     MAX2 Licenses & Konami Originals Song Grouping - Red Channel Value
+             0x00156470                  0x002563F0     MAX2 Licenses & Konami Originals Song Grouping - Green Channel Value
+             0x00156474                  0x002563F4     MAX2 Licenses & Konami Originals Song Grouping - Green Channel Value
+             0x00156478                  0x002563F8     MAX2 Licenses & Konami Originals Song Grouping - Green Channel Value
+             0x0015647C                  0x002563FC     MAX2 Licenses & Konami Originals Song Grouping - Blue Channel Value
+             0x00156480                  0x00256400     MAX2 Licenses & Konami Originals Song Grouping - Blue Channel Value
+             0x00156484                  0x00256404     MAX2 Licenses & Konami Originals Song Grouping - Blue Channel Value
+             
+             
 0x001566E0 - 0x0015670C     0x00256660 - 0x0025668C     Foot Rating Foot Color RGB Values
              0x001566E0                  0x00256660     Light Difficulty Foot Color - Red Channel Value
              0x001566E4                  0x00256664     Light Difficulty Foot Color - Green Channel Value
