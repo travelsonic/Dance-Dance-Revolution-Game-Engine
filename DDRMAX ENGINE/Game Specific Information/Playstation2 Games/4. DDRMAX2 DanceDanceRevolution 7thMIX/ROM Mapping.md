@@ -6,6 +6,11 @@ In this game, the difference between the physical, and logical addresses, is 0xF
 
 ```
 Physical Address(es):       Logical Address(es):        Description:  
+0x001566E0 - 0x0015670C     0x00256660 - 0x0025668C     Foot Rating Foot Color Values
+             0x001566E0                  0x00256660     Light Difficulty Foot Color - Red Channel Value
+             0x001566E4                  0x00256664     Light Difficulty Foot Color - Green Channel Value
+             0x001566E8                  0x00256668     Light Difficulty Foot Color - Blue Channel Value
+             0x0015670C                  0x0025668C     Oni Difficulty Foot Color - Blue Channel Value
 0x001566B0 - 0x001566D4     0x00256630 - 0x00256654     Groove Radar Label Positions
              0x001566B0                  0x00256630     Groove Radar Label - Stream - X Position
              0x001566B4                  0x00256634     Groove Radar Label - Stream - Y Position
