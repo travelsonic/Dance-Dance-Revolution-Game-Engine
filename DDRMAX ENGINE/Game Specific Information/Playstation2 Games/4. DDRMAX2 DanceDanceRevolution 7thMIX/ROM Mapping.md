@@ -42,16 +42,51 @@ Physical Address(es):       Logical Address(es):        Description:
              0x0015650C                  0x0025648C     GHOST ROAD/ONI ROAD Nonstop Challenge Course Choices - Blue Channel Value
              0x00156510                  0x00256490     GHOST ROAD/ONI ROAD Nonstop Challenge Course Choices - Blue Channel Value
              0x00156514                  0x00256494     GHOST ROAD/ONI ROAD Nonstop Challenge Course Choices - Blue Channel Value
-             ULTRA 12 Nonstop Challenge Course Choice - Red Channel Value
-             ULTRA 12 Nonstop Challenge Course Choice - Red Channel Value
-             ULTRA 12 Nonstop Challenge Course Choice - Red Channel Value
-             ULTRA 12 Nonstop Challenge Course Choice - Green Channel Value
-             ULTRA 12 Nonstop Challenge Course Choice - Green Channel Value
-             ULTRA 12 Nonstop Challenge Course Choice - Green Channel Value
-             ULTRA 12 Nonstop Challenge Course Choice - Blue Channel Value
-             ULTRA 12 Nonstop Challenge Course Choice - Blue Channel Value
-             ULTRA 12 Nonstop Challenge Course Choice - Blue Channel Value
-0x001566E0 - 0x0015670C     0x00256660 - 0x0025668C     Foot Rating Foot Color RGB Values
+             0x00156518                  0x00256498     ULTRA 12 Nonstop Challenge Course Choice - Red Channel Value
+             0x0015651C                  0x0025649C     ULTRA 12 Nonstop Challenge Course Choice - Red Channel Value
+             0x00156520                  0x002564A0     ULTRA 12 Nonstop Challenge Course Choice - Red Channel Value
+             0x00156524                  0x002564A4     ULTRA 12 Nonstop Challenge Course Choice - Green Channel Value
+             0x00156528                  0x002564A8     ULTRA 12 Nonstop Challenge Course Choice - Green Channel Value
+             0x0015652C                  0x002564AC     ULTRA 12 Nonstop Challenge Course Choice - Green Channel Value
+             0x00156530                  0x002564B0     ULTRA 12 Nonstop Challenge Course Choice - Blue Channel Value
+             0x00156534                  0x002564B4     ULTRA 12 Nonstop Challenge Course Choice - Blue Channel Value
+             0x00156538                  0x002564B8     ULTRA 12 Nonstop Challenge Course Choice - Blue Channel Value
+             0x00156584                  0x00256504     Nonstop Course Song Text Color Mask - Light Difficulty - Red Channel Value
+             0x00156588                  0x00256508     Nonstop Course Song Text Color Mask - Light Difficulty - Red Channel Value
+             0x0015658C                  0x0025650C     Nonstop Course Song Text Color Mask - Light Difficulty - Red Channel Value
+             0x00156590                  0x00256510     Nonstop Course Song Text Color Mask - Light Difficulty - Green Channel Value
+             0x00156594                  0x00256514     Nonstop Course Song Text Color Mask - Light Difficulty - Green Channel Value
+             0x00156598                  0x00256518     Nonstop Course Song Text Color Mask - Light Difficulty - Green Channel Value
+             0x0015659C                  0x0025651C     Nonstop Course Song Text Color Mask - Light Difficulty - Blue Channel Value
+             0x001565A0                  0x00256520     Nonstop Course Song Text Color Mask - Light Difficulty - Blue Channel Value
+             0x001565A4                  0x00256524     Nonstop Course Song Text Color Mask - Light Difficulty - Blue Channel Value
+             0x001565A8                  0x00256528     Nonstop Course Song Text Color Mask - Standard Difficulty - Red Channel Value
+             0x001565AC                  0x0025652C     Nonstop Course Song Text Color Mask - Standard Difficulty - Red Channel Value
+             0x001565B0                  0x00256530     Nonstop Course Song Text Color Mask - Standard Difficulty - Red Channel Value
+             0x001565B4                  0x00256534     Nonstop Course Song Text Color Mask - Standard Difficulty - Green Channel Value
+             0x001565B8                  0x00256538     Nonstop Course Song Text Color Mask - Standard Difficulty - Green Channel Value
+             0x001565BC                  0x0025653C     Nonstop Course Song Text Color Mask - Standard Difficulty - Green Channel Value
+             0x001565C0                  0x00256540     Nonstop Course Song Text Color Mask - Standard Difficulty - Blue Channel Value
+             0x001565C4                  0x00256544     Nonstop Course Song Text Color Mask - Standard Difficulty - Blue Channel Value
+             0x001565C8                  0x00256548     Nonstop Course Song Text Color Mask - Standard Difficulty - Blue Channel Value
+             0x001565CC                  0x0025654C     Nonstop Course Song Text Color Mask - Heavy Difficulty - Red Channel Value
+             0x001565D0                  0x00256550     Nonstop Course Song Text Color Mask - Heavy Difficulty - Red Channel Value
+             0x001565D4                  0x00256554     Nonstop Course Song Text Color Mask - Heavy Difficulty - Red Channel Value
+             0x001565D8                  0x00256558     Nonstop Course Song Text Color Mask - Heavy Difficulty - Green Channel Value
+             0x001565DC                  0x0025655C     Nonstop Course Song Text Color Mask - Heavy Difficulty - Green Channel Value
+             0x001565E0                  0x00256560     Nonstop Course Song Text Color Mask - Heavy Difficulty - Green Channel Value
+             0x001565E4                  0x00256564     Nonstop Course Song Text Color Mask - Heavy Difficulty - Blue Channel Value
+             0x001565E8                  0x00256568     Nonstop Course Song Text Color Mask - Heavy Difficulty - Blue Channel Value
+             0x001565EC                  0x0025656C     Nonstop Course Song Text Color Mask - Heavy Difficulty - Blue Channel Value
+             0x001565F0                  0x00256570     Nonstop Course Song Text Color Mask - Challenge Difficulty - Red Channel Value
+             0x001565F4                  0x00256574     Nonstop Course Song Text Color Mask - Challenge Difficulty - Red Channel Value
+             0x001565F8                  0x00256578     Nonstop Course Song Text Color Mask - Challenge Difficulty - Red Channel Value
+             0x001565FC                  0x0025657C     Nonstop Course Song Text Color Mask - Challenge Difficulty - Green Channel Value
+             0x00156600                  0x00256580     Nonstop Course Song Text Color Mask - Challenge Difficulty - Green Channel Value
+             0x00156604                  0x00256584     Nonstop Course Song Text Color Mask - Challenge Difficulty - Green Channel Value
+             0x00156608                  0x00256588     Nonstop Course Song Text Color Mask - Challenge Difficulty - Blue Channel Value
+             0x0015660C                  0x0025658C     Nonstop Course Song Text Color Mask - Challenge Difficulty - Blue Channel Value
+             0x00156610                  0x00256590     Nonstop Course Song Text Color Mask - Challenge Difficulty - Blue Channel Value   0x001566E0 - 0x0015670C     0x00256660 - 0x0025668C     Foot Rating Foot Color RGB Values
              0x001566E0                  0x00256660     Light Difficulty Foot Color - Red Channel Value
              0x001566E4                  0x00256664     Light Difficulty Foot Color - Green Channel Value
              0x001566E8                  0x00256668     Light Difficulty Foot Color - Blue Channel Value
