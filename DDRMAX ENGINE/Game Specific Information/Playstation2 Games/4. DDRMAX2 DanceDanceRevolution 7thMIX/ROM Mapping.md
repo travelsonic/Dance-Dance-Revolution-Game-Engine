@@ -6,6 +6,15 @@ In this game, the difference between the physical, and logical addresses, is 0xF
 
 ```
 Physical Address(es):       Logical Address(es):        Description:  
+0x00156D60 - 0x00156D7C     0x00256CE0 - 0x00256CFC     Difficulty Selection Cursor Positions
+             0x00156D60                  0x00256CE0     Light Mode - X Position
+             0x00156D64                  0x00256CE4     Light Mode - Y Position
+             0x00156D68                  0x00256CE8     Standard Mode - X Position
+             0x00156D6C                  0x00256CEC     Standard Mode - Y Position
+             0x00156D70                  0x00256CF0     Heavy Mode - X Position
+             0x00156D74                  0x00256CF4     Heavy Mode - Y Position
+             0x00156D78                  0x00256CF8     Nonstop Challenge - X Position
+             0x00156D7C                  0x00256CFC     Nonstop Challenge - Y Position
 0x00157600 - 0x0015760C     0x00257580 - 0x0025758C     Main Menu Graphics Indexes
              0x00157600                  0x00257580     Index For Main Menu Option Text Graphic
              0x00157604                  0x00257584     Index For Main Menu Background Graphic
