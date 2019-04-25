@@ -124,6 +124,19 @@ Physical Address(es):       Logical Address(es):        Description:
              0x00157604                  0x00257584     Index For Main Menu Background Graphic
              0x00157608                  0x00257588     Index For Main Menu "NEW!" Icon Graphic
              0x0015760C                  0x0025758C     Index For Main Menu Information Footer Graphic
+0x00157610 - 0x0015763C     0x00257590 - 0x002575BC     Main Menu Choice Graphic Y Offsets
+             0x00157610                  0x00257590     Unused / Empty
+             0x00157614                  0x00257594     "Game Mode" Main Menu Choice Graphic Y Offset
+             0x00157618                  0x00257598     "Diet Mode  Main Menu Choice Graphic Y Offset
+             0x0015761C                  0x0025759C     "Training Mode" Main Menu Choice Graphic Y Offset
+             0x00157620                  0x002575A0     "Edit Mode" Main Menu Choice Graphic Y Offset
+             0x00157622                  0x002575A4     "Options" Main Menu Choice Graphic Y Offset
+             0x00157624                  0x002575A8     "Records" Main Menu Choice Graphic Y Offset
+             0x00157628                  0x002575AC     "Information" Main Menu Choice Graphic Y Offset
+             0x0015762C                  0x002575BO     "Endless Mode" Main Menu Choice Graphic Y Offset
+             0x00157630                  0x002575B4      Unused / Empty        
+             0x00157632                  0x002575B8      Unused / Empty        
+             0x00157634                  0x002575BC      Unused / Empty                            
 0x00160AC0 - 0x00163540     0x00260A40 - 0x002634C0     Song Metadata Structures
              0x00160AC0                  0x00260A40     Metadata Structure For Long Train Runnin'
              0x00160B48                  0x00260AC8     Metadata Structure For Maximum Overdrive
