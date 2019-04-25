@@ -86,7 +86,7 @@ Physical Address(es):       Logical Address(es):        Description:
              0x00156604                  0x00256584     Nonstop Course Song Text Color Mask - Challenge Difficulty - Green Channel Value
              0x00156608                  0x00256588     Nonstop Course Song Text Color Mask - Challenge Difficulty - Blue Channel Value
              0x0015660C                  0x0025658C     Nonstop Course Song Text Color Mask - Challenge Difficulty - Blue Channel Value
-             0x00156610                  0x00256590     Nonstop Course Song Text Color Mask - Challenge Difficulty - Blue Channel Value   0x001566E0 - 0x0015670C     0x00256660 - 0x0025668C     Foot Rating Foot Color RGB Values
+             0x00156610                  0x00256590     Nonstop Course Song Text Color Mask - Challenge Difficulty - Blue Channel Value 0x001566E0 - 0x0015670C     0x00256660 - 0x0025668C     Foot Rating Foot Color RGB Values - Music Select Screen
              0x001566E0                  0x00256660     Light Difficulty Foot Color - Red Channel Value
              0x001566E4                  0x00256664     Light Difficulty Foot Color - Green Channel Value
              0x001566E8                  0x00256668     Light Difficulty Foot Color - Blue Channel Value
@@ -96,9 +96,18 @@ Physical Address(es):       Logical Address(es):        Description:
              0x001566F8                  0x00256678     Heavy Difficulty Foot Color - Red Channel Value
              0x001566FC                  0x0025667C     Heavy Difficulty Foot Color - Green Channel Value
              0x00156700                  0x00256680     Heavy Difficulty Foot Color - Blue Channel Value
-             0x00156704                  0x00256684     Oni Difficulty Foot Color - Red Channel Value
-             0x00156708                  0x00256688     Oni Difficulty Foot Color - Green Channel Value
-             0x0015670C                  0x0025668C     Oni Difficulty Foot Color - Blue Channel Value
+             0x00156704                  0x00256684     Challenge Difficulty Foot Color - Red Channel Value
+             0x00156708                  0x00256688     Challenge Difficulty Foot Color - Green Channel Value
+             0x0015670C                  0x0025668C     Challenge Difficulty Foot Color - Blue Channel Value
+0x00156BA0 - 0x00156BBC     0x00256B20 - 0x00256B3C     Difficulty Choice Box Positions (Difficulty Selection Screen)
+             0x00156BA0                  0x00256B20     Light Difficulty - X Pos
+             0x00156BA4                  0x00256B24     Light Difficulty - Y Pos
+             0x00156BA8                  0x00256B28     Standard Difficulty - X Pos
+             0x00156BAC                  0x00256B2C     Standard Difficulty - Y Pos
+             0x00156BB0                  0x00256B30     Heavy Difficulty - X Pos
+             0x00156BB4                  0x00256B34     Heavy Difficulty - Y Pos    
+             0x00156BB8                  0x00256B38     Challenge Difficulty - X Pos
+             0x00156BBC                  0x00256B3C     Challenge Difficulty - Y Pos                     
 0x001566B0 - 0x001566D4     0x00256630 - 0x00256654     Groove Radar Label Positions
              0x001566B0                  0x00256630     Groove Radar Label - Stream - X Position
              0x001566B4                  0x00256634     Groove Radar Label - Stream - Y Position
