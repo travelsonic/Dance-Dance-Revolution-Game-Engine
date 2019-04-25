@@ -143,9 +143,9 @@ Physical Address(es):       Logical Address(es):        Description:
              0x00157624                  0x002575A8     "Records" Main Menu Choice Graphic Y Offset
              0x00157628                  0x002575AC     "Information" Main Menu Choice Graphic Y Offset
              0x0015762C                  0x002575BO     "Endless Mode" Main Menu Choice Graphic Y Offset
-             0x00157630                  0x002575B4      Unused / Empty        
-             0x00157632                  0x002575B8      Unused / Empty        
-             0x00157634                  0x002575BC      Unused / Empty                            
+             0x00157630                  0x002575B4     Unused / Empty        
+             0x00157632                  0x002575B8     Unused / Empty        
+             0x00157634                  0x002575BC     Unused / Empty                            
 0x00160AC0 - 0x00163540     0x00260A40 - 0x002634C0     Song Metadata Structures
              0x00160AC0                  0x00260A40     Metadata Structure For Long Train Runnin'
              0x00160B48                  0x00260AC8     Metadata Structure For Maximum Overdrive
