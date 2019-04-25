@@ -110,7 +110,7 @@ Physical Address(es):       Logical Address(es):        Description:
              0x001566CC                  0x0025664C     Groove Radar Label - Freeze - Y Position
              0x001566D0                  0x002566D0     Groove Radar Label - Chaos - X Position
              0x001566D4                  0x002566D4     Groove Radar Label - Chaos - Y Position   
-0x00156D60 - 0x00156D7C     0x00256CE0 - 0x00256CFC     Difficulty Selection Cursor Positions
+0x00156D60 - 0x00156D7C     0x00256CE0 - 0x00256CFC     Difficulty Selection Cursor Positions (Difficulty Selection Screen)
              0x00156D60                  0x00256CE0     Light Mode - X Position
              0x00156D64                  0x00256CE4     Light Mode - Y Position
              0x00156D68                  0x00256CE8     Standard Mode - X Position
