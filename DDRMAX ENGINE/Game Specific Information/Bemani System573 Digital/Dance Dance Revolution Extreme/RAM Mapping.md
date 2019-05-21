@@ -5,8 +5,9 @@ Program Space Memory:
 Physical Address(es):         Description: 
 0x000F00F0                    Player 1 Perfect Count
 0x000F00F4                    Player 1 Great Count
-0x000F00F8                    Player 1 Boo Count
-0x000F00FC                    Player 1 Miss Count
+0x000F00F8                    Player 1 Good Count
+0x000F00FC                    Player 1 Boo Count
+0x000F0100                    Player 1 Miss Count
 ```
 Linear Flash Card Memory:
 ```
