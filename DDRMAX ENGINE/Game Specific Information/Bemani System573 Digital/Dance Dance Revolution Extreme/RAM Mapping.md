@@ -14,5 +14,6 @@ Linear Flash Card Memory:
 ```
 Physical Address(es):         Description: 
 0x001B2F50 - 0x001BABD0       Song Metadata Structures
+0x003FEC18                    Current Songwheel Slot No.
 ```
 
