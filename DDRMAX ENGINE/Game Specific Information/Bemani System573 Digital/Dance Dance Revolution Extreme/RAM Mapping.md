@@ -9,6 +9,7 @@ Physical Address(es):         Description:
 0x000F00FC                    Player 1 Boo Count
 0x000F0100                    Player 1 Miss Count
 0x000F027C                    Player 1 Current Combo
+0x000F0290                    Player 1 Current Combo Repeated
 ```
 Linear Flash Card Memory:
 ```
