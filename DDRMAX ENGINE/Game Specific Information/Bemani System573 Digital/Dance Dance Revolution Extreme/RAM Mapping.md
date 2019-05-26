@@ -1,6 +1,6 @@
 Note: This document is far from complete.
 
-Program Space Memory:
+System573 Onboard Memory Mapping:
 ```
 Physical Address(es):         Description: 
 0x000F00F0                    Player 1 Perfect Count
@@ -12,7 +12,7 @@ Physical Address(es):         Description:
 0x000F027C                    Player 1 Current Max Combo
 0x000F0290                    Player 1 Current Max Combo Repeated
 ```
-Linear Flash Card Memory:
+Flash Card Memory Mapping:
 ```
 Physical Address(es):         Description: 
 0x001B2F50 - 0x001BABD0       Song Metadata Structures
