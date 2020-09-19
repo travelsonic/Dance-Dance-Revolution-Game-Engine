@@ -3,14 +3,15 @@ Note: This document is far from complete.
 0x005674A4: Current Index In Songwheel Index Array
 0x005674A8: Number Of Slots In Song Wheel
 0x005675B8 - 0x00567604: Songwheel Index Array 
-0x0056F5AC: Player 1 Perfect Count
-0x0056F5B0: Player 1 Great Count
-0x0056F5B4: Player 1 Good Count
-0x0056F5B8: Player 1 Boo Count
-0x0056F5Bc: Player 1 Miss Count
-0x0056F5C4: Elapsed Step Count
-0x0056F5C8: Player 1 0.K count
-0x0056F5D4: Player 1 O.K Count Repeat
+0x0056F5AC - 0x56F5C4: Step Quality Counters:
+             0x0056F5AC: Player 1 Perfect Count
+             0x0056F5B0: Player 1 Great Count
+             0x0056F5B4: Player 1 Good Count
+             0x0056F5B8: Player 1 Boo Count
+             0x0056F5BC: Player 1 Miss Count
+             0x0056F5C4: Elapsed Step Count
+0x0056F5C8: Player 1 0.K Count
+0x0056F5D4: Player 1 O.K Count Repeated
 0x0056F608: Player 1 High Score Displayed On Result Screen
 0x0056F60C: Player 1 Previous Max Combo
 0x0056F5F0: Player 1 Stream Level Bar Value
