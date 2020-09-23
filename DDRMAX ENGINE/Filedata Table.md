@@ -1,5 +1,5 @@
 # Filedata Table
-**Note:** The information about how this data is structured was discovered by Zenius-I-Vanisher & Gamehacking.org member root760. 
+**Note:** The information about how this data is structured was discovered by Zenius-I-Vanisher & Gamehacking.org member root670. 
 
 The game engine needs a way to locate chunks in the filedata.bin containing music, graphics, stepdata, and background videos.  This is accomplished through a table stored in the game executable.
 
