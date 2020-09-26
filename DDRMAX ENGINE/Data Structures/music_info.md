@@ -81,6 +81,10 @@ TODO: Figure out what this value actually does
 This pair of 4-byte values determines the foot ratings for each difficulty, with the first unsigned long belonging to single
 chart difficulties, and the second belonging to doubles chart difficulties.
 
+Each difficulty is given a single unsigned byte, allowing for a maximum foot rating of 15 (0xFF).  A chart not existing for a 
+particular difficulty is denoted by that difficulty's foot rating being 0 (0x00), which also makes it unselectable on the music
+select screen.
+
 ## special
 TODO: Figure out what this value actually does
 
