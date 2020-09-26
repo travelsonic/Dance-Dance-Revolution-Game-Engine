@@ -1,6 +1,6 @@
 # music_info Data Structure
 ## What Is it:
-A structure that containes metadata pertaining to each song in the game.
+A structure that containes metadata pertaining to each song in the game.  Most of it is used in the displaying of information about a song on the music select screen - as well as where the song appears on the song wheel.  There are data members though that seem to actually determines what music data (and relevant data like background music sequences, static background images, etc) are loaded upon song selection.
 
 ## Definition:*
 ```
