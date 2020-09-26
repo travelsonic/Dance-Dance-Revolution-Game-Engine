@@ -81,8 +81,8 @@ TODO: Figure out what this value actually does
 This pair of 4-byte values determines the foot ratings for each difficulty, with the first unsigned long belonging to single
 chart difficulties, and the second belonging to doubles chart difficulties.
 
-Each difficulty is given a single nibble (4 bits), allowing for a maximum foot rating of 15 (0xFF).  A chart not existing for a 
-particular difficulty is denoted by that difficulty's foot rating being 0 (0x0), which also makes it unselectable on the music
+Each difficulty is given a single nibble (4 bits), allowing for a maximum foot rating of 15 (0x0F).  A chart not existing for a 
+particular difficulty is denoted by that difficulty's foot rating being 0 (0x00), which also makes it unselectable on the music
 select screen.
 
 Each difficulty only taking up 1 nibble means that no modifications to the structure definition was needed going from having 3 difficulties (Light, Standard, Heavy) in MAX AC, to 4 difficulties (Light, Standard, Heavy, Oni) in MAX2 AC, to 5 difficulties (Beginner, Light, Standard, Heavy, Oni) in Extreme AC.
