@@ -32,3 +32,75 @@ typedef struct music_info{
 
 *HUGE shoutout to Root670 for actually extracting the symbols found in the DWARF debugging 
 data that is left in each Playstation2 executable, making this possible.
+
+## Structure Data Members:
+### base_name
+This 6 byte array of characters denotes the shortened song name used for identification, as well as indicating what folder to use to load game data from in the case of system573 mixes.
+
+### kind
+TODO: Find out what this byte actually is used for.
+
+### album
+This single byte indicates which music icon is seen rotating at the upper-right corner of the song banner on the music select screen.
+
+The specific values, and which icon it corresponds to does depend on the game - as some games have more categories than others, and some games might have their icons in different places in one mix from in another mix as a result.
+
+### dance_num
+TODO: Find out what this 2-byte value actually determines, and how it impacts music loading, and music select display related matters.
+
+### order
+TODO: Find out what this 2-byte value actually determines, and how it impacts music loading, and music select display related matters.
+
+### main_track
+TODO: Figure out what this is for
+
+### select_track
+This 2-byte value contains an index to an array of sound files - including sfx, announcer lines, background music in game menus, and
+music preview tracks.  In Playstation2 mixes, at least, this value is not actually stored with the music_info data - instead, it seems 
+that the data is taken from an array of indexes.
+
+### bpm_max
+Used for display purposes on the music select screen, this is the maximum BPM that the song reaches.
+
+### bpm_min
+Used for display purposes on the music select screen, this is the minimum BPM that the song reaches.
+
+### vern_num
+TODO: Figure out what this is for
+
+### pcseq_num
+TODO: Figure out what this is for
+
+### hide
+This 4 byte value determines how many unlock points are needed before this song can be selected on the music select screen.
+
+### adjust_mc
+TODO: Figure out what this value actually does
+
+### difficulty
+This pair of 4-byte values determines the foot ratings for each difficulty, with the first unsigned long belonging to single
+chart difficulties, and the second belonging to doubles chart difficulties.
+
+## special
+TODO: Figure out what this value actually does
+
+## max_spm
+TODO: Figure out what this is for
+
+## avg_spm
+TODO: Figure out what this is for
+
+## avg_jpm
+TODO: Figure out what this is for
+
+## chaos_v
+TODO: Figure out what this is for
+
+## freeze_v
+TODO: Figure out what this is for
+
+## title
+TODO: Figure out what this is for
+
+## l_name
+TODO: Figure out what this is for
