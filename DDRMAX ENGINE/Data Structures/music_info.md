@@ -85,7 +85,7 @@ Each difficulty is given a single nibble (4 bits), allowing for a maximum foot r
 particular difficulty is denoted by that difficulty's foot rating being 0 (0x00), which also makes it unselectable on the music
 select screen.
 
-Each difficulty only taking up 1 nibble means that no modifications to the structure definition was needed going from having 3 difficulties (Light, Standard, Heavy) in MAX AC, to 4 difficulties (Light, Standard, Heavy, Oni) in MAX2 AC, to 5 difficulties (Beginner, Light, Standard, Heavy, Oni) in Extreme AC.
+Each difficulty only taking up 1 nibble means that no modifications to the structure definition was needed going from having 3 difficulties (Light, Standard, Heavy) in MAX AC, to 4 difficulties (Light, Standard, Heavy, Oni) in MAX2 AC, to 5 difficulties (Beginner, Light, Standard, Heavy, Oni) in Extreme AC.  This is because, of course, a 32-bit DWord consists of 4 bytes, or 8 nibbles.  Theoretically, this means that there is enough space to support 8 difficulties worth of foot ratings per play style (that is, 8 for singles, AND 8 for doubles, since singles and doubles get their own 32-bit dword to store foot rating information in).
 
 ## special
 TODO: Figure out what this value actually does
