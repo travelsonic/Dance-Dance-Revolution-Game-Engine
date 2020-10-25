@@ -20,6 +20,44 @@ in a song's stepdata chunk(s). This dramatically cuts down on how much
 data needs to be stored, and read by the game in comparison to if the
 stepchart file stored values for every single measure and beat in a song.
 
+Here is an example of what beat/measure data looks like in a hex editor.
+This exerpt comes from Burning Heat! (3 Option Mix)'s single light chart.
+```
+81 00 00 00            // Number of beat entries
+00 50 00 00 
+00 58 00 00 
+00 60 00 00 
+00 68 00 00 
+00 6C 00 00 
+00 70 00 00 
+00 78 00 00 
+00 80 00 00 
+00 88 00 00 
+00 8C 00 00 
+00 94 00 00 
+00 A0 00 00 
+00 A4 00 00 
+00 AC 00 00 
+00 B4 00 00 
+00 C0 00 00 
+00 C4 00 00 
+00 CC 00 00 
+00 D4 00 00 
+00 DC 00 00 
+00 E4 00 00 
+00 EC 00 00 
+00 F4 00 00 
+00 F8 00 00 
+00 00 01 00 
+00 04 01 00 
+00 08 01 00 
+00 10 01 00 
+00 14 01 00 
+00 1C 01 00 
+00 20 01 00 
+00 24 01 00
+```
+
 
 ### Step Values
 Following the array of beat entries, is an array of bytes.  These are
