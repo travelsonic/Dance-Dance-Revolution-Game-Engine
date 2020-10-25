@@ -57,10 +57,14 @@ This exerpt comes from Burning Heat! (3 Option Mix)'s single light chart.
 00 20 01 00 
 00 24 01 00
 ```
-As you can see, the measure is followed by the beat.  The beat
-takes up only one nibble of space, while the measure number takes
-anywhere from a nibble (when the measure number < 16) to a full 
-byte's worth of space (when the measure number >= 16).
+As you can see, the measure number is followed by the beat number.  
+
+The beat takes up only one nibble of space, having a value range of
+0 <= X <= 15 (0x00 <= X <= 0x0F).
+
+The measure number takes up anywhere from a nibble (when the measure 
+number is < 16), to a full byte's worth of space (when the measure 
+number is >= 16).
 
 Due to the endianess of the data, though, the data entry for, say,
 measure 18 beat 4 will appear not as "01 24," but as 24 01.
