@@ -3,7 +3,7 @@ This is more or less gonna be a brainfart filled thing full of observations from
 at SSQ files myself, and information derived from a (author unknown) SSQ guide that was linked 
 to on DDR Freak a long time ago.
 
-### Stepdata Chunks
+### Stepdata Chunks:
 ```
 Chunk Data Members:
 Size (in bytes):                           Discription: 
@@ -14,4 +14,24 @@ Size (in bytes):                           Discription:
 (Number of beat entries * 4) bytes         Beat / Measure Entries
 (Number of beat entries) bytes             Step values
 ```
-### Beat / Measure Entries
+### Beat / Measure Entries:
+Only the measures, and beats, where arrows actually appear are stored
+in a song's stepdata chunk(s). This dramatically cuts down on how much 
+data needs to be stored, and read by the game in comparison to if the
+stepchart file stored values for every single measure and beat in a song.
+
+
+### Step Values
+Following the array of beat entries, is an array of bytes.  These are
+individual step values, with one byte corresponding to each beat entry.
+
+Individual arrow values are powers of 2, where:
+```
+ Left = 1 
+ Down = 2
+   Up = 4
+Right = 8
+```
+In order to get values representing combinations of arrows, all you have to do
+is add arrow values together.  For example, to get a left + right jump, you simply 
+add 1 + 8 together to get a value of 9.
