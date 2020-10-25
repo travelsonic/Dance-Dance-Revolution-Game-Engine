@@ -3,7 +3,7 @@ This is more or less gonna be a brainfart filled thing full of observations from
 at SSQ files myself, and information derived from a (author unknown) SSQ guide that was linked 
 to on DDR Freak a long time ago.
 
-## Stepdata Chunks
+### Stepdata Chunks
 ```
 Chunk Data Members:
 Size (in bytes):                           Discription: 
@@ -14,3 +14,4 @@ Size (in bytes):                           Discription:
 (Number of beat entries * 4) bytes         Beat / Measure Entries
 (Number of beat entries) bytes             Step values
 ```
+### Beat / Measure Entries
