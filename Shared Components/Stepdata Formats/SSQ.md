@@ -82,13 +82,13 @@ data being stored in the last 2 bytes of each dword.
 Following the array of beat entries, is an array of bytes.  These are
 individual step values, with one byte corresponding to each beat entry.
 
-Individual arrow values are powers of 2, where:
+Individual arrow values are powers of 2:
 ```
- Left = 1 
- Down = 2
-   Up = 4
-Right = 8
+P1 Left    = 1  (0x01)
+P1 Down    = 2  (0x02)
+P1 Up      = 4  (0x04)
+P1 Right   = 8  (0x08)
 ```
 In order to get values representing combinations of arrows, all you have to do
-is add arrow values together.  For example, to get a left + right jump, you simply 
-add 1 + 8 together to get a value of 9.
+is add arrow values together.  For example, to get a left + right jump, you 
+simply add 1 + 8 together to get a value of 9. 
