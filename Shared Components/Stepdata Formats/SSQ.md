@@ -72,7 +72,10 @@ will appear not as "01 24," but as 24 01.
 
 At least one, perhaps both, of the bytes sandwiching the measure/beat 
 values are used for flags, or other information on how to interpret the 
-step data at that beat / measure. 
+step data at that beat / measure.  For example, arrows that are not
+quantized as 4th (red), 8th (blue), or 16th (yellow) notes, will have
+a value of 170 (0xAA) preceding the measure / beat value for a particular
+entry.
 
 I am not ENTIRELY sure about why the measure & beat information are 
 stores in the middle 2 bytes of each dword though, as opposed to that
@@ -104,4 +107,5 @@ Left  = 8   (0x08)
 
 For each byte value, the leftmost nibble is used for steps that appear
 on the player 2 side, while the rightmost nibble is used for steps that
-appear on the player 1 side.
+appear on the player 1 side.  This holds true regardless of if you are
+looking at official step data, or looking at edit data.
