@@ -84,15 +84,24 @@ individual step values, with one byte corresponding to each beat entry.
 
 Individual arrow values are powers of 2:
 ```
-P1 Left    = 1   (0x01)
-P1 Down    = 2   (0x02)
-P1 Up      = 4   (0x04)
-P1 Right   = 8   (0x08)
-P2 Left    = 16  (0x10)
-P2 Down    = 32  (0x20)
-P2 Up      = 64  (0x40)
-P2 Right   = 128 (0x80)
+Left  = 1   (0x01)
+Down  = 2   (0x02)
+Up    = 4   (0x04)
+Right = 8   (0x08)
 ```
 In order to get values representing combinations of arrows, all you have to do
-is add arrow values together.  For example, to get a left + right jump on the
-player 1 side, you simply add 1 + 8 together to get a value of 9. 
+is add arrow values together.  For example, to get a left + right jump, you simply 
+add 1 + 8 together to get a value of 9. 
+
+Interestingly, if you hex edit values while in Edit Mode, the values for each
+arrow direction differ slightly.
+```
+Up    = 1   (0x01)
+Down  = 2   (0x02)
+Right = 4   (0x04)
+Left  = 8   (0x08)
+```
+
+For each byte value, the leftmost nibble is used for steps that appear
+on the player 2 side, while the rightmost nibble is used for steps that
+appear on the player 1 side.
