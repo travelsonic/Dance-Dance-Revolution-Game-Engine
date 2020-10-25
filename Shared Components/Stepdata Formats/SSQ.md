@@ -72,14 +72,14 @@ will appear not as "01 24," but as 24 01.
 
 At least one, perhaps both, of the bytes sandwiching the measure/beat 
 values are used for flags, or other information on how to interpret the 
-step data at that beat / measure.  For example, arrows that are not
-quantized as 4th (red), 8th (blue), or 16th (yellow) notes, will have
-a value of 170 (0xAA) preceding the measure / beat value for a particular
-entry.
+step data at that beat / measure.  For example, it APPEARS as if arrows 
+that are not quantized as 4th (red), 8th (blue), or 16th (yellow) notes, 
+will have a value of 170 (0xAA) preceding the measure / beat value for a 
+particular entry.
 
 I am not ENTIRELY sure about why the measure & beat information are 
 stores in the middle 2 bytes of each dword though, as opposed to that
-data being stored in the last 2 bytes of each dword.
+data being stored in the first or last 2 bytes of each dword.  
 
 ### Step Values
 Following the array of beat entries, is an array of bytes.  These are
