@@ -24,8 +24,8 @@ Here is an example of what beat/measure data looks like in a hex editor.
 This exerpt comes from Burning Heat! (3 Option Mix)'s single light chart.
 ```
 81 00 00 00            // Number of beat entries
-00 50 00 00 
-00 58 00 00 
+00 50 00 00            // A step at measure 5 beat 0
+00 58 00 00          
 00 60 00 00 
 00 68 00 00 
 00 6C 00 00 
@@ -57,7 +57,10 @@ This exerpt comes from Burning Heat! (3 Option Mix)'s single light chart.
 00 20 01 00 
 00 24 01 00
 ```
-
+As you can see, the measure is followed by the beat.  The beat
+takes up only one nibble of space, while the measure number takes
+anywhere from a nibble (when the measure number < 16) to a full 
+byte's worth of space (when the measure number >= 16).
 
 ### Step Values
 Following the array of beat entries, is an array of bytes.  These are
