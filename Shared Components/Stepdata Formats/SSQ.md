@@ -62,6 +62,19 @@ takes up only one nibble of space, while the measure number takes
 anywhere from a nibble (when the measure number < 16) to a full 
 byte's worth of space (when the measure number >= 16).
 
+Due to the endianess of the data, though, the data entry for, say,
+measure 18 beat 4 will appear not as "01 24," but as 24 01.
+
+The bytes sandwiching the measure/beat values are used for flags, 
+or to convey other information to the game with regards to how to 
+interpret the step data, which explains why these entries use 4 bytes. 
+
+I am not ENTIRELY sure about why the measure & beat information are 
+stores in the middle 2 bytes of each dword though, as opposed to that
+data being stored in the last 2 bytes of each dword.
+
+
+
 ### Step Values
 Following the array of beat entries, is an array of bytes.  These are
 individual step values, with one byte corresponding to each beat entry.
