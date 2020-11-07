@@ -3,7 +3,7 @@ Note: This document is far from complete.
 0x005674A4: Current Index In Songwheel Index Array
 0x005674A8: Number Of Slots In Song Wheel
 0x005675B8 - 0x00567604: Songwheel Index Array 
-0x0056F5AC - 0x56F5C4: Step Quality Counters:
+0x0056F5AC - 0x0056F5C4: Step Quality Counters:
              0x0056F5AC: Player 1 Perfect Count
              0x0056F5B0: Player 1 Great Count
              0x0056F5B4: Player 1 Good Count
