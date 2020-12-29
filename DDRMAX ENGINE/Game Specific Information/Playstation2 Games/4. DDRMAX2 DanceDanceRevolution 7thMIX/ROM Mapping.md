@@ -313,7 +313,7 @@ Physical Address(es):       Logical Address(es):        Description:
              0x0016D6FC                  0x0026D67C     D.P Multiplier For Boos
              0x0016D700                  0x0026D680     D.P Multiplier For Misses
              0x0016D710                  0x0026D690     D.P Multiplier For OKs
-0x0016D978 - 0x0016DA23     0x0026D8F8 - 0x0026D9A3     Censored Word List For Oni Mode Name Entry
+0x0016D978 - 0x0016DA2B     0x0026D8F8 - 0x0026D9AB     Censored Word List For Oni Mode Name Entry
 0x0016E290 - 0x0016E2B4     0x0026E210 - 0x0026E234     Jump Table - Title Screen Menu Navigation Options
              0x0016E290                  0x0026E210     Menu Choice For Game Mode
              0x0016E294                  0x0026E214     Menu Choice For Diet Mode
