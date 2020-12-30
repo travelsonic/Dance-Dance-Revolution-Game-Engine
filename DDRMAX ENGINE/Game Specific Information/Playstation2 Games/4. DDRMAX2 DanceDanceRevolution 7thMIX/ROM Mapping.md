@@ -306,7 +306,10 @@ Physical Address(es):       Logical Address(es):        Description:
              0x00163778                  0x002636F8     Empty Preview Sound Index Array Element
              0x0016377C                  0x002636FC     Empty Preview Sound Index Array Element
 0x00166DC0 - 0x00166EE4     0x00266D40 - 0x00266E64     Table of addresses pertaining to laoding a song's static background image
-                            0x0026D100 - 0x0026D114     In-Stage Timing Judgment Label Widths
+             0x00166DC0                  0x00266D40     Long Train Runnin' Static Background Image
+             0x00166DC4                  0x00266D44     Maximum Overdrive Static Background Image
+             0x00166DC8                  0x00266D48     Waka Laka Static Background Image
+0x0016D180 - 0x0016D194     0x0026D100 - 0x0026D114     In-Stage Timing Judgment Label Widths
 0x0016D6F0 - 0x0016D710     0x0026D670 - 0x0026D690     Dance Point Multipliers    
              0x0016D6F0                  0x0026D670     D.P Multiplier For Perfects
              0x0016D6F4                  0x0026D674     D.P Multiplier For Greats
