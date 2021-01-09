@@ -11,12 +11,12 @@ struct _tag_SYS_DEMO_WORK{
     int end_screen_request;
     int main_loop_break_request;
     struct{
-	      unsigned int lsn;
+        unsigned int lsn;
         unsigned int size;
         char name[16];
         unsigned char date[8];
         unsigned int flag;
-	  }
+    }
     unsigned short language;
     unsigned short aspect;
     unsigned short playmode;
