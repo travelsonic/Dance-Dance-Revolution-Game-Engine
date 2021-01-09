@@ -1,4 +1,4 @@
-# _tag_cOpeninglogo Structure
+# _tag_cOpeninglogo Data Structure
 
 ## Definition:
 ```
