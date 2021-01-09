@@ -2,7 +2,7 @@
 
 ## Definition:
 ```
-struct _InputData {
+struct _InputData{
     unsigned short player_input[4];
     unsigned short player_input_trigger[4];
     unsigned short player_input_released[4];
