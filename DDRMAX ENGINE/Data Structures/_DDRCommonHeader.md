@@ -2,7 +2,7 @@
 
 ## Definition:
 ```
-struct _DDRCommonHeader {
+struct _DDRCommonHeader{
     unsigned char Type;
     unsigned char Platform;
     unsigned char Hardware;
