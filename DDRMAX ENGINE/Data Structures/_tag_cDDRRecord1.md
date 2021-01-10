@@ -13,6 +13,7 @@ struct _tag_cDDRRecord1 {
     char pad[2];
 };
 ```
+
 ## Other Notes:
 ### Naming Conventions:
 Each game gives this structure a unique name, with a number or combination of characters between the 
