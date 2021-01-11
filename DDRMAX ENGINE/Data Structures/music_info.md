@@ -18,13 +18,13 @@ struct music_info{
     unsigned short pcseq_num;
     unsigned long hide;
     int adjust_mc;
-    unsigned int difficulty[2];
+    unsigned int difficulty[2];  
     unsigned int special;
-    unsigned short max_spm[8];
-    unsigned short avg_spm[8];
-    unsigned short avg_jpm[8];
-    unsigned short chaos_v[8];
-    unsigned short freez_v[8];
+    unsigned short max_spm[];   // NOTE:  These variables are being declared here without a length, but
+    unsigned short avg_spm[];   //        in actuality, the length depends on the game the structure is
+    unsigned short avg_jpm[];   //        being used in, and the number of difficulties for stepcharts 
+    unsigned short chaos_v[];   //        in said game.
+    unsigned short freez_v[];
     char* title;
     char* l_name;
 };
@@ -179,7 +179,7 @@ TODO: Figure out what this value actually does
 
 ## max_spm
 
-***Data Type:** unsigned short[8]* 
+***Data Type:** unsigned short[] - array length depends on the game* 
 
 ***Purpose:*** 
 
@@ -188,7 +188,7 @@ TODO: Figure out what this is for
 
 ## avg_spm
 
-***Data Type:** unsigned short[8]* 
+***Data Type:** unsigned short[] - array length depends on the game* 
 
 ***Purpose:*** 
 
@@ -197,7 +197,7 @@ TODO: Figure out what this is for
 
 ## avg_jpm
 
-***Data Type:** unsigned short[8]* 
+***Data Type:** unsigned short[] - array length depends on the game* 
 
 ***Purpose:*** 
 
@@ -206,20 +206,20 @@ TODO: Figure out what this is for
 
 ## chaos_v
 
-***Data Type:** unsigned short[8]* 
+***Data Type:** unsigned short[] - array length depends on the game* 
 
 ***Purpose:*** 
 
-[Groove radar Chaos](https://dancedancerevolution.fandom.com/wiki/Groove_Radar#Chaos) values - there are 8 elements in this array, containing 1 value for each single chart difficulty, and 1 for each doubles chart difficulty.
+[Groove radar Chaos](https://dancedancerevolution.fandom.com/wiki/Groove_Radar#Chaos) values - there is 1 value for each single chart difficulty, and 1 for each doubles chart difficulty.
 
 
 ## freeze_v
 
-***Data Type:** unsigned short[8]* 
+***Data Type:** unsigned short[] - array length depends on the game* 
 
 ***Purpose:*** 
 
-[Groove radar Freeze](https://dancedancerevolution.fandom.com/wiki/Groove_Radar#Freeze) values - there are 8 elements in this array, containing 1 value for each single chart difficulty, and 1 for each doubles chart difficulty.
+[Groove radar Freeze](https://dancedancerevolution.fandom.com/wiki/Groove_Radar#Freeze) values - there is 1 value for each single chart difficulty, and 1 for each doubles chart difficulty.
 
 
 ## title
