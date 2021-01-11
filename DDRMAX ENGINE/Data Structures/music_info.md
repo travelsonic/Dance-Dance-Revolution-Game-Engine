@@ -20,10 +20,10 @@ struct music_info{
     int adjust_mc;
     unsigned int difficulty[2];  
     unsigned int special;
-    unsigned short max_spm[];   // NOTE:  These variables are being declared here without a length, but
-    unsigned short avg_spm[];   //        in actuality, the length depends on the game the structure is
-    unsigned short avg_jpm[];   //        being used in, and the number of difficulties for stepcharts 
-    unsigned short chaos_v[];   //        in said game.
+    unsigned short max_spm[];   // NOTE:  These variables are being declared here without
+    unsigned short avg_spm[];   //        a length. In actuality, these arrays are of a fixed  
+    unsigned short avg_jpm[];   //        length.  How long they are is dependant on the game,
+    unsigned short chaos_v[];   //        and how many difficulties are present in said game.  
     unsigned short freez_v[];
     char* title;
     char* l_name;
