@@ -23,7 +23,7 @@ struct music_info{
     unsigned short max_spm[];   // NOTE:  These variables are being declared here 
     unsigned short avg_spm[];   //        without a length. In actuality, these  
     unsigned short avg_jpm[];   //        arrays are of a fixed length.  How long
-    unsigned short chaos_v[];   //        they are is dependant on the game, and how 
+    unsigned short chaos_v[];   //        they are is dependent on the game, and how 
     unsigned short freez_v[];   //        and how many difficulties are present. 
     char* title;
     char* l_name;
