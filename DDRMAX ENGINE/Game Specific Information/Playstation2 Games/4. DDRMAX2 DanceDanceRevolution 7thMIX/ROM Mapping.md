@@ -312,6 +312,18 @@ Physical Address(es):       Logical Address(es):        Description:
              0x00166DCC                  0x00266D4C     Baby Love Me Static Background Image
              0x00166DD0                  0x00266D50     D2R Static Background Image
 0x0016D180 - 0x0016D194     0x0026D100 - 0x0026D114     In-Stage Timing Judgment Label Widths
+0x0016D6B0 - 0x0016D6BC     0x0026D630 - 0x0026D63C     Step Judgment Timing Windows - Lower Bounds
+             0x0016D6B0                  0x0026D630     Timing Windows Lower Bounds For Perfects
+             0x0016D6B4                  0x0026D634     Timing Windows Lower Bounds For Greats
+             0x0016D6B8                  0x0026D638     Timing Windows Lower Bounds For Goods
+             0x0016D6BC                  0x0026D63C     Timing Windows Lower Bounds For Boos
+             0x0016D640                  0x0026D640     Timing Windows Lower Bounds For Misses
+0x0016D650 - 0x0016D65C     0x0026D5D0 - 0x0026D5DC     Step Judgement Timing Windows - Upper Bounds
+             0x0016D650                  0x0026D5D0     Timing Windows Upper Bounds For Perfects
+             0x0016D654                  0x0026D5D4     Timing Windows Upper Bounds For Greats
+             0x0016D658                  0x0026D5D8     Timing Windows Upper Bounds For Goods
+             0x0016D65C                  0x0026D5DC     Timing Windows Upper Bounds For Boos          
+             0x0016D660                  0x0026D5E0     Timing Windows Upper Bounds For Misses
 0x0016D6F0 - 0x0016D710     0x0026D670 - 0x0026D690     Dance Point Multipliers    
              0x0016D6F0                  0x0026D670     D.P Multiplier For Perfects
              0x0016D6F4                  0x0026D674     D.P Multiplier For Greats
