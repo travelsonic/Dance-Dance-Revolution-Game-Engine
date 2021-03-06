@@ -1,8 +1,16 @@
 Note: This document is far from complete.
-```
+<pre>
 0x005674A4: Current Index In Songwheel Index Array
 0x005674A8: Number Of Slots In Song Wheel
 0x005675B8 - 0x00567604: Songwheel Index Array 
+0x0056F4C0 - 0x0056F4EB: g_game_w Structure
+             0x0056F4C0: g_game_w.state
+             0x0056F4C2: g_game_w.genre
+             0x0056F4C4: g_game_w.mip
+             0x0056F4C8: g_game_w.start_chip
+             0x0056F4C9: g_game_w.extra_chip
+             0x0056F4CA: g_game_w.use_chip_chip
+             0x0056F4CB: g_game_w.lost_chip_chip
 0x0056F5AC - 0x0056F5C4: Step Quality Counters:
              0x0056F5AC: Player 1 Perfect Count
              0x0056F5B0: Player 1 Great Count
@@ -12,13 +20,13 @@ Note: This document is far from complete.
              0x0056F5C4: Elapsed Step Count
 0x0056F5C8: Player 1 0.K Count
 0x0056F5D4: Player 1 O.K Count Repeated
-0x0056F608: Player 1 High Score Displayed On Result Screen
-0x0056F60C: Player 1 Previous Max Combo
 0x0056F5F0: Player 1 Stream Level Bar Value
 0x0056F5F4: Player 1 Voltage Level Bar Value
 0x0056F5F8: Player 1 Air Level Bar Value
 0x0056F5FC: Player 1 Chaos Level Bar Value
 0x0056F600: Player 1 Freeze Level Bar Value
+0x0056F608: Player 1 High Score Displayed On Result Screen
+0x0056F60C: Player 1 Previous Max Combo
 0x005C3844: Player 2 Perfect Count
 0x005C3848: Player 2 Great Count
 0x005C384C: Player 2 Good Count
@@ -31,4 +39,5 @@ Note: This document is far from complete.
 0x00654594: Edit Mode Step Count
 0x0065459C: Edit Mode Current Beat For Editing
 0x00685FBC: Training Mode Bar Start, Bar End, And Music Speed
-```
+</pre>
+
