@@ -9,8 +9,16 @@ Note: This document is far from complete.
              0x0056F4C4: g_game_w.mip
              0x0056F4C8: g_game_w.start_chip
              0x0056F4C9: g_game_w.extra_chip
-             0x0056F4CA: g_game_w.use_chip_chip
-             0x0056F4CB: g_game_w.lost_chip_chip
+             0x0056F4CA: g_game_w.use_chip
+             0x0056F4CB: g_game_w.lost_chip
+             0x0056F4CC: g_game_w.stage
+             0x0056F4CE: g_game_w.next_stage
+             0x0056F4D0: g_game_w.failed
+             0x0056F4D2: g_game_w.level
+             0x0056F4D4: g_game_w.game_kind
+             0x0056F4D5: g_game_w.world
+             0x0056F4D6: g_game_w.nonstop
+             0x0056F4D7: g_game_w.event_mode
 0x0056F5AC - 0x0056F5C4: Step Quality Counters:
              0x0056F5AC: Player 1 Perfect Count
              0x0056F5B0: Player 1 Great Count
