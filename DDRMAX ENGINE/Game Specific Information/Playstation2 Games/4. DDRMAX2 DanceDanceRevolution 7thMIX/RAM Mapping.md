@@ -19,6 +19,21 @@ Note: This document is far from complete.
              0x0056F4D5: g_game_w.world
              0x0056F4D6: g_game_w.nonstop
              0x0056F4D7: g_game_w.event_mode
+             0x0056F4D8: g_game_w.style
+             0x0056F4D9: g_game_w music_group
+             0x0056F4DA: g_game_w.music_select_mode
+             0x0056F4DB: g_game_w.extra_stage
+             0x0056F4DC: g_game_w.extra_fix
+             0x0056F4DD: g_game_w.final_fix
+             0x0056F4DE: g_game_w.meter_kind
+             0x0056F4DF: g_game_w.roulette_stage
+             0x0056F4E0: g_game_w.edit_total
+             0x0056F4E1: g_game_w.roulette_total
+             0x0056F4E2: g_game_w.music
+             0x0056F4E4: g_game_w.oni_mode
+             0x0056F4E5: g_game_w.oni_load_step
+             0x0056F4E6: g_game_w.oni_next_music
+             0x0056F4E8: g_game_w.oni_next_mip
 0x0056F5AC - 0x0056F5C4: Step Quality Counters:
              0x0056F5AC: Player 1 Perfect Count
              0x0056F5B0: Player 1 Great Count
