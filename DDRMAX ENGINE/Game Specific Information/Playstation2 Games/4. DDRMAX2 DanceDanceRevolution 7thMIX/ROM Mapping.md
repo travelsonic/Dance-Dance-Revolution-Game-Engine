@@ -4,7 +4,7 @@ For the purpose of this document, "physical address" will refer to the address o
 
 In this game, the difference between the physical, and logical addresses, is 0xFFF80
 
-```
+<pre>
 Physical Address(es):       Logical Address(es):        Description:   
              0x00156440                  0x002563C0     Returning DanceDanceRevolution Song Grouping - Red Channel Value
              0x00156444                  0x002563C4     Returning DanceDanceRevolution Song Grouping - Red Channel Value
@@ -345,4 +345,4 @@ Physical Address(es):       Logical Address(es):        Description:
              0x0016E2B4                  0x0026E234     EMPTY/UNUSED
 0x0017DDE8 - 0x0017F2F8     0x0027DD68 - 0x0027F278     Filedata Entry Table
 0x0017F602 - 0x001DAC88      NO LOGICAL ADDRESSES       Leftover Debugging Data - Not Recognized By IDA, PS2DIS, Etc.  
-```
+</pre>
