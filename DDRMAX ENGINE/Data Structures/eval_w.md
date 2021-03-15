@@ -14,3 +14,85 @@ struct eval_w{
     short fixed_level;
 };
 ```
+
+## Structure Data Members:
+### value_ct
+***Data Type:** int[7]* 
+
+***Purpose:*** 
+
+This array stores the number of steps that fall into each of the timing judgment categories.
+Each value gets its own 4-byte integer.
+Steps are stored in the order PERFECT, GREAT, GOOD, BOO, MISS
+
+
+### freez_value_ct
+
+***Data Type:** unsigned int[4]
+
+***Purpose:*** 
+
+TODO: Find out what this is actually used for.
+
+
+### groov_bonus
+
+***Data Type:** int[6]
+
+***Purpose:*** 
+
+TODO: Find out what this is actually used for.
+
+
+### groov_bonus_max
+
+***Data Type:** int[6]
+
+***Purpose:*** 
+
+TODO: Find out what this is actually used for.
+
+
+### score
+
+***Data Type:** int
+
+***Purpose:*** 
+
+TODO: Figure out what this is for
+
+
+### max_combo_ct
+
+***Data Type:** int
+
+***Purpose:*** 
+
+TODO: Figure out what this is for
+
+
+### jump_ct
+
+***Data Type:** int
+
+***Purpose:*** 
+
+TODO: Figure out what this is for
+
+
+### dance_level
+
+***Data Type:** short
+
+***Purpose:*** 
+
+TODO: Figure out what this is for
+
+
+### fixed_level
+
+***Data Type:** short
+
+***Purpose:*** 
+
+TODO: Figure out what this is for
