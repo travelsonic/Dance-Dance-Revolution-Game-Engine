@@ -23,7 +23,18 @@ struct eval_w{
 
 This array stores the number of steps that fall into each of the timing judgment categories.
 Each value gets its own 4-byte integer.
-Steps are stored in the order PERFECT, GREAT, GOOD, BOO, MISS
+
+***Array elements & what they store:***
+```
+Element:   Data:
+0          Perfect Count      
+1          Great Count    
+2          Good Count    
+3          Boo Count    
+4          Miss Count    
+5          TODO: Find what this element is used for
+6          Elapsed step count?  TODO: Find out with certainty what this array element is used for
+```
 
 
 ### freez_value_ct
