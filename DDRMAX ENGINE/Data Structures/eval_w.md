@@ -27,8 +27,7 @@ Steps are stored in the order PERFECT, GREAT, GOOD, BOO, MISS
 
 
 ### freez_value_ct
-
-***Data Type:** unsigned int[4]
+***Data Type:** unsigned int[4]*
 
 ***Purpose:*** 
 
@@ -36,8 +35,7 @@ TODO: Find out what this is actually used for.
 
 
 ### groov_bonus
-
-***Data Type:** int[6]
+***Data Type:** int[6]*
 
 ***Purpose:*** 
 
@@ -45,8 +43,7 @@ TODO: Find out what this is actually used for.
 
 
 ### groov_bonus_max
-
-***Data Type:** int[6]
+***Data Type:** int[6]*
 
 ***Purpose:*** 
 
@@ -54,8 +51,7 @@ TODO: Find out what this is actually used for.
 
 
 ### score
-
-***Data Type:** int
+***Data Type:** int*
 
 ***Purpose:*** 
 
@@ -63,8 +59,7 @@ TODO: Figure out what this is for
 
 
 ### max_combo_ct
-
-***Data Type:** int
+***Data Type:** int*
 
 ***Purpose:*** 
 
@@ -72,8 +67,7 @@ TODO: Figure out what this is for
 
 
 ### jump_ct
-
-***Data Type:** int
+***Data Type:** int*
 
 ***Purpose:*** 
 
@@ -81,8 +75,7 @@ TODO: Figure out what this is for
 
 
 ### dance_level
-
-***Data Type:** short
+***Data Type:** short*
 
 ***Purpose:*** 
 
@@ -90,8 +83,7 @@ TODO: Figure out what this is for
 
 
 ### fixed_level
-
-***Data Type:** short
+***Data Type:** short*
 
 ***Purpose:*** 
 
