@@ -3,7 +3,7 @@ Note: This document is far from complete.
 0x005674A4: Current Index In Songwheel Index Array
 0x005674A8: Number Of Slots In Song Wheel
 0x005675B8 - 0x00567604: Songwheel Index Array 
-0x0056F4C0 - 0x0056F4EB: '[g_game_w](g_game_w.md)' Structure
+0x0056F4C0 - 0x0056F4EB: g_game_w Structure
              0x0056F4C0: g_game_w.state
              0x0056F4C2: g_game_w.genre
              0x0056F4C4: g_game_w.mip
