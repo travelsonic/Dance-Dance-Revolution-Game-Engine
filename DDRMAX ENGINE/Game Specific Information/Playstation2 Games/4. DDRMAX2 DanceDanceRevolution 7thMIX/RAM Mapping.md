@@ -141,27 +141,35 @@ Note: This document is far from complete.
              0x0056F5A9:  g_game_w.player[0].his[6].roulette
              0x0056F5AA:  g_game_w.player[0].his[6].extra
              0x0056F5AB:  g_game_w.player[0].his[6].pad
-0x0056F5AC - 0x0056F5C4:  Step Quality Counters:
-             0x0056F5AC:  Player 1 Perfect Count
-             0x0056F5B0:  Player 1 Great Count
-             0x0056F5B4:  Player 1 Good Count
-             0x0056F5B8:  Player 1 Boo Count
-             0x0056F5BC:  Player 1 Miss Count
-             0x0056F5C4:  Elapsed Step Count
-             0x0056F5C8:  Player 1 0.K Count
-             0x0056F5D4:  Player 1 O.K Count Repeated
-             0x0056F5F0:  Player 1 Stream Level Bar Value
-             0x0056F5F4:  Player 1 Voltage Level Bar Value
-             0x0056F5F8:  Player 1 Air Level Bar Value
-             0x0056F5FC:  Player 1 Chaos Level Bar Value
-             0x0056F600:  Player 1 Freeze Level Bar Value
-             0x0056F608:  Player 1 Displayed High Score
-             0x0056F60C:  Player 1 Previous Max Combo
-             0x005C3844:  Player 2 Perfect Count
-             0x005C3848:  Player 2 Great Count
-             0x005C384C:  Player 2 Good Count
-             0x005C3850:  Player 2 Boo Count
-             0x005C3854:  Player 2 Miss Count
+0x0056F5AC - 0x0056F618:  g_game_w.player[0].stage_evaluation                     stage_evaluation is an eval_w struct
+             0x0056F5AC:  g_game_w.player[0].stage_evaluation.value_ct[0]         PERFECT!! step count
+             0x0056F5B0:  g_game_w.player[0].stage_evaluation.value_ct[1]         GREAT!! step count
+             0x0056F5B4:  g_game_w.player[0].stage_evaluation.value_ct[2]         GOOD!! step count
+             0x0056F5B8:  g_game_w.player[0].stage_evaluation.value_ct[3]         BOO!! step count
+             0x0056F5BC:  g_game_w.player[0].stage_evaluation.value_ct[4]         Miss.. step count
+             0x0056F5C0:  g_game_w.player[0].stage_evaluation.value_ct[5]
+             0x0056F5C4:  g_game_w.player[0].stage_evaluation.value_ct[6]
+             0x0056F5C8:  g_game_w.player[0].stage_evaluation.freez_value_ct[0]
+             0x0056F5CC:  g_game_w.player[0].stage_evaluation.freez_value_ct[1]
+             0x0056F5D0:  g_game_w.player[0].stage_evaluation.freez_value_ct[2]
+             0x0056F5D4:  g_game_w.player[0].stage_evaluation.freez_value_ct[3]
+             0x0056F5D8:  g_game_w.player[0].stage_evaluation.groov_bonus[0]
+             0x0056F5DC:  g_game_w.player[0].stage_evaluation.groov_bonus[1]
+             0x0056F5E0:  g_game_w.player[0].stage_evaluation.groov_bonus[2]
+             0x0056F5E4:  g_game_w.player[0].stage_evaluation.groov_bonus[3]
+             0x0056F5E8:  g_game_w.player[0].stage_evaluation.groov_bonus[4]
+             0x0056F5EC:  g_game_w.player[0].stage_evaluation.groov_bonus[5]
+             0x0056F5F0:  g_game_w.player[0].stage_evaluation.groov_bonus_max[0]
+             0x0056F5F4:  g_game_w.player[0].stage_evaluation.groov_bonus_max[1]
+             0x0056F5F8:  g_game_w.player[0].stage_evaluation.groov_bonus_max[2]
+             0x0056F5FC:  g_game_w.player[0].stage_evaluation.groov_bonus_max[3]
+             0x0056F600:  g_game_w.player[0].stage_evaluation.groov_bonus_max[4]
+             0x0056F604:  g_game_w.player[0].stage_evaluation.groov_bonus_max[5]
+             0x0056F608:  g_game_w.player[0].stage_evaluation.score
+             0x0056F60C:  g_game_w.player[0].stage_evaluation.max_combo_ct
+             0x0056F610:  g_game_w.player[0].stage_evaluation.jump_ct
+             0x0056F614:  g_game_w.player[0].stage_evaluation.dance_level
+             0x0056F616:  g_game_w.player[0].stage_evaluation.fixed_level
 0x00653510 - 0x00653D4C:  Edit Mode Freeze Step Values
 0x00653D50 - 0x0065455C:  Edit Mode Non-Freeze Step Values
              0x00654578:  Edit Mode Selection Starting Beat
