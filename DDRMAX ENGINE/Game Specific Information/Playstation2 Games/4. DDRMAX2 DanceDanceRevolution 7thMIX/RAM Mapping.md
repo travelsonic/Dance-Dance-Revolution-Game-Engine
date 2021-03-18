@@ -98,6 +98,26 @@ Note: This document is far from complete.
              0x0056F56F:  g_game_w.player[0].mode.anime                 Bit field; 2 bits wide
              0x0056F56F:  g_game_w.player[0].mode.dark                  Bit field; 1 bit wide
              0x0056F56F:  g_game_w.player[0].mode.pad                   Bit field; 12 bits wide
+0x0056F570 - 0x0056F5B8:  g_game_w.player[0].history                    Array of 8 play_hist structs
+             0x0056F570:  g_game_w.player[0].history[0].music_count
+             0x0056F574:  g_game_w.player[0].history[0].input[0]
+             0x0056F575:  g_game_w.player[0].history[0].input[1]
+             0x0056F576:  g_game_w.player[0].history[0].input[2]
+             0x0056F577:  g_game_w.player[0].history[0].input[3]
+             0x0056F578:  g_game_w.player[0].history[0].input[4]
+             0x0056F579:  g_game_w.player[0].history[0].input[5]
+             0x0056F57A:  g_game_w.player[0].history[0].input[6]
+             0x0056F57B:  g_game_w.player[0].history[0].input[7]
+             0x0056F57C:  g_game_w.player[0].history[1].music_count
+             0x0056F580:  g_game_w.player[0].history[1].input[0]
+             0x0056F581:  g_game_w.player[0].history[1].input[1]
+             0x0056F582:  g_game_w.player[0].history[1].input[2]
+             0x0056F583:  g_game_w.player[0].history[1].input[3]
+             0x0056F584:  g_game_w.player[0].history[1].input[4]
+             0x0056F585:  g_game_w.player[0].history[1].input[5]
+             0x0056F586:  g_game_w.player[0].history[1].input[6]
+             0x0056F587:  g_game_w.player[0].history[1].input[7]
+             
 0x0056F5AC - 0x0056F5C4:  Step Quality Counters:
              0x0056F5AC:  Player 1 Perfect Count
              0x0056F5B0:  Player 1 Great Count
