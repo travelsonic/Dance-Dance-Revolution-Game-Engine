@@ -35,8 +35,69 @@ Note: This document is far from complete.
              0x0056F4E5:  g_game_w.oni_load_step
              0x0056F4E6:  g_game_w.oni_next_music
              0x0056F4E8:  g_game_w.oni_next_mip
-0x0056F4EC - 0x0057C906:  g_game_w.player[0]                            player is a 2-element array of g_each_w structs
-             0x00589D20:  g_game_w.player[1]
+0x0056F4EC - 0x0057C906:  g_game_w.player[0]                            player is an array of g_each_w structs
+             0x0056F4EC:  g_game_w.player[0].play_time
+             0x0056F4F0:  g_game_w.player[0].game_time
+             0x0056F4F4:  g_game_w.player[0].game_time_total
+             0x0056F4F8:  g_game_w.player[0].select
+             0x0056F4F9:  g_game_w.player[0].character
+             0x0056F4FA:  g_game_w.player[0].costume
+             0x0056F4FB:  g_game_w.player[0].motiontype
+             0x0056F4FC:  g_game_w.player[0].loaded_model
+             0x0056F4FD:  g_game_w.player[0].loaded_texture
+             0x0056F4FE:  g_game_w.player[0].loaded_motion
+             0x0056F4FF:  g_game_w.player[0].play_disp_flag
+             0x0056F500:  g_game_w.player[0].model_disp_flag
+             0x0056F501:  g_game_w.player[0].gauge_disp_flag
+             0x0056F502:  g_game_w.player[0].cur_point
+             0x0056F504:  g_game_w.player[0].cur_life
+             0x0056F508:  g_game_w.player[0].score
+             0x0056F50C:  g_game_w.player[0].old_score
+             0x0056F510:  g_game_w.player[0].real_score
+             0x0056F514:  g_game_w.player[0].bonus
+             0x0056F518:  g_game_w.player[0].old_bonus
+             0x0056F51C:  g_game_w.player[0].max_score
+             0x0056F520:  g_game_w.player[0].old_max_score
+             0x0056F524:  g_game_w.player[0].max_bonus
+             0x0056F528:  g_game_w.player[0].old_max_bonus
+             0x0056F52C:  g_game_w.player[0].cal
+             0x0056F530:  g_game_w.player[0].old_cal
+             0x0056F534:  g_game_w.player[0].real_cal
+             0x0056F538:  g_game_w.player[0].disp_cal
+             0x0056F53C:  g_game_w.player[0].average_cal
+             0x0056F540:  g_game_w.player[0].diet_norm_cal
+             0x0056F544:  g_game_w.player[0].diet_norm_minute
+             0x0056F548:  g_game_w.player[0].old_norm_cal
+             0x0056F54C:  g_game_w.player[0].old_norm_minute
+             0x0056F550:  g_game_w.player[0].minimum_cal
+             0x0056F554:  g_game_w.player[0].add_cal_flg
+             0x0056F555:  g_game_w.player[0].chk_cal_flg
+             0x0056F556:  g_game_w.player[0].pad[0]
+             0x0056F557:  g_game_w.player[0].pad[1]
+             0x0056F558:  g_game_w.player[0].play_stage
+             0x0056F55C:  g_game_w.player[0].decode_key1
+             0x0056F560:  g_game_w.player[0].decode_key2
+             0x0056F564:  g_game_w.player[0].decode_key3
+0x0056F568 - 0x0056F574:  g_game_w.player[0].mode                       mode is a play_mode struct
+             0x0056F568:  g_game_w.player[0].mode.seq_kind
+             0x0056F569:  g_game_w.player[0].mode.transfer
+             0x0056F56A:  g_game_w.player[0].mode.style
+             0x0056F56B:  g_game_w.player[0].mode.pccard_seq
+             0x0056F56C:  g_game_w.player[0].mode.mcard_seq
+             0x0056F56D:  g_game_w.player[0].mode.padding
+             0x0056F56E:  g_game_w.player[0].mode.edseq_id
+             0x0056F56F:  g_game_w.player[0].mode.hidden                Bit field; 2 bits wide
+             0x0056F56F:  g_game_w.player[0].mode.thinout               Bit field; 1 bit wide
+             0x0056F56F:  g_game_w.player[0].mode.free                  Bit field; 1 bit wide
+             0x0056F56F:  g_game_w.player[0].mode.soft                  Bit field; 1 bit wide
+             0x0056F56F:  g_game_w.player[0].mode.boost                 Bit field; 2 bits wide
+             0x0056F56F:  g_game_w.player[0].mode.speed                 Bit field; 5 bits wide
+             0x0056F56F:  g_game_w.player[0].mode.scroll                Bit field; 2 bits wide
+             0x0056F56F:  g_game_w.player[0].mode.freeze                Bit field; 1 bits wide
+             0x0056F56F:  g_game_w.player[0].mode.vivid                 Bit field; 2 bits wide
+             0x0056F56F:  g_game_w.player[0].mode.anime                 Bit field; 2 bits wide
+             0x0056F56F:  g_game_w.player[0].mode.dark                  Bit field; 1 bit wide
+             0x0056F56F:  g_game_w.player[0].mode.pad                   Bit field; 12 bits wide
 0x0056F5AC - 0x0056F5C4:  Step Quality Counters:
              0x0056F5AC:  Player 1 Perfect Count
              0x0056F5B0:  Player 1 Great Count
