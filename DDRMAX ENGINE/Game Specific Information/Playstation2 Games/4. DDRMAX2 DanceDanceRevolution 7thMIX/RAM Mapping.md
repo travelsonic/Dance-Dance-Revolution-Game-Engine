@@ -149,7 +149,6 @@ Note: This document is far from complete.
              0x0056F5BC:  g_game_w.player[0].stage_evaluation.value_ct[4]         Miss.. step count
              0x0056F5C0:  g_game_w.player[0].stage_evaluation.value_ct[5]
              0x0056F5C4:  g_game_w.player[0].stage_evaluation.value_ct[6]
-             0x0056F5BC:  g_game_w.player[0].stage_evaluation.value_ct[4]         Miss.. step count
              0x0056F5C8:  g_game_w.player[0].stage_evaluation.freez_value_ct[0]   O.K Count
              0x0056F5CC:  g_game_w.player[0].stage_evaluation.freez_value_ct[1]   N.Gs from hitting the freeze, then dropping it
              0x0056F5D0:  g_game_w.player[0].stage_evaluation.freez_value_ct[2]
