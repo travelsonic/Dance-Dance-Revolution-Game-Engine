@@ -1,6 +1,6 @@
 Note: This document is far from complete.
 <pre>
-        RAM ADDRESS(ES):  DESCRIPTION:                              NOTES:
+        RAM ADDRESS(ES):  DESCRIPTION:                                        NOTES:
              0x005674A4:  Current Index In Songwheel Index Array      
              0x005674A8:  Number Of Slots In Song Wheel
 0x005675B8 - 0x00567604:  Songwheel Index Array 
@@ -35,7 +35,7 @@ Note: This document is far from complete.
              0x0056F4E5:  g_game_w.oni_load_step
              0x0056F4E6:  g_game_w.oni_next_music
              0x0056F4E8:  g_game_w.oni_next_mip
-0x0056F4EC - 0x0057C906:  g_game_w.player[0]                            player is an array of g_each_w structs
+0x0056F4EC - 0x0057C906:  g_game_w.player[0]                                      player is an array of g_each_w structs
              0x0056F4EC:  g_game_w.player[0].play_time
              0x0056F4F0:  g_game_w.player[0].game_time
              0x0056F4F4:  g_game_w.player[0].game_time_total
@@ -78,7 +78,7 @@ Note: This document is far from complete.
              0x0056F55C:  g_game_w.player[0].decode_key1
              0x0056F560:  g_game_w.player[0].decode_key2
              0x0056F564:  g_game_w.player[0].decode_key3
-0x0056F568 - 0x0056F574:  g_game_w.player[0].mode                       mode is a play_mode struct
+0x0056F568 - 0x0056F574:  g_game_w.player[0].mode                                 mode is a play_mode struct
              0x0056F568:  g_game_w.player[0].mode.seq_kind
              0x0056F569:  g_game_w.player[0].mode.transfer
              0x0056F56A:  g_game_w.player[0].mode.style
@@ -86,19 +86,19 @@ Note: This document is far from complete.
              0x0056F56C:  g_game_w.player[0].mode.mcard_seq
              0x0056F56D:  g_game_w.player[0].mode.padding
              0x0056F56E:  g_game_w.player[0].mode.edseq_id
-             0x0056F56F:  g_game_w.player[0].mode.hidden                Bit field; 2 bits wide
-             0x0056F56F:  g_game_w.player[0].mode.thinout               Bit field; 1 bit wide
-             0x0056F56F:  g_game_w.player[0].mode.free                  Bit field; 1 bit wide
-             0x0056F56F:  g_game_w.player[0].mode.soft                  Bit field; 1 bit wide
-             0x0056F56F:  g_game_w.player[0].mode.boost                 Bit field; 2 bits wide
-             0x0056F56F:  g_game_w.player[0].mode.speed                 Bit field; 5 bits wide
-             0x0056F56F:  g_game_w.player[0].mode.scroll                Bit field; 2 bits wide
-             0x0056F56F:  g_game_w.player[0].mode.freeze                Bit field; 1 bits wide
-             0x0056F56F:  g_game_w.player[0].mode.vivid                 Bit field; 2 bits wide
-             0x0056F56F:  g_game_w.player[0].mode.anime                 Bit field; 2 bits wide
-             0x0056F56F:  g_game_w.player[0].mode.dark                  Bit field; 1 bit wide
-             0x0056F56F:  g_game_w.player[0].mode.pad                   Bit field; 12 bits wide
-0x0056F570 - 0x0056F5B8:  g_game_w.player[0].history                    Array of 8 play_hist structs
+             0x0056F56F:  g_game_w.player[0].mode.hidden                          Bit field; 2 bits wide
+             0x0056F56F:  g_game_w.player[0].mode.thinout                         Bit field; 1 bit wide
+             0x0056F56F:  g_game_w.player[0].mode.free                            Bit field; 1 bit wide
+             0x0056F56F:  g_game_w.player[0].mode.soft                            Bit field; 1 bit wide
+             0x0056F56F:  g_game_w.player[0].mode.boost                           Bit field; 2 bits wide
+             0x0056F56F:  g_game_w.player[0].mode.speed                           Bit field; 5 bits wide
+             0x0056F56F:  g_game_w.player[0].mode.scroll                          Bit field; 2 bits wide
+             0x0056F56F:  g_game_w.player[0].mode.freeze                          Bit field; 1 bits wide
+             0x0056F56F:  g_game_w.player[0].mode.vivid                           Bit field; 2 bits wide
+             0x0056F56F:  g_game_w.player[0].mode.anime                           Bit field; 2 bits wide
+             0x0056F56F:  g_game_w.player[0].mode.dark                            Bit field; 1 bit wide
+             0x0056F56F:  g_game_w.player[0].mode.pad                             Bit field; 12 bits wide
+0x0056F570 - 0x0056F5B8:  g_game_w.player[0].history                              Array of 8 play_hist structs
              0x0056F570:  g_game_w.player[0].history[0].music_count
              0x0056F574:  g_game_w.player[0].history[0].input[0]
              0x0056F575:  g_game_w.player[0].history[0].input[1]
