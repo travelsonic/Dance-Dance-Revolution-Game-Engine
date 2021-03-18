@@ -80,44 +80,67 @@ Note: This document is far from complete.
              0x0056F564:  g_game_w.player[0].decode_key3
 0x0056F568 - 0x0056F574:  g_game_w.player[0].mode                                 mode is a play_mode struct
              0x0056F568:  g_game_w.player[0].mode.seq_kind
-             0x0056F569:  g_game_w.player[0].mode.transfer
+             0x0056F569:  g_game_w.player[0].mode.seq_transfer
              0x0056F56A:  g_game_w.player[0].mode.style
              0x0056F56B:  g_game_w.player[0].mode.pccard_seq
              0x0056F56C:  g_game_w.player[0].mode.mcard_seq
              0x0056F56D:  g_game_w.player[0].mode.padding
              0x0056F56E:  g_game_w.player[0].mode.edseq_id
-             0x0056F56F:  g_game_w.player[0].mode.hidden                          Bit field; 2 bits wide
-             0x0056F56F:  g_game_w.player[0].mode.thinout                         Bit field; 1 bit wide
-             0x0056F56F:  g_game_w.player[0].mode.free                            Bit field; 1 bit wide
-             0x0056F56F:  g_game_w.player[0].mode.soft                            Bit field; 1 bit wide
-             0x0056F56F:  g_game_w.player[0].mode.boost                           Bit field; 2 bits wide
-             0x0056F56F:  g_game_w.player[0].mode.speed                           Bit field; 5 bits wide
-             0x0056F56F:  g_game_w.player[0].mode.scroll                          Bit field; 2 bits wide
-             0x0056F56F:  g_game_w.player[0].mode.freeze                          Bit field; 1 bits wide
-             0x0056F56F:  g_game_w.player[0].mode.vivid                           Bit field; 2 bits wide
-             0x0056F56F:  g_game_w.player[0].mode.anime                           Bit field; 2 bits wide
-             0x0056F56F:  g_game_w.player[0].mode.dark                            Bit field; 1 bit wide
-             0x0056F56F:  g_game_w.player[0].mode.pad                             Bit field; 12 bits wide
-0x0056F570 - 0x0056F5B8:  g_game_w.player[0].history                              Array of 8 play_hist structs
-             0x0056F570:  g_game_w.player[0].history[0].music_count
-             0x0056F574:  g_game_w.player[0].history[0].input[0]
-             0x0056F575:  g_game_w.player[0].history[0].input[1]
-             0x0056F576:  g_game_w.player[0].history[0].input[2]
-             0x0056F577:  g_game_w.player[0].history[0].input[3]
-             0x0056F578:  g_game_w.player[0].history[0].input[4]
-             0x0056F579:  g_game_w.player[0].history[0].input[5]
-             0x0056F57A:  g_game_w.player[0].history[0].input[6]
-             0x0056F57B:  g_game_w.player[0].history[0].input[7]
-             0x0056F57C:  g_game_w.player[0].history[1].music_count
-             0x0056F580:  g_game_w.player[0].history[1].input[0]
-             0x0056F581:  g_game_w.player[0].history[1].input[1]
-             0x0056F582:  g_game_w.player[0].history[1].input[2]
-             0x0056F583:  g_game_w.player[0].history[1].input[3]
-             0x0056F584:  g_game_w.player[0].history[1].input[4]
-             0x0056F585:  g_game_w.player[0].history[1].input[5]
-             0x0056F586:  g_game_w.player[0].history[1].input[6]
-             0x0056F587:  g_game_w.player[0].history[1].input[7]
-             
+             0x0056F570:  g_game_w.player[0].mode.hidden                          Bit field; 2 bits wide
+             0x0056F570:  g_game_w.player[0].mode.thinout                         Bit field; 1 bit wide
+             0x0056F570:  g_game_w.player[0].mode.free                            Bit field; 1 bit wide
+             0x0056F570:  g_game_w.player[0].mode.soft                            Bit field; 1 bit wide
+             0x0056F570:  g_game_w.player[0].mode.boost                           Bit field; 2 bits wide
+             0x0056F570:  g_game_w.player[0].mode.speed                           Bit field; 5 bits wide
+             0x0056F570:  g_game_w.player[0].mode.scroll                          Bit field; 2 bits wide
+             0x0056F570:  g_game_w.player[0].mode.freeze                          Bit field; 1 bits wide
+             0x0056F570:  g_game_w.player[0].mode.vivid                           Bit field; 2 bits wide
+             0x0056F570:  g_game_w.player[0].mode.anime                           Bit field; 2 bits wide
+             0x0056F570:  g_game_w.player[0].mode.dark                            Bit field; 1 bit wide
+             0x0056F570:  g_game_w.player[0].mode.pad                             Bit field; 12 bits wide
+0x0056F574 - 0x0056F5AC:  g_game_w.player[0].his                                  his is an array of play_his structs
+             0x0056F574:  g_game_w.player[0].his[0].music
+             0x0056F576:  g_game_w.player[0].his[0].edit_id
+             0x0056F578:  g_game_w.player[0].his[0].seq_kind
+             0x0056F579:  g_game_w.player[0].his[0].roulette
+             0x0056F57A:  g_game_w.player[0].his[0].extra
+             0x0056F57B:  g_game_w.player[0].his[0].pad
+             0x0056F57C:  g_game_w.player[0].his[1].music
+             0x0056F57E:  g_game_w.player[0].his[1].edit_id
+             0x0056F580:  g_game_w.player[0].his[1].seq_kind
+             0x0056F581:  g_game_w.player[0].his[1].roulette
+             0x0056F582:  g_game_w.player[0].his[1].extra
+             0x0056F583:  g_game_w.player[0].his[1].pad
+             0x0056F584:  g_game_w.player[0].his[2].music
+             0x0056F586:  g_game_w.player[0].his[2].edit_id
+             0x0056F588:  g_game_w.player[0].his[2].seq_kind
+             0x0056F589:  g_game_w.player[0].his[2].roulette
+             0x0056F58A:  g_game_w.player[0].his[2].extra
+             0x0056F58B:  g_game_w.player[0].his[2].pad
+             0x0056F58C:  g_game_w.player[0].his[3].music
+             0x0056F58E:  g_game_w.player[0].his[3].edit_id
+             0x0056F590:  g_game_w.player[0].his[3].seq_kind
+             0x0056F591:  g_game_w.player[0].his[3].roulette
+             0x0056F592:  g_game_w.player[0].his[3].extra
+             0x0056F593:  g_game_w.player[0].his[3].pad    
+             0x0056F594:  g_game_w.player[0].his[4].music
+             0x0056F596:  g_game_w.player[0].his[4].edit_id
+             0x0056F598:  g_game_w.player[0].his[4].seq_kind
+             0x0056F599:  g_game_w.player[0].his[4].roulette
+             0x0056F59A:  g_game_w.player[0].his[4].extra
+             0x0056F59B:  g_game_w.player[0].his[4].pad
+             0x0056F59C:  g_game_w.player[0].his[5].music
+             0x0056F59E:  g_game_w.player[0].his[5].edit_id
+             0x0056F5A0:  g_game_w.player[0].his[5].seq_kind
+             0x0056F5A1:  g_game_w.player[0].his[5].roulette
+             0x0056F5A2:  g_game_w.player[0].his[5].extra
+             0x0056F5A3:  g_game_w.player[0].his[5].pad
+             0x0056F5A4:  g_game_w.player[0].his[6].music
+             0x0056F5A6:  g_game_w.player[0].his[6].edit_id
+             0x0056F5A8:  g_game_w.player[0].his[6].seq_kind
+             0x0056F5A9:  g_game_w.player[0].his[6].roulette
+             0x0056F5AA:  g_game_w.player[0].his[6].extra
+             0x0056F5AB:  g_game_w.player[0].his[6].pad
 0x0056F5AC - 0x0056F5C4:  Step Quality Counters:
              0x0056F5AC:  Player 1 Perfect Count
              0x0056F5B0:  Player 1 Great Count
