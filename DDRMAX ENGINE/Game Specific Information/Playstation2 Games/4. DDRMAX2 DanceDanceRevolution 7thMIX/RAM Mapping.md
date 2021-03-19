@@ -321,6 +321,47 @@ Note: This document is far from complete.
              0x0056F767:  g_game_w.player[0].play_work.dance_class
              0x0056F768:  g_game_w.player[0].play_work.bar_start
              0x0056F76C:  g_game_w.player[0].play_work.bar_end
+             0x0056F770:  g_game_w.player[0].total_notes
+             0x0056F774:  g_game_w.player[0].total_jump
+             0x0056F778:  g_game_w.player[0].total_freez
+             0x0056F77C:  g_game_w.player[0].category
+0x00617A1C - 0x00617A9C:  g_game_w.music_table                                    128-element char array
+0x00617A9C - 0x0061CA4C:  g_game_w.note_status_table                              array of 300 note_status structures
+0x0061CA4C - 0x0061CA6C:  g_game_w.hc_work                                        An array of anonymous/nested structures
+             0x0061CA4C:  g_game_w.hc_work[0].old_stat
+             0x0061CA4D:  g_game_w.hc_work[0].cur_stat
+             0x0061CA4E:  g_game_w.hc_work[0].release_ct
+             0x0061CA4F:  g_game_w.hc_work[0].warning
+             0x0061CA50:  g_game_w.hc_work[1].old_stat
+             0x0061CA51:  g_game_w.hc_work[1].cur_stat
+             0x0061CA52:  g_game_w.hc_work[1].release_ct
+             0x0061CA53:  g_game_w.hc_work[1].warning
+             0x0061CA54:  g_game_w.hc_work[2].old_stat
+             0x0061CA55:  g_game_w.hc_work[2].cur_stat
+             0x0061CA56:  g_game_w.hc_work[2].release_ct
+             0x0061CA57:  g_game_w.hc_work[2].warning
+             0x0061CA58:  g_game_w.hc_work[3].old_stat
+             0x0061CA59:  g_game_w.hc_work[3].cur_stat
+             0x0061CA5A:  g_game_w.hc_work[3].release_ct
+             0x0061CA5B:  g_game_w.hc_work[3].warning
+             0x0061CA5C:  g_game_w.hc_work[4].old_stat
+             0x0061CA5D:  g_game_w.hc_work[4].cur_stat
+             0x0061CA5E:  g_game_w.hc_work[4].release_ct
+             0x0061CA5F:  g_game_w.hc_work[4].warning
+             0x0061CA60:  g_game_w.hc_work[5].old_stat
+             0x0061CA61:  g_game_w.hc_work[5].cur_stat
+             0x0061CA62:  g_game_w.hc_work[5].release_ct
+             0x0061CA63:  g_game_w.hc_work[5].warning
+             0x0061CA64:  g_game_w.hc_work[6].old_stat
+             0x0061CA65:  g_game_w.hc_work[6].cur_stat
+             0x0061CA66:  g_game_w.hc_work[6].release_ct
+             0x0061CA67:  g_game_w.hc_work[6].warning
+             0x0061CA68:  g_game_w.hc_work[7].old_stat
+             0x0061CA69:  g_game_w.hc_work[7].cur_stat
+             0x0061CA6A:  g_game_w.hc_work[7].release_ct
+             0x0061CA6B:  g_game_w.hc_work[7].warning
+             
+             
 0x00653510 - 0x00653D4C:  Edit Mode Freeze Step Values
 0x00653D50 - 0x0065455C:  Edit Mode Non-Freeze Step Values
              0x00654578:  Edit Mode Selection Starting Beat
