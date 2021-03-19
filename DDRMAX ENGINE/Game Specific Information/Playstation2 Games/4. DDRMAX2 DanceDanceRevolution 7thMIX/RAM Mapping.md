@@ -1,6 +1,6 @@
 Note: This document is far from complete.
 <pre>
-        RAM ADDRESS(ES):  DESCRIPTION:                                        NOTES:
+        RAM ADDRESS(ES):  DESCRIPTION:                                                  NOTES:
              0x005674A4:  Current Index In Songwheel Index Array      
              0x005674A8:  Number Of Slots In Song Wheel
 0x005675B8 - 0x00567604:  Songwheel Index Array 
@@ -35,7 +35,7 @@ Note: This document is far from complete.
              0x0056F4E5:  g_game_w.oni_load_step
              0x0056F4E6:  g_game_w.oni_next_music
              0x0056F4E8:  g_game_w.oni_next_mip
-0x0056F4EC - 0x0057C906:  g_game_w.player[0]                                      player is an array of g_each_w structs
+0x0056F4EC - 0x0057C906:  g_game_w.player[0]                                                player is an array of g_each_w structs
              0x0056F4EC:  g_game_w.player[0].play_time
              0x0056F4F0:  g_game_w.player[0].game_time
              0x0056F4F4:  g_game_w.player[0].game_time_total
@@ -78,7 +78,7 @@ Note: This document is far from complete.
              0x0056F55C:  g_game_w.player[0].decode_key1
              0x0056F560:  g_game_w.player[0].decode_key2
              0x0056F564:  g_game_w.player[0].decode_key3
-0x0056F568 - 0x0056F574:  g_game_w.player[0].mode                                 mode is a play_mode struct
+0x0056F568 - 0x0056F574:  g_game_w.player[0].mode                                           mode is a play_mode struct
              0x0056F568:  g_game_w.player[0].mode.seq_kind
              0x0056F569:  g_game_w.player[0].mode.seq_transfer
              0x0056F56A:  g_game_w.player[0].mode.style
@@ -86,19 +86,19 @@ Note: This document is far from complete.
              0x0056F56C:  g_game_w.player[0].mode.mcard_seq
              0x0056F56D:  g_game_w.player[0].mode.padding
              0x0056F56E:  g_game_w.player[0].mode.edseq_id
-             0x0056F570:  g_game_w.player[0].mode.hidden                          Bit field; 2 bits wide
-             0x0056F570:  g_game_w.player[0].mode.thinout                         Bit field; 1 bit wide
-             0x0056F570:  g_game_w.player[0].mode.free                            Bit field; 1 bit wide
-             0x0056F570:  g_game_w.player[0].mode.soft                            Bit field; 1 bit wide
-             0x0056F570:  g_game_w.player[0].mode.boost                           Bit field; 2 bits wide
-             0x0056F570:  g_game_w.player[0].mode.speed                           Bit field; 5 bits wide
-             0x0056F570:  g_game_w.player[0].mode.scroll                          Bit field; 2 bits wide
-             0x0056F570:  g_game_w.player[0].mode.freeze                          Bit field; 1 bits wide
-             0x0056F570:  g_game_w.player[0].mode.vivid                           Bit field; 2 bits wide
-             0x0056F570:  g_game_w.player[0].mode.anime                           Bit field; 2 bits wide
-             0x0056F570:  g_game_w.player[0].mode.dark                            Bit field; 1 bit wide
-             0x0056F570:  g_game_w.player[0].mode.pad                             Bit field; 12 bits wide
-0x0056F574 - 0x0056F5AC:  g_game_w.player[0].his                                  his is an array of play_his structs
+             0x0056F570:  g_game_w.player[0].mode.hidden                                    Bit field; 2 bits wide
+             0x0056F570:  g_game_w.player[0].mode.thinout                                   Bit field; 1 bit wide
+             0x0056F570:  g_game_w.player[0].mode.free                                      Bit field; 1 bit wide
+             0x0056F570:  g_game_w.player[0].mode.soft                                      Bit field; 1 bit wide
+             0x0056F570:  g_game_w.player[0].mode.boost                                     Bit field; 2 bits wide
+             0x0056F570:  g_game_w.player[0].mode.speed                                     Bit field; 5 bits wide
+             0x0056F570:  g_game_w.player[0].mode.scroll                                    Bit field; 2 bits wide
+             0x0056F570:  g_game_w.player[0].mode.freeze                                    Bit field; 1 bits wide
+             0x0056F570:  g_game_w.player[0].mode.vivid                                     Bit field; 2 bits wide
+             0x0056F570:  g_game_w.player[0].mode.anime                                     Bit field; 2 bits wide
+             0x0056F570:  g_game_w.player[0].mode.dark                                      Bit field; 1 bit wide
+             0x0056F570:  g_game_w.player[0].mode.pad                                       Bit field; 12 bits wide
+0x0056F574 - 0x0056F5AC:  g_game_w.player[0].his                                            his is an array of play_his structs
              0x0056F574:  g_game_w.player[0].his[0].music
              0x0056F576:  g_game_w.player[0].his[0].edit_id
              0x0056F578:  g_game_w.player[0].his[0].seq_kind
@@ -141,18 +141,18 @@ Note: This document is far from complete.
              0x0056F5A9:  g_game_w.player[0].his[6].roulette
              0x0056F5AA:  g_game_w.player[0].his[6].extra
              0x0056F5AB:  g_game_w.player[0].his[6].pad
-0x0056F5AC - 0x0056F618:  g_game_w.player[0].stage_evaluation                     stage_evaluation is an eval_w struct
-             0x0056F5AC:  g_game_w.player[0].stage_evaluation.value_ct[0]         PERFECT!! step count
-             0x0056F5B0:  g_game_w.player[0].stage_evaluation.value_ct[1]         GREAT!! step count
-             0x0056F5B4:  g_game_w.player[0].stage_evaluation.value_ct[2]         GOOD!! step count
-             0x0056F5B8:  g_game_w.player[0].stage_evaluation.value_ct[3]         BOO!! step count
-             0x0056F5BC:  g_game_w.player[0].stage_evaluation.value_ct[4]         Miss.. step count
+0x0056F5AC - 0x0056F618:  g_game_w.player[0].stage_evaluation                               stage_evaluation is an eval_w struct
+             0x0056F5AC:  g_game_w.player[0].stage_evaluation.value_ct[0]                   PERFECT!! step count
+             0x0056F5B0:  g_game_w.player[0].stage_evaluation.value_ct[1]                   GREAT!! step count
+             0x0056F5B4:  g_game_w.player[0].stage_evaluation.value_ct[2]                   GOOD!! step count
+             0x0056F5B8:  g_game_w.player[0].stage_evaluation.value_ct[3]                   BOO!! step count
+             0x0056F5BC:  g_game_w.player[0].stage_evaluation.value_ct[4]                   Miss.. step count
              0x0056F5C0:  g_game_w.player[0].stage_evaluation.value_ct[5]
              0x0056F5C4:  g_game_w.player[0].stage_evaluation.value_ct[6]
-             0x0056F5C8:  g_game_w.player[0].stage_evaluation.freez_value_ct[0]   O.K Count
-             0x0056F5CC:  g_game_w.player[0].stage_evaluation.freez_value_ct[1]   N.Gs from hitting the freeze, then dropping it
+             0x0056F5C8:  g_game_w.player[0].stage_evaluation.freez_value_ct[0]             O.K Count
+             0x0056F5CC:  g_game_w.player[0].stage_evaluation.freez_value_ct[1]             N.Gs from hitting the freeze, then dropping it
              0x0056F5D0:  g_game_w.player[0].stage_evaluation.freez_value_ct[2]
-             0x0056F5D4:  g_game_w.player[0].stage_evaluation.freez_value_ct[3]   Repeat of N.G count
+             0x0056F5D4:  g_game_w.player[0].stage_evaluation.freez_value_ct[3]             Repeat of N.G count
              0x0056F5D8:  g_game_w.player[0].stage_evaluation.groov_bonus[0]
              0x0056F5DC:  g_game_w.player[0].stage_evaluation.groov_bonus[1]
              0x0056F5E0:  g_game_w.player[0].stage_evaluation.groov_bonus[2]
@@ -170,7 +170,7 @@ Note: This document is far from complete.
              0x0056F610:  g_game_w.player[0].stage_evaluation.jump_ct
              0x0056F614:  g_game_w.player[0].stage_evaluation.dance_level
              0x0056F616:  g_game_w.player[0].stage_evaluation.fixed_level
-0x0056F618 - 0x0056F684:  g_game_w.player[0].total_evaluation                     also an eval_w struct
+0x0056F618 - 0x0056F684:  g_game_w.player[0].total_evaluation                               also an eval_w struct
              0x0056F618:  g_game_w.player[0].total_evaluation.value_ct[0]
              0x0056F61C:  g_game_w.player[0].total_evaluation.value_ct[1]
              0x0056F620:  g_game_w.player[0].total_evaluation.value_ct[2]
@@ -199,7 +199,7 @@ Note: This document is far from complete.
              0x0056F67C:  g_game_w.player[0].total_evaluation.jump_ct
              0x0056F680:  g_game_w.player[0].total_evaluation.dance_level
              0x0056F682:  g_game_w.player[0].total_evaluation.fixed_level
-0x0056F684 - 0x0056F770:  g_game_w.player[0].play_work                            play_work is a play_w struct
+0x0056F684 - 0x0056F770:  g_game_w.player[0].play_work                                      play_work is a play_w struct
              0x0056F684:  g_game_w.player[0].play_work.music_counter
              0x0056F688:  g_game_w.player[0].play_work.beat_counter
              0x0056F68C:  g_game_w.player[0].play_work.cur_p_counter
@@ -212,15 +212,16 @@ Note: This document is far from complete.
              0x0056F6A8:  g_game_w.player[0].play_work.game_finish_music_count
              0x0056F6AC:  g_game_w.player[0].play_work.back_trans_start_music_count
              0x0056F6B0:  g_game_w.player[0].play_work.last_fs_nct
-             0x0056F6B4:  g_game_w.player[0].play_work.last_input_count[0]
-             0x0056F6B6:  g_game_w.player[0].play_work.last_input_count[1]
-             0x0056F6B8:  g_game_w.player[0].play_work.last_input_count[2]
-             0x0056F6BA:  g_game_w.player[0].play_work.last_input_count[3]
+0x0056F618 - 0x0056F684:  g_game_w.player[0].total_evaluation                               also an eval_w struct
+             0x0056F6B4:  g_game_w.player[0].play_work.last_input_count[0]                  Input: Left Arrow
+             0x0056F6B6:  g_game_w.player[0].play_work.last_input_count[1]                  Input: Down Arrow
+             0x0056F6B8:  g_game_w.player[0].play_work.last_input_count[2]                  Input: Up Arrow
+             0x0056F6BA:  g_game_w.player[0].play_work.last_input_count[3]                  Input: Right Arrow
              0x0056F6BC:  g_game_w.player[0].play_work.last_input_count[4]
              0x0056F6BE:  g_game_w.player[0].play_work.last_input_count[5]
              0x0056F6C0:  g_game_w.player[0].play_work.last_input_count[6]
              0x0056F6C4:  g_game_w.player[0].play_work.last_input_count[7]
-0x0056F6C6 - 0x0056F726:  g_game_w.player[0].play_work.history                    history is an array of play_hist structs                   
+0x0056F6C6 - 0x0056F726:  g_game_w.player[0].play_work.history                              history is an array of play_hist structs                   
              0x0056F6C6:  g_game_w.player[0].play_work.history[0].music_count                 
              0x0056F6C8:  g_game_w.player[0].play_work.history[0].input[0]     
              0x0056F6C9:  g_game_w.player[0].play_work.history[0].input[1]     
@@ -325,9 +326,9 @@ Note: This document is far from complete.
              0x0056F774:  g_game_w.player[0].total_jump
              0x0056F778:  g_game_w.player[0].total_freez
              0x0056F77C:  g_game_w.player[0].category
-0x00617A1C - 0x00617A9C:  g_game_w.music_table                                    128-element char array
-0x00617A9C - 0x0061CA4C:  g_game_w.note_status_table                              array of 300 note_status structures
-0x0061CA4C - 0x0061CA6C:  g_game_w.hc_work                                        An array of anonymous/nested structures
+0x00617A1C - 0x00617A9C:  g_game_w.music_table                                              128-element char array
+0x00617A9C - 0x0061CA4C:  g_game_w.note_status_table                                        array of 300 note_status structures
+0x0061CA4C - 0x0061CA6C:  g_game_w.hc_work                                                  An array of anonymous/nested structures
              0x0061CA4C:  g_game_w.hc_work[0].old_stat
              0x0061CA4D:  g_game_w.hc_work[0].cur_stat
              0x0061CA4E:  g_game_w.hc_work[0].release_ct
@@ -370,8 +371,8 @@ Note: This document is far from complete.
              0x0061CA88:  g_game_w.menu_num
              0x0061CA8C:  g_game_w.total_stage
              0x0061CA90:  g_game_w.now_bpm
-             0x0061C194:  g_game_w.last_data_addr                                 Pointer to unsigned char
-0x0061C198 - 0x0061C1A4:  g_game_w.edit_name                                      12-element char array
+             0x0061C194:  g_game_w.last_data_addr                                           Pointer to unsigned char
+0x0061C198 - 0x0061C1A4:  g_game_w.edit_name                                                12-element char array
              0x0061C1A4:  g_game_w.diet_flg
              0x0061C1A5:  g_game_w.auto_play_flg
              0x0061C1A6:  g_game_w.caution_flg
