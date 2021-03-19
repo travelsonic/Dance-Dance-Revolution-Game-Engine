@@ -170,6 +170,35 @@ Note: This document is far from complete.
              0x0056F610:  g_game_w.player[0].stage_evaluation.jump_ct
              0x0056F614:  g_game_w.player[0].stage_evaluation.dance_level
              0x0056F616:  g_game_w.player[0].stage_evaluation.fixed_level
+0x0056F618 - 0x0056F684:  g_game_w.player[0].total_evaluation                     also an eval_w struct
+             0x0056F618:  g_game_w.player[0].total_evaluation.value_ct[0]
+             0x0056F61C:  g_game_w.player[0].total_evaluation.value_ct[1]
+             0x0056F620:  g_game_w.player[0].total_evaluation.value_ct[2]
+             0x0056F624:  g_game_w.player[0].total_evaluation.value_ct[3]
+             0x0056F628:  g_game_w.player[0].total_evaluation.value_ct[4]
+             0x0056F62C:  g_game_w.player[0].total_evaluation.value_ct[5]
+             0x0056F630:  g_game_w.player[0].total_evaluation.value_ct[6]
+             0x0056F634:  g_game_w.player[0].total_evaluation.freez_value_ct[0]
+             0x0056F638:  g_game_w.player[0].total_evaluation.freez_value_ct[1]
+             0x0056F63C:  g_game_w.player[0].total_evaluation.freez_value_ct[2]
+             0x0056F640:  g_game_w.player[0].total_evaluation.freez_value_ct[3]
+             0x0056F644:  g_game_w.player[0].total_evaluation.groov_bonus[0]
+             0x0056F648:  g_game_w.player[0].total_evaluation.groov_bonus[1]
+             0x0056F64C:  g_game_w.player[0].total_evaluation.groov_bonus[2]
+             0x0056F650:  g_game_w.player[0].total_evaluation.groov_bonus[3]
+             0x0056F654:  g_game_w.player[0].total_evaluation.groov_bonus[4]
+             0x0056F658:  g_game_w.player[0].total_evaluation.groov_bonus[5]
+             0x0056F65C:  g_game_w.player[0].total_evaluation.groov_bonus_max[0]
+             0x0056F660:  g_game_w.player[0].total_evaluation.groov_bonus_max[1]
+             0x0056F664:  g_game_w.player[0].total_evaluation.groov_bonus_max[2]
+             0x0056F668:  g_game_w.player[0].total_evaluation.groov_bonus_max[3]
+             0x0056F66C:  g_game_w.player[0].total_evaluation.groov_bonus_max[4]
+             0x0056F670:  g_game_w.player[0].total_evaluation.groov_bonus_max[5]
+             0x0056F674:  g_game_w.player[0].total_evaluation.score
+             0x0056F678:  g_game_w.player[0].total_evaluation.max_combo_ct
+             0x0056F67C:  g_game_w.player[0].total_evaluation.jump_ct
+             0x0056F680:  g_game_w.player[0].total_evaluation.dance_level
+             0x0056F682:  g_game_w.player[0].total_evaluation.fixed_level
 0x00653510 - 0x00653D4C:  Edit Mode Freeze Step Values
 0x00653D50 - 0x0065455C:  Edit Mode Non-Freeze Step Values
              0x00654578:  Edit Mode Selection Starting Beat
