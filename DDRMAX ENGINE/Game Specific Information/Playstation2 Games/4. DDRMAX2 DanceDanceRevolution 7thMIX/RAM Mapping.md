@@ -293,8 +293,26 @@ Note: This document is far from complete.
              0x0056F723:  g_game_w.player[0].play_work.history[7].input[5]
              0x0056F724:  g_game_w.player[0].play_work.history[7].input[6] 
              0x0056F725:  g_game_w.player[0].play_work.history[7].input[7]
-             
-             
+             0x0056F726:  g_game_w.player[0].play_work.cur_his
+             0x0056F72A:  g_game_w.player[0].play_work.pre_nct
+             0x0056F72E:  g_game_w.player[0].play_work.cur_nct
+             0x0056F732:  g_game_w.player[0].play_work.disp_nct
+             0x0056F736:  g_game_w.player[0].play_work.cur_great_combo
+             0x0056F73A:  g_game_w.player[0].play_work.cur_miss_combo
+             0x0056F73E:  g_game_w.player[0].play_work.max_great_combo
+             0x0056F742:  g_game_w.player[0].play_work.max_miss_combo
+             0x0056F746:  g_game_w.player[0].play_work.miss_start_count
+             0x0056F74A:  g_game_w.player[0].play_work.input
+             0x0056F74B:  g_game_w.player[0].play_work.dead
+             0x0056F74C:  g_game_w.player[0].play_work.strictness
+             0x0056F74D:  g_game_w.player[0].play_work.panel_count[0]
+             0x0056F74F:  g_game_w.player[0].play_work.panel_count[1]
+             0x0056F751:  g_game_w.player[0].play_work.panel_count[2]
+             0x0056F753:  g_game_w.player[0].play_work.panel_count[3]
+             0x0056F755:  g_game_w.player[0].play_work.panel_count[4]
+             0x0056F757:  g_game_w.player[0].play_work.panel_count[5]
+             0x0056F759:  g_game_w.player[0].play_work.panel_count[6]
+             0x0056F75B:  g_game_w.player[0].play_work.panel_count[7]
 0x00653510 - 0x00653D4C:  Edit Mode Freeze Step Values
 0x00653D50 - 0x0065455C:  Edit Mode Non-Freeze Step Values
              0x00654578:  Edit Mode Selection Starting Beat
