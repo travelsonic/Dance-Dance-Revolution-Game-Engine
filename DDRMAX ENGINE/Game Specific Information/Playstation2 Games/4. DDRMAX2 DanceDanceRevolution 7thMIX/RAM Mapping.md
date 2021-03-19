@@ -360,8 +360,36 @@ Note: This document is far from complete.
              0x0061CA69:  g_game_w.hc_work[7].cur_stat
              0x0061CA6A:  g_game_w.hc_work[7].release_ct
              0x0061CA6B:  g_game_w.hc_work[7].warning
-             
-             
+             0x0061CA6C:  g_game_w.demoloop_ct
+             0x0061CA70:  g_game_w.mode_quit_ct[0]
+             0x0061CA74:  g_game_w.mode_quit_ct[1]
+             0x0061CA78:  g_game_w.force_exit_ct[0]
+             0x0061CA7C:  g_game_w.force_exit_ct[1]
+             0x0061CA80:  g_game_w.diet_play_time
+             0x0061CA84:  g_game_w.old_play_time
+             0x0061CA88:  g_game_w.menu_num
+             0x0061CA8C:  g_game_w.total_stage
+             0x0061CA90:  g_game_w.now_bpm
+             0x0061C194:  g_game_w.last_data_addr                                 Pointer to unsigned char
+0x0061C198 - 0x0061C1A4:  g_game_w.edit_name                                      12-element char array
+             0x0061C1A4:  g_game_w.diet_flg
+             0x0061C1A5:  g_game_w.auto_play_flg
+             0x0061C1A6:  g_game_w.caution_flg
+             0x0061C1A7:  g_game_w.mode_quit_flg
+             0x0061C1A8:  g_game_w.lib_loaded
+             0x0061C1A9:  g_game_w.force_exit_flg
+             0x0061C1AA:  g_game_w.music_stop_flg
+             0x0061C1AB:  g_game_w.train_state
+             0x0061C1AC:  g_game_w.lesson_flg
+             0x0061C1AD:  g_game_w.lesson_auto_play_flg
+             0x0061C1AE:  g_game_w.lesson_pad[0]
+             0x0061C1AF:  g_game_w.lesson_pad[1]
+             0x0061C1B0:  g_game_w.oni_load_start0
+             0x0061C1B1:  g_game_w.oni_load_start1
+             0x0061C1B2:  g_game_w.oni_load_end0
+             0x0061C1B3:  g_game_w.oni_load_end1
+             0x0061C1B4:  g_game_w.oni_order_step
+             0x0061C1B5:  g_game_w.oni_order_stage
 0x00653510 - 0x00653D4C:  Edit Mode Freeze Step Values
 0x00653D50 - 0x0065455C:  Edit Mode Non-Freeze Step Values
              0x00654578:  Edit Mode Selection Starting Beat
