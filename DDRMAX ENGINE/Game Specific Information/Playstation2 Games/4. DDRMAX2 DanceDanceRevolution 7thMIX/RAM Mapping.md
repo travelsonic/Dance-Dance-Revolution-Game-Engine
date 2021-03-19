@@ -313,6 +313,14 @@ Note: This document is far from complete.
              0x0056F757:  g_game_w.player[0].play_work.panel_count[5]
              0x0056F759:  g_game_w.player[0].play_work.panel_count[6]
              0x0056F75B:  g_game_w.player[0].play_work.panel_count[7]
+             0x0056F75D:  g_game_w.player[0].play_work.message_ct
+             0x0056F75F:  g_game_w.player[0].play_work.message_id
+             0x0056F761:  g_game_w.player[0].play_work.meter_cur
+             0x0056F763:  g_game_w.player[0].play_work.meter_vol
+             0x0056F765:  g_game_w.player[0].play_work.meter_ct
+             0x0056F767:  g_game_w.player[0].play_work.dance_class
+             0x0056F768:  g_game_w.player[0].play_work.bar_start
+             0x0056F76C:  g_game_w.player[0].play_work.bar_end
 0x00653510 - 0x00653D4C:  Edit Mode Freeze Step Values
 0x00653D50 - 0x0065455C:  Edit Mode Non-Freeze Step Values
              0x00654578:  Edit Mode Selection Starting Beat
