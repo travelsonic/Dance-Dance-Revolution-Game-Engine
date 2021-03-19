@@ -199,6 +199,102 @@ Note: This document is far from complete.
              0x0056F67C:  g_game_w.player[0].total_evaluation.jump_ct
              0x0056F680:  g_game_w.player[0].total_evaluation.dance_level
              0x0056F682:  g_game_w.player[0].total_evaluation.fixed_level
+0x0056F684 - 0x0056F770:  g_game_w.player[0].play_work                            play_work is a play_w struct
+             0x0056F684:  g_game_w.player[0].play_work.music_counter
+             0x0056F688:  g_game_w.player[0].play_work.beat_counter
+             0x0056F68C:  g_game_w.player[0].play_work.cur_p_counter
+             0x0056F690:  g_game_w.player[0].play_work.last_p_counter
+             0x0056F694:  g_game_w.player[0].play_work.begin_beat_count
+             0x0056F698:  g_game_w.player[0].play_work.go_beat_count
+             0x0056F69C:  g_game_w.player[0].play_work.finish_beat_count
+             0x0056F6A0:  g_game_w.player[0].play_work.end_beat_count
+             0x0056F6A4:  g_game_w.player[0].play_work.game_start_music_count
+             0x0056F6A8:  g_game_w.player[0].play_work.game_finish_music_count
+             0x0056F6AC:  g_game_w.player[0].play_work.back_trans_start_music_count
+             0x0056F6B0:  g_game_w.player[0].play_work.last_fs_nct
+             0x0056F6B4:  g_game_w.player[0].play_work.last_input_count[0]
+             0x0056F6B6:  g_game_w.player[0].play_work.last_input_count[1]
+             0x0056F6B8:  g_game_w.player[0].play_work.last_input_count[2]
+             0x0056F6BA:  g_game_w.player[0].play_work.last_input_count[3]
+             0x0056F6BC:  g_game_w.player[0].play_work.last_input_count[4]
+             0x0056F6BE:  g_game_w.player[0].play_work.last_input_count[5]
+             0x0056F6C0:  g_game_w.player[0].play_work.last_input_count[6]
+             0x0056F6C4:  g_game_w.player[0].play_work.last_input_count[7]
+0x0056F6C6 - 0x0056F726:  g_game_w.player[0].play_work.history                    history is an array of play_hist structs                   
+             0x0056F6C6:  g_game_w.player[0].play_work.history[0].music_count                 
+             0x0056F6C8:  g_game_w.player[0].play_work.history[0].input[0]     
+             0x0056F6C9:  g_game_w.player[0].play_work.history[0].input[1]     
+             0x0056F6CA:  g_game_w.player[0].play_work.history[0].input[2]     
+             0x0056F6CB:  g_game_w.player[0].play_work.history[0].input[3]     
+             0x0056F6CC:  g_game_w.player[0].play_work.history[0].input[4]     
+             0x0056F6CD:  g_game_w.player[0].play_work.history[0].input[5]     
+             0x0056F6CE:  g_game_w.player[0].play_work.history[0].input[6]     
+             0x0056F6CF:  g_game_w.player[0].play_work.history[0].input[7]                   
+             0x0056F6D0:  g_game_w.player[0].play_work.history[1].music_count                 
+             0x0056F6D2:  g_game_w.player[0].play_work.history[1].input[0]     
+             0x0056F6D3:  g_game_w.player[0].play_work.history[1].input[1]     
+             0x0056F6D4:  g_game_w.player[0].play_work.history[1].input[2]     
+             0x0056F6D5:  g_game_w.player[0].play_work.history[1].input[3]     
+             0x0056F6D6:  g_game_w.player[0].play_work.history[1].input[4]     
+             0x0056F6D7:  g_game_w.player[0].play_work.history[1].input[5]     
+             0x0056F6D8:  g_game_w.player[0].play_work.history[1].input[6]     
+             0x0056F6D9:  g_game_w.player[0].play_work.history[1].input[7]
+             0x0056F6DA:  g_game_w.player[0].play_work.history[2].music_count                 
+             0x0056F6EC:  g_game_w.player[0].play_work.history[2].input[0]     
+             0x0056F6ED:  g_game_w.player[0].play_work.history[2].input[1]     
+             0x0056F6EE:  g_game_w.player[0].play_work.history[2].input[2]     
+             0x0056F6EF:  g_game_w.player[0].play_work.history[2].input[3]     
+             0x0056F6F0:  g_game_w.player[0].play_work.history[2].input[4]     
+             0x0056F6F1:  g_game_w.player[0].play_work.history[2].input[5]     
+             0x0056F6F2:  g_game_w.player[0].play_work.history[2].input[6]     
+             0x0056F6F3:  g_game_w.player[0].play_work.history[2].input[7]
+             0x0056F6F4:  g_game_w.player[0].play_work.history[3].music_count    
+             0x0056F6F6:  g_game_w.player[0].play_work.history[3].input[0]
+             0x0056F6F7:  g_game_w.player[0].play_work.history[3].input[1]
+             0x0056F6F8:  g_game_w.player[0].play_work.history[3].input[2]
+             0x0056F6F9:  g_game_w.player[0].play_work.history[3].input[3]
+             0x0056F6FA:  g_game_w.player[0].play_work.history[3].input[4]
+             0x0056F6FB:  g_game_w.player[0].play_work.history[3].input[5]
+             0x0056F6FC:  g_game_w.player[0].play_work.history[3].input[6] 
+             0x0056F6FD:  g_game_w.player[0].play_work.history[3].input[7]
+             0x0056F6FE:  g_game_w.player[0].play_work.history[4].music_count    
+             0x0056F700:  g_game_w.player[0].play_work.history[4].input[0]
+             0x0056F701:  g_game_w.player[0].play_work.history[4].input[1]
+             0x0056F702:  g_game_w.player[0].play_work.history[4].input[2]
+             0x0056F703:  g_game_w.player[0].play_work.history[4].input[3]
+             0x0056F704:  g_game_w.player[0].play_work.history[4].input[4]
+             0x0056F705:  g_game_w.player[0].play_work.history[4].input[5]
+             0x0056F706:  g_game_w.player[0].play_work.history[4].input[6] 
+             0x0056F707:  g_game_w.player[0].play_work.history[4].input[7]
+             0x0056F708:  g_game_w.player[0].play_work.history[5].music_count    
+             0x0056F70A:  g_game_w.player[0].play_work.history[5].input[0]
+             0x0056F70B:  g_game_w.player[0].play_work.history[5].input[1]
+             0x0056F70C:  g_game_w.player[0].play_work.history[5].input[2]
+             0x0056F70D:  g_game_w.player[0].play_work.history[5].input[3]
+             0x0056F70E:  g_game_w.player[0].play_work.history[5].input[4]
+             0x0056F70F:  g_game_w.player[0].play_work.history[5].input[5]
+             0x0056F710:  g_game_w.player[0].play_work.history[5].input[6] 
+             0x0056F711:  g_game_w.player[0].play_work.history[5].input[7]
+             0x0056F712:  g_game_w.player[0].play_work.history[6].music_count    
+             0x0056F714:  g_game_w.player[0].play_work.history[6].input[0]
+             0x0056F715:  g_game_w.player[0].play_work.history[6].input[1]
+             0x0056F716:  g_game_w.player[0].play_work.history[6].input[2]
+             0x0056F717:  g_game_w.player[0].play_work.history[6].input[3]
+             0x0056F718:  g_game_w.player[0].play_work.history[6].input[4]
+             0x0056F719:  g_game_w.player[0].play_work.history[6].input[5]
+             0x0056F71A:  g_game_w.player[0].play_work.history[6].input[6] 
+             0x0056F71B:  g_game_w.player[0].play_work.history[6].input[7]
+             0x0056F71C:  g_game_w.player[0].play_work.history[7].music_count    
+             0x0056F71E:  g_game_w.player[0].play_work.history[7].input[0]
+             0x0056F71F:  g_game_w.player[0].play_work.history[7].input[1]
+             0x0056F720:  g_game_w.player[0].play_work.history[7].input[2]
+             0x0056F721:  g_game_w.player[0].play_work.history[7].input[3]
+             0x0056F722:  g_game_w.player[0].play_work.history[7].input[4]
+             0x0056F723:  g_game_w.player[0].play_work.history[7].input[5]
+             0x0056F724:  g_game_w.player[0].play_work.history[7].input[6] 
+             0x0056F725:  g_game_w.player[0].play_work.history[7].input[7]
+             
+             
 0x00653510 - 0x00653D4C:  Edit Mode Freeze Step Values
 0x00653D50 - 0x0065455C:  Edit Mode Non-Freeze Step Values
              0x00654578:  Edit Mode Selection Starting Beat
