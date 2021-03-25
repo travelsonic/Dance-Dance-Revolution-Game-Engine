@@ -30,7 +30,7 @@ UNKNOWN                          2 bytes      TODO: Find out what this does
 Number of Entries(?)             4 bytes      TODO: Verify purpose of data
 begin_beat_count                 4 bytes      TODO: Verify if these values ae in the correct order, or if the value labeled 
 back_trans_start_music_count?    4 bytes            back_trans_start_music_count is really just a repeat of begin_beat_count
-go_beat_counter                  4 bytes      When beat_counter > go_beat_counter, show "HERE WE GO" graphic?
+go_beat_counter                  4 bytes      When cur_p_counter == go_beat_counter, start reading the steps?
 finish_beat_count                4 bytes
 end_beat_count                   4 bytes
 UNKNOWN                          UNSURE?      Looks like 6 2-byte values, TODO: see where this is loaded into memory
