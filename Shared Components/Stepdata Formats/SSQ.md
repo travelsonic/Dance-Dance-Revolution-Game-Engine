@@ -1,7 +1,8 @@
 # Note:
 This is more or less gonna be a brainfart filled thing full of observations from trying to look 
 at SSQ files myself, and information derived from a (author unknown) SSQ guide that was linked 
-to on DDR Freak a long time ago.
+to on DDR Freak a long time ago.  Perhaps I will upload it if nobody has an issue with my doing 
+so, so that it is preserved.
 
 ### Stepdata Chunks:
 ```
@@ -14,6 +15,27 @@ Size (in bytes):                           Discription:
 (Number of beat entries * 4) bytes         Beat / Measure Entries
 (Number of beat entries) bytes             Step values
 ```
+### Song Start / Stop Data
+The second chunk in a song's SSQ file contains data pertaining to the
+beginning, and end of of the song playback.
+
+Based off of the game_w structure, and how it stores the data from this
+chunk of the stepfile, at least so far, I've mapped the data values out
+as follows:
+<pre>
+Name/Discription:                Data Size:   Notes:
+Chunk Size                       4 bytes
+Chunk Type                       2 bytes      
+UNKNOWN                          2 bytes      TODO: Find out what this does
+Number of Entries(?)             4 bytes      TODO: Verify purpose of data
+begin_beat_count                 4 bytes      TODO: Verify if these values ae in the correct order, or if the value labeled 
+back_trans_start_music_count?    4 bytes            back_trans_start_music_count is really just a repeat of begin_beat_count
+go_beat_counter                  4 bytes      When beat_counter > go_beat_counter, show "HERE WE GO" graphic?
+finish_beat_count                4 bytes
+end_beat_count                   4 bytes
+UNKNOWN                          UNSURE?      Looks like 6 2-byte values, TODO: see where this is loaded into memory
+</pre>
+
 ### Beat / Measure Entries:
 Only the measures, and beats, where arrows actually appear are stored
 in a song's stepdata chunk(s). This dramatically cuts down on how much 
