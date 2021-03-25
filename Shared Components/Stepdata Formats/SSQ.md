@@ -122,9 +122,9 @@ Interestingly, if you hex edit values while in Edit Mode, the values for each
 arrow direction differ slightly.
 ```
 Up    = 1   (0x01)
-Down  = 2   (0x02)
-Right = 4   (0x04)
-Left  = 8   (0x08)
+Down  = 4   (0x04)
+Right = 8   (0x08)
+Left  = 2   (0x02)
 ```
 
 For each byte value, the leftmost nibble is used for steps that appear
