@@ -313,30 +313,30 @@ Physical Address(es):       Logical Address(es):        Description:
              0x00166DD0                  0x00266D50     D2R Static Background Image
 0x0016D180 - 0x0016D194     0x0026D100 - 0x0026D114     In-Stage Timing Judgment Label Widths
 0x0016D6B0 - 0x0016D6BC     0x0026D630 - 0x0026D63C     Step Judgment Timing Windows - Lower Bounds
-             0x0016D6B0                  0x0026D630     Timing Windows Lower Bounds For Perfects        | A value of -5
-             0x0016D6B4                  0x0026D634     Timing Windows Lower Bounds For Greats          | A value of -14
-             0x0016D6B8                  0x0026D638     Timing Windows Lower Bounds For Goods           | A value of -20
-             0x0016D6BC                  0x0026D63C     Timing Windows Lower Bounds For Boos            | A value of -24
-             0x0016D6C0                  0x0026D640     Timing Windows Lower Bounds For Misses          | A value of 1
+             0x0016D6B0                  0x0026D630     Timing Windows Lower Bounds For Perfects  | A value of -5
+             0x0016D6B4                  0x0026D634     Timing Windows Lower Bounds For Greats    | A value of -14
+             0x0016D6B8                  0x0026D638     Timing Windows Lower Bounds For Goods     | A value of -20
+             0x0016D6BC                  0x0026D63C     Timing Windows Lower Bounds For Boos      | A value of -24
+             0x0016D6C0                  0x0026D640     Timing Windows Lower Bounds For Misses    | A value of 1
              0x0016D6C4                  0x0026D644     Empty Timing Window Value
              0x0016D6C8                  0x0026D648     Empty Timing Window Value
              0x0016D6CC                  0x0026D64C     Empty Timing Window Value
 0x0016D6D0 - 0x0016D6EC     0x0026D650 - 0x0026D66C     Step Judgement Timing Windows - Upper Bounds
-             0x0016D6D0                  0x0026D650     Timing Windows Upper Bounds For Perfects        | A value of 6
-             0x0016D6D4                  0x0026D654     Timing Windows Upper Bounds For Greats          | A value of 13
-             0x0016D6D8                  0x0026D658     Timing Windows Upper Bounds For Goods           | A value of 19 
-             0x0016D6DC                  0x0026D65C     Timing Windows Upper Bounds For Boos            | A value of 29 
-             0x0016D6E0                  0x0026D660     Timing Windows Upper Bounds For Misses          | A value of -1 
+             0x0016D6D0                  0x0026D650     Timing Windows Upper Bounds For Perfects   | A value of 6
+             0x0016D6D4                  0x0026D654     Timing Windows Upper Bounds For Greats     | A value of 13
+             0x0016D6D8                  0x0026D658     Timing Windows Upper Bounds For Goods      | A value of 19 
+             0x0016D6DC                  0x0026D65C     Timing Windows Upper Bounds For Boos       | A value of 29 
+             0x0016D6E0                  0x0026D660     Timing Windows Upper Bounds For Misses     | A value of -1 
              0x0016D6E4                  0x0026D664     Empty Timing Window Value
              0x0016D6E8                  0x0026D668     Empty Timing Window Value
              0x0016D6EC                  0x0026D66C     Empty Timing Window Value
 0x0016D6F0 - 0x0016D710     0x0026D670 - 0x0026D690     Dance Point Multipliers    
-             0x0016D6F0                  0x0026D670     D.P Multiplier For Perfects
-             0x0016D6F4                  0x0026D674     D.P Multiplier For Greats
-             0x0016D6F8                  0x0026D678     D.P Multiplier For Goods
-             0x0016D6FC                  0x0026D67C     D.P Multiplier For Boos
-             0x0016D700                  0x0026D680     D.P Multiplier For Misses
-             0x0016D710                  0x0026D690     D.P Multiplier For OKs
+             0x0016D6F0                  0x0026D670     D.P Multiplier For Perfects                | A value of 2
+             0x0016D6F4                  0x0026D674     D.P Multiplier For Greats                  | A value of 1
+             0x0016D6F8                  0x0026D678     D.P Multiplier For Goods                   | A value of 0
+             0x0016D6FC                  0x0026D67C     D.P Multiplier For Boos                    | A value of -4
+             0x0016D700                  0x0026D680     D.P Multiplier For Misses                  | A value of -8
+             0x0016D710                  0x0026D690     D.P Multiplier For OKs                     | A value of 6
 0x0016D978 - 0x0016DA2B     0x0026D8F8 - 0x0026D9AB     Censored Word List For Oni Mode Name Entry
 0x0016E290 - 0x0016E2B4     0x0026E210 - 0x0026E234     Jump Table - Title Screen Menu Navigation Options
              0x0016E290                  0x0026E210     Menu Choice For Game Mode
