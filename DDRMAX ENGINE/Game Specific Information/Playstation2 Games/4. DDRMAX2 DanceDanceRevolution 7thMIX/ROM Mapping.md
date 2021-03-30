@@ -305,7 +305,7 @@ Physical Address(es):       Logical Address(es):        Description:
              0x00163774                  0x002636F4     Preview Sound Index Value For PARANOiA Rebirth
              0x00163778                  0x002636F8     Empty Preview Sound Index Array Element
              0x0016377C                  0x002636FC     Empty Preview Sound Index Array Element
-0x00166DC0 - 0x00166EE4     0x00266D40 - 0x00266E64     Table of addresses pertaining to laoding a song's static background image
+0x00166DC0 - 0x00166EE4     0x00266D40 - 0x00266E64     Table of addresses pertaining to loading a song's static background image
              0x00166DC0                  0x00266D40     Long Train Runnin' Static Background Image
              0x00166DC4                  0x00266D44     Maximum Overdrive Static Background Image
              0x00166DC8                  0x00266D48     Waka Laka Static Background Image
