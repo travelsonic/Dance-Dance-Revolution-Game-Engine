@@ -1,6 +1,8 @@
 Note: This document is far from complete. 
 
-For the purpose of this document, "physical address" will refer to the address of the data / information in the game's executable, and the logical address will refer to where the information resides from the perspective of the Playstation2, a Playstation2 emulator, and many reverse engineering tools like IDA Pro, and PS2DIS.
+For the purpose of this document, "physical address" will refer to the address of the data / information in the game's executable, and  
+the logical address will refer to where the information resides from the perspective of the Playstation2, a Playstation2 emulator, and 
+many reverse engineering tools like IDA Pro, and PS2DIS.
 
 In this game, the difference between the physical, and logical addresses, is 0xFFF80
 
@@ -86,7 +88,8 @@ Physical Address(es):       Logical Address(es):        Description:
              0x00156604                  0x00256584     Nonstop Course Song Text Color Mask - Challenge Difficulty - Green Channel Value
              0x00156608                  0x00256588     Nonstop Course Song Text Color Mask - Challenge Difficulty - Blue Channel Value
              0x0015660C                  0x0025658C     Nonstop Course Song Text Color Mask - Challenge Difficulty - Blue Channel Value
-             0x00156610                  0x00256590     Nonstop Course Song Text Color Mask - Challenge Difficulty - Blue Channel Value 0x001566E0 - 0x0015670C     0x00256660 - 0x0025668C     Foot Rating Foot Color RGB Values - Music Select Screen
+             0x00156610                  0x00256590     Nonstop Course Song Text Color Mask - Challenge Difficulty - Blue Channel Value 
+0x001566E0 - 0x0015670C     0x00256660 - 0x0025668C     Foot Rating Foot Color RGB Values - Music Select Screen
              0x001566E0                  0x00256660     Light Difficulty Foot Color - Red Channel Value
              0x001566E4                  0x00256664     Light Difficulty Foot Color - Green Channel Value
              0x001566E8                  0x00256668     Light Difficulty Foot Color - Blue Channel Value
