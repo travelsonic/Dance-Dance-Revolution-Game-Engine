@@ -5,6 +5,8 @@ A structure that containes metadata pertaining to each song in the game.  Most o
 ## Definitions:*
 DDRMAX -DanceDanceRevolution 6thMIX-
 ```
+SIZE OF STRUCTURE: 100 bytes
+
 struct music_info{
     char base_name[6];
     char kind;
@@ -32,6 +34,8 @@ struct music_info{
 
 DDRMAX2 -DanceDanceRevolution 7thMIX- - DanceDanceRevolution EXTREME
 ```
+SIZE OF STRUCTURE DEPENDS ON GAME, AND THE MAX NUMBER OF DIFFICULTIES PER SONG/STYLE
+
 struct music_info{
     char base_name[6];
     char kind;
