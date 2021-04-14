@@ -32,7 +32,7 @@ struct music_info{
 };
 ```
 
-DanceDanceRevolution EXTREME AC And Playstation2 C/S Mixes
+DanceDanceRevolution EXTREME AC And Playstation2 C/S Mixes:
 ```
 SIZE OF STRUCTURE DEPENDS ON GAME, AND THE MAX NUMBER OF DIFFICULTIES PER SONG/STYLE
 
