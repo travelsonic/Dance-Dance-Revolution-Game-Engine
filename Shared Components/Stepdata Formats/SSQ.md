@@ -101,7 +101,17 @@ particular entry.
 
 I am not ENTIRELY sure about why the measure & beat information are 
 stores in the middle 2 bytes of each dword though, as opposed to that
-data being stored in the first or last 2 bytes of each dword.  
+data being stored in the first or last 2 bytes of each dword.  MAYBE 
+I am missing something - it DOES look like there could be a byte of
+padding between the number of entries, and the start of the actual
+entry data, which would (in combination with the endianess of the
+data) explain a bit.  Definitely gonna keep investigating this.
+
+It also appears that the game engine does have a lot of flexibility with 
+regards to the beat/measure data, and how close you can place one arrow to
+another.  I do not mean with regards to allowing more than just 1/4, 1/8, and
+1/16 notes, but more so how far outside those bounds, and how close to another 
+arrow you can go before things get fucky-wucky.
 
 ### Step Values
 Following the array of beat entries, is an array of bytes.  These are
