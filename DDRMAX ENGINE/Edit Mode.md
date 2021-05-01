@@ -1,4 +1,4 @@
-###Edit Mode:
+### Edit Mode:
 ## Note:
 This, like the SSQ document, is more or less gonna be a brainfart filled thing full of observations 
 from trying to look at, and fiddle with edit mode in the Playstation2 mixes.
