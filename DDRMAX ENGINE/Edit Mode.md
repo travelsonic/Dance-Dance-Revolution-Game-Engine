@@ -17,9 +17,11 @@ where the data is converted from the layout/format used in the editor,
 to the SSQ format.
 
 ## Note Placement:
+
+### Limitations:
 The editor, "out of the box," allows you to place 1/4th, 1/8th, and 1/4th
-notes.  This limitation appears to be on the level of the editor itself, and
-not from the SSQ format itself.
+notes.  This limitation appears to be one that originates within the step
+editor, and not with the SSQ format itself.
 
 Another strictly editor imposed limitation is with regards to how many arrows
 you can place on a beat.  When placing an arrow, the game checks how many arrows
