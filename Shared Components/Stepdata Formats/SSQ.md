@@ -111,7 +111,7 @@ It also appears that the game engine does have a lot of flexibility with
 regards to the beat/measure data, and how close you can place one arrow to
 another.  I do not mean with regards to allowing more than just 1/4, 1/8, and
 1/16 notes, but more so how far outside those bounds, and how close to another 
-arrow you can go before things get fucky-wucky.
+arrow you can go before things get odd.
 
 ### Step Values
 Following the array of beat entries, is an array of bytes.  These are
