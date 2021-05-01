@@ -11,5 +11,9 @@ The region of memory used for freeze step data is 0x81C, or 2,076
 bytes long, and the region used for non-freeze step data is 0x810,
 or 2,064 bytes long.
 
+There is also a region of memory that is used for stepdata playback,
+where the data is converted from the layout/format used in the editor, 
+to the SSQ format.
+
 ##
 ###
