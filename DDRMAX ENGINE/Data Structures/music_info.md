@@ -3,7 +3,10 @@
 A structure that containes metadata pertaining to each song in the game.  Most of it is used in the displaying of information about a song on the music select screen - as well as where the song appears on the song wheel.  There are data members though that seem to actually determines what music data (and relevant data like background music sequences, static background images, etc) are loaded upon song selection.
 
 ## Definitions:*
-DDRMAX -DanceDanceRevolution 6thMIX- AC:
+### DDRMAX -DanceDanceRevolution 6thMIX- AC:
+
+<details>
+    
 ```
 SIZE OF STRUCTURE: 100 bytes
 
@@ -20,7 +23,7 @@ struct music_info{
     unsigned short verm_num;
     unsigned short pcseq_num;
     unsigned int hide;
-    int adjust_mc;
+    signed int adjust_mc;
     unsigned int special;
     unsigned short max_spm[6];
     unsigned short avg_spm[6];
@@ -31,8 +34,13 @@ struct music_info{
     char* l_name;
 };
 ```
+    
+</details>
 
-DanceDanceRevolution EXTREME AC And Playstation2 C/S Mixes:
+### DanceDanceRevolution EXTREME AC And Playstation2 C/S Mixes:
+
+<details>
+    
 ```
 SIZE OF STRUCTURE DEPENDS ON GAME, AND THE MAX NUMBER OF DIFFICULTIES PER SONG/STYLE
 
@@ -49,7 +57,7 @@ struct music_info{
     unsigned short verm_num;
     unsigned short pcseq_num;
     unsigned long hide;
-    int adjust_mc;
+    signed int adjust_mc;
     unsigned int difficulty[2];  
     unsigned int special;
     unsigned short max_spm[];   // NOTE:  These variables are being declared here 
@@ -61,6 +69,8 @@ struct music_info{
     char* l_name;
 };
 ```
+
+</details>
 
 *HUGE shoutout to Root670 for actually extracting the symbols found in the DWARF debugging 
 data that is left in each Playstation2 executable, making this possible.
