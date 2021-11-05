@@ -333,12 +333,13 @@ Physical Address(es):       Logical Address(es):        Description:
              0x0016D6E4                  0x0026D664     Empty Timing Window Value
              0x0016D6E8                  0x0026D668     Empty Timing Window Value
              0x0016D6EC                  0x0026D66C     Empty Timing Window Value
-0x0016D6F0 - 0x0016D710     0x0026D670 - 0x0026D690     Dance Point Multipliers    
+0x0016D6F0 - 0x0016D71C     0x0026D670 - 0x0026D69C     Dance Point Multipliers    
              0x0016D6F0                  0x0026D670     D.P Multiplier For Perfects                | A value of 2
              0x0016D6F4                  0x0026D674     D.P Multiplier For Greats                  | A value of 1
              0x0016D6F8                  0x0026D678     D.P Multiplier For Goods                   | A value of 0
              0x0016D6FC                  0x0026D67C     D.P Multiplier For Boos                    | A value of -4
-             0x0016D700                  0x0026D680     D.P Multiplier For Misses                  | A value of -8                                          
+             0x0016D700                  0x0026D680     D.P Multiplier For Misses                  | A value of -8                           
+             0x0016D704                  0x0026D684     -EXACT USE NOT YET KNOWN-                  | A value of 0
              0x0016D708                  0x0026D688     D.P Multiplier for the TOTAL_STEPS count   | A value of 2 
              0x0016D710                  0x0026D690     D.P Multiplier For OKs                     | A value of 6
              0x0016D714                  0x0026D694     -EXACT USE NOT YET KNOWN-                  | A value of 0
