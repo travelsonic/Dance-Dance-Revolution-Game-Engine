@@ -36,6 +36,20 @@ Physical Address(es):       Logical Address(es):        Description:
              0x00006580                  0x80015D80     "    "
              0x00006588                  0x80015D88     "FERA"
              0x00006590                  0x80015D90     "CUNT"
-             
-             
+0x00006598 - 0x000065D0     0x80015D98 - 0x80015DD0     Pointers to each word in the censored word list
+             0x00006598                  0x80015D98     Pointer to 0x80015D20 ("AIDS")
+             0x0000659C                  0x80015D9C     Pointer to 0x80015D28 ("ANAL")
+             0x000065A0                  0x80015DA0     Pointer to 0x80015D30 ("BUSU")
+             0x000065A4                  0x80015DA4     Pointer to 0x80015D38 ("CHON")
+             0x000065A8                  0x80015DA8     Pointer to 0x80015D40 ("COCK")
+             0x000065AC                  0x80015DAC     Pointer to 0x80015D48 ("ETTA")
+             0x000065B0                  0x80015DB0     Pointer to 0x80015D50 ("EATA")
+             0x000065B4                  0x80015DB4     Pointer to 0x80015D58 ("FUCK")
+             0x000065B8                  0x80015DB8     Pointer to 0x80015D60 ("OSHI")
+             0x000065BC                  0x80015DBC     Pointer to 0x80015D68 ("ROUA")
+             0x000065C0                  0x80015DC0     Pointer to 0x80015D78 ("TYON")
+             0x000065C4                  0x80015DC4     Pointer to 0x80015D78 ("YOTU") 
+             0x000065C8                  0x80015DC8     Pointer to 0x80015D80 ("    ")
+             0x000065CC                  0x80015DCC     Pointer to 0x80015D88 ("FERA")
+             0x000065D0                  0x80015DD0     Pointer to 0x80015D90 ("CUNT")
 </pre>
