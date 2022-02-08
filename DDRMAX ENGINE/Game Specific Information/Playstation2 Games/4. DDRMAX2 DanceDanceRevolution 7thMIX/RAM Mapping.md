@@ -398,5 +398,8 @@ Note: This document is far from complete.
              0x00654594:  Edit Mode Step Count
              0x0065459C:  Edit Mode Current Beat For Editing
              0x00685FBC:  Training Mode Bar Start, Bar End, And Music Speed
+0x00C59000 - 0x00CA1000:  Chunk Containing Game SSQ Files
+             0x00C59000 - 0x00C59127:  Table for SSQ File Offsets (relative to chunk's starting address)
+             0x00C59128 - 0x00CA1000:  Song SSQ Files
 </pre>
 
