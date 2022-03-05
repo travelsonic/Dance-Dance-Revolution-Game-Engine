@@ -1,5 +1,5 @@
 Note: This document is far from complete.
 <pre>
         RAM ADDRESS(ES):  DESCRIPTION:                                                  NOTES:
-              0x000DFBC0  kn_e_seq_work start                                           Mmory region for step data in edit mode
+              0x000DFBC0  kn_e_seq_work start                                           Memory region for step data in edit mode
 </pre>
