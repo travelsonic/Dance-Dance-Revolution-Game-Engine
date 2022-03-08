@@ -1,5 +1,45 @@
+# Data Structures
+There are several data structures that are used to hold SSQ data:
+
+### struct sq_header
+```
+struct sq_header{
+	  unsigned int size;
+	  unsigned short kind;
+	  unsigned short division;
+};
+```
+
+### struct sq_standard
+```
+struct sq_standard{
+  	sq_header header;
+  	unsigned int num;
+  	signed int body[1];
+};
+```
+
+### struct sq_indicator
+```
+struct sq_indicator{
+	  unsigned char class;
+  	unsigned char icode;
+};
+```
+
+### sq_footstep_header
+```
+struct sq_footstep_header{
+    struct{
+	    	unsigned int panel : 4;
+	    	unsigned int player : 4;
+  	};
+  	unsigned char seq_kind;
+};
+```
+
 # Note:
-This is more or less gonna be a brainfart filled thing full of observations from trying to look 
+This section is more or less gonna be a brainfart filled thing full of observations from trying to look 
 at SSQ files myself, and information derived from a (author unknown) SSQ guide that was linked 
 to on DDR Freak a long time ago.  Perhaps I will upload it if nobody has an issue with my doing 
 so, so that it is preserved.
