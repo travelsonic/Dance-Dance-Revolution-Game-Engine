@@ -31,8 +31,8 @@ struct sq_indicator{
 ```
 struct sq_footstep_header{
     struct{
-        unsigned int panel : 4;
-        unsigned int player : 4;
+        unsigned int panel:4;
+        unsigned int player:4;
     };
     unsigned char seq_kind;
 };
