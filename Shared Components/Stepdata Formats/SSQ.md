@@ -22,8 +22,8 @@ struct sq_standard{
 ### struct sq_indicator
 ```
 struct sq_indicator{
-	  unsigned char class;
-  	unsigned char icode;
+    unsigned char class;
+    unsigned char icode;
 };
 ```
 
@@ -31,10 +31,10 @@ struct sq_indicator{
 ```
 struct sq_footstep_header{
     struct{
-	    	unsigned int panel : 4;
-	    	unsigned int player : 4;
-  	};
-  	unsigned char seq_kind;
+        unsigned int panel : 4;
+        unsigned int player : 4;
+    };
+    unsigned char seq_kind;
 };
 ```
 
