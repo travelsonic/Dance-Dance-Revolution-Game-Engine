@@ -4,18 +4,18 @@ There are several data structures that are used to hold SSQ data:
 ### struct sq_header
 ```
 struct sq_header{
-	  unsigned int size;
-	  unsigned short kind;
-	  unsigned short division;
+    unsigned int size;
+    unsigned short kind;
+    unsigned short division;
 };
 ```
 
 ### struct sq_standard
 ```
 struct sq_standard{
-  	sq_header header;
-  	unsigned int num;
-  	signed int body[1];
+    sq_header header;
+    unsigned int num;
+    signed int body[1];
 };
 ```
 
