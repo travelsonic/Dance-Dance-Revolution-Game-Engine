@@ -1,5 +1,5 @@
 # Data Structures
-There are several data structures that are used to hold SSQ data:
+There are several data structures that are used to hold / process SSQ data:
 
 ### struct sq_header
 ```
