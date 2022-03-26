@@ -58,7 +58,7 @@ body             4 bytes    A single element array used to provide support varia
                             if you wanted a variable-length data member due to the lack (at the time) of
                             flexible data member support.          
 ```
-The following data structures I've not documented - and will do when able.
+The following data structures I've not yet documented - I will do this documentation when able.
 ### struct sq_indicator
 #### Definition:
 ```
@@ -81,6 +81,22 @@ struct sq_footstep_header{
 
 # Example of a SSQ File's Data Layout:  
 ## Burning Heat! (3 Option Mix), DDRMAX2 -DanceDanceRevolution 7thMIX- CS:
+```
+CHUNK 1:
+Offset(s):          Data Member:                Value (hex (dec)):                Notes:
+0x0000 - 0x0043     sq_standard             
+         0x0000     sq_standard.header.size     0x00000044 (68 decimal)
+         0x0004     sq_standard.header.kind     0x0001     (1 decimal)
+         0x0006     sq_standard.header.size     0x0096     (150 decimal)
+         0x0008     sq_standard.num             0x00000007 (7 decimal)
+```
+
+struct sq_standard{
+    sq_header header;
+    unsigned int num;
+    signed int body[1];
+};
+
 
 ------------------------------------------------------------------------------------------------------------------
 # OLD UNSORTED INFORMATION (to be truncated)
