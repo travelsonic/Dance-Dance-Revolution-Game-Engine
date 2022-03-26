@@ -61,7 +61,7 @@ body             4 bytes    The main body of data that the chunk is meant to hol
                             this was probably replaced with a proper flexible data members, however, more research is needed to
                             know for sure.       
 ```
-Use of the aforementioned struct hack is most likely what allows each SSQ chunk to have the same general layout, but also hold completely different pieces of data in their respective body data members.
+Use of the aforementioned struct hack what allows (allowed?) each SSQ chunk to have the same general layout, but also hold completely different pieces of data in their respective body data members.
 
 The following data structures I've not yet documented - I will do this documentation when able.
 ### struct sq_indicator
