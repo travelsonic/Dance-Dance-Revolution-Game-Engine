@@ -6,11 +6,10 @@ This document will attempt to document the SSQ format, which is, and has remaine
 SSQ files are a sequence of chunks, each utilizing a variety of data structures to store information
 about a song's step data, as well as the actual step information for specific step charts.
 
-Based on the data structure observations I've made - data structure names found in leftover debugging
-data specifically, I am tempted to say that the "SSQ" format is really specialized form of a more general 
-sequence format meant to handle many kinds of sequences in the DDR game series.  At this point, however, this 
-is speculation; I won't say anything definitive without doing more research first, as a lot is needed before  
-such things are "proven" IMO.
+Based on data structure names found in leftover debugging data, and observing other sequences in game file data, 
+I'm tempted to say that the "SSQ" format is really specialized form of a more general sequence format meant to handle 
+many kinds of sequences in the DDR game series.  At this point, however, this is speculation; I won't say anything definitive 
+without doing more research first, as a lot is needed before such things are "proven" IMO.
 
 ## Data Structures:
 The following data structures are used for organizing the data within a SSQ file.
@@ -27,9 +26,12 @@ struct sq_header{
 The sq_header data structure, as the name implies, serve as a basic chunk header.  Every 
 chunk in a SSQ file has one of these headers.
 #### Data Members: 
-**size:**  4 bytes.  The size of the chunk in bytes.  
-**kind:**  2 bytes.  The type of chunk?  More research is needed as to the specifics of how it is used.
-
+```
+NAME:            SIZE:      WHAT:
+size:            4 bytes.   The size of the chunk in bytes.  
+kind:            2 bytes.   The type of chunk?  More research is needed as to the specifics of how it is used.
+division:        2 bytes.   Not entirely sure what this data member is for. MORE RESEARCH IS NEEDED.
+```
 ### struct sq_standard
 #### Definition:
 ```
@@ -40,11 +42,20 @@ struct sq_standard{
 };
 ```
 #### What Is It:
-
+The sq_standard data structure represents an entire SSQ file chunk.
 #### Data Members: 
-
-
+```
+NAME:            SIZE:      WHAT:
+header           8 bytes.   The SSQ chunk's header.
+num              4 bytes.   NOT ENTIRE SURE, most likely the number of elements in 
+                            an array that follows this data member.
+body             4 bytes    A single element array used to provide support variable-length data members.
+                            Prior to the C99 version of the C standard, this "struct hack" was a necessity
+                            if you wanted a variable-length data member due to the lack (at the time) of
+                            flexible data member support.          
+```
 ### struct sq_indicator
+#### Definition:
 ```
 struct sq_indicator{
     unsigned char class;
@@ -52,6 +63,7 @@ struct sq_indicator{
 };
 ```
 ### sq_footstep_header
+#### Definition:
 ```
 struct sq_footstep_header{
     struct{
