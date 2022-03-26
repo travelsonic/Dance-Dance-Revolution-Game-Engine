@@ -53,11 +53,13 @@ NAME:            SIZE:      WHAT:
 header           8 bytes    The SSQ chunk's header.
 num              4 bytes    NOT ENTIRE SURE, most likely the number of elements in 
                             an array that follows this data member.
-body             4 bytes    A single element array used to provide support for variable-length data members.
-                            Prior to the C99 version of the C standard, this "struct hack" was a necessity
-                            if you wanted a variable-length data member due to the lack (at the time) of
-                            flexible data member support.          
+body             4 bytes    A single element array used to provide support for variable-length data members. Prior to the C99 version 
+                            of the C standard, this "struct hack" was a necessity if you wanted a variable-length data member due to the 
+                            lack (at the time) of flexible data member support. In later versions of the format, this was probably replaced 
+                            with a proper flexible data members, but more research is needed to know for sure.       
 ```
+Use of the aforementioned struct hack is most likely what allows each SSQ chunk to have the same general layout, but also - following the header and num fields, hold completely different pieces of data.
+
 The following data structures I've not yet documented - I will do this documentation when able.
 ### struct sq_indicator
 #### Definition:
