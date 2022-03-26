@@ -81,8 +81,8 @@ struct sq_footstep_header{
 
 # Example of a SSQ File's Data Layout:  
 ## Burning Heat! (3 Option Mix), DDRMAX2 -DanceDanceRevolution 7thMIX- CS:
+### CHUNK 1:
 ```
-CHUNK 1:
 Offset(s):                   Data Member:                Value (hex (dec)):                Notes:
 0x0000 - 0x0043              sq_standard             
          0x0000              sq_standard.header.size     0x00000044 (68 decimal)
@@ -105,11 +105,17 @@ Offset(s):                   Data Member:                Value (hex (dec)):     
                              check_timing_data[6]        0x0000377B (14,203 decimal)
 ```
 
-struct sq_standard{
-    sq_header header;
-    unsigned int num;
-    signed int body[1];
-};
+
+
+
+
+
+
+
+
+
+
+
 
 
 ------------------------------------------------------------------------------------------------------------------
