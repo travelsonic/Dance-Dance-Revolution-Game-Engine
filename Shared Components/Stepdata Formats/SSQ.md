@@ -53,7 +53,7 @@ NAME:            SIZE:      WHAT:
 header           8 bytes    The SSQ chunk's header.
 num              4 bytes    NOT ENTIRE SURE, most likely the number of elements in 
                             an array that follows this data member.
-body             4 bytes    A single element array used to provide support variable-length data members.
+body             4 bytes    A single element array used to provide support for variable-length data members.
                             Prior to the C99 version of the C standard, this "struct hack" was a necessity
                             if you wanted a variable-length data member due to the lack (at the time) of
                             flexible data member support.          
@@ -83,12 +83,26 @@ struct sq_footstep_header{
 ## Burning Heat! (3 Option Mix), DDRMAX2 -DanceDanceRevolution 7thMIX- CS:
 ```
 CHUNK 1:
-Offset(s):          Data Member:                Value (hex (dec)):                Notes:
-0x0000 - 0x0043     sq_standard             
-         0x0000     sq_standard.header.size     0x00000044 (68 decimal)
-         0x0004     sq_standard.header.kind     0x0001     (1 decimal)
-         0x0006     sq_standard.header.size     0x0096     (150 decimal)
-         0x0008     sq_standard.num             0x00000007 (7 decimal)
+Offset(s):                   Data Member:                Value (hex (dec)):                Notes:
+0x0000 - 0x0043              sq_standard             
+         0x0000              sq_standard.header.size     0x00000044 (68 decimal)
+         0x0004              sq_standard.header.kind     0x0001     (1 decimal)
+         0x0006              sq_standard.header.size     0x0096     (150 decimal)
+         0x0008              sq_standard.num             0x00000007 (7 decimal)
+         0x000C - 0x0043     sq_standard.body[1] 
+                                                         0x00000000 (0 decimal)
+                                                         0x00001000 (4,096 decimal)
+                                                         0x00009000 (36,864 decimal)
+                                                         0x00009000 (36,864 decimal)
+                                                         0x0003DC00 (252,928 decimal)
+                                                         0x0003DC00 (252,928 decimal)
+                             check_timing_data[0]        0x00000001 (1 decimal)
+                             check_timing_data[1]        0x000000D9 (217 decimal)
+                             check_timing_data[2]        0x000007A1 (1,953 decimal)
+                             check_timing_data[3]        0x000007D7 (2,007 decimal)
+                             check_timing_data[4]        0x00003487 (13,447 decimal)
+                             check_timing_data[5]        0x000034BD (13,501 decimal)
+                             check_timing_data[6]        0x0000377B (14,203 decimal)
 ```
 
 struct sq_standard{
