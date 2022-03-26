@@ -79,9 +79,11 @@ struct sq_footstep_header{
 };
 ```
 
-## The Structure of a SSQ File:
+# Example of a SSQ File's Data Layout:  
+## Burning Heat! (3 Option Mix), DDRMAX2 -DanceDanceRevolution 7thMIX- CS:
 
-
+------------------------------------------------------------------------------------------------------------------
+# OLD UNSORTED INFORMATION (to be truncated)
 # Note:
 This section is more or less a brainfart filled thing full of observations from trying to look 
 at SSQ files myself, and information derived from a (author unknown) SSQ guide that was linked 
