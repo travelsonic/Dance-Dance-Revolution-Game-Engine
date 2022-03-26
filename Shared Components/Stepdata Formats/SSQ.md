@@ -28,9 +28,9 @@ chunk in a SSQ file has one of these headers.
 #### Data Members: 
 ```
 NAME:            SIZE:      WHAT:
-size:            4 bytes.   The size of the chunk in bytes.  
-kind:            2 bytes.   The type of chunk?  More research is needed as to the specifics of how it is used.
-division:        2 bytes.   Not entirely sure what this data member is for. MORE RESEARCH IS NEEDED.
+size:            4 bytes    The size of the chunk in bytes.  
+kind:            2 bytes    The type of chunk?  More research is needed as to the specifics of how it is used.
+division:        2 bytes    Not entirely sure what this data member is for. MORE RESEARCH IS NEEDED.
 ```
 ### struct sq_standard
 #### Definition:
@@ -46,8 +46,8 @@ The sq_standard data structure represents an entire SSQ file chunk.
 #### Data Members: 
 ```
 NAME:            SIZE:      WHAT:
-header           8 bytes.   The SSQ chunk's header.
-num              4 bytes.   NOT ENTIRE SURE, most likely the number of elements in 
+header           8 bytes    The SSQ chunk's header.
+num              4 bytes    NOT ENTIRE SURE, most likely the number of elements in 
                             an array that follows this data member.
 body             4 bytes    A single element array used to provide support variable-length data members.
                             Prior to the C99 version of the C standard, this "struct hack" was a necessity
