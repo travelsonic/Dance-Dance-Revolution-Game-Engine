@@ -1,7 +1,21 @@
-# Data Structures
-There are several data structures that are used to hold / process SSQ data:
+# The SSQ Format
+This document will attempt to document the SSQ format, which is, and has remained, the dominant
+(though not the only?) way Konami's Dance Dance Revolution stepdata is stored.
 
+## Basics:
+SSQ files are a sequence of chunks, each utilizing a variety of data structures to store information
+about a song's step data, as well as the actual step information for specific step charts.
+
+Based on the data structure observations I've made - data structure names specifically, I am tempted
+to say that the "SSQ" format is really specialized form of a more general sequence format that is meant
+to handle a variety of sequence types in the game.  At this point, however, this is speculation, and I 
+won't say anything definitive without doing more research first, as a lot is needed before such things 
+are "proven."
+
+## Data Structures:
+The following data structures are used for organizing the data within a SSQ file.
 ### struct sq_header
+#### Definition:
 ```
 struct sq_header{
     unsigned int size;
@@ -9,8 +23,15 @@ struct sq_header{
     unsigned short division;
 };
 ```
+#### What Is It:
+The sq_header data structure, as the name implies, serve as a basic chunk header.  Every 
+chunk in a SSQ file has one of these headers.
+#### Data Members: 
+**size:**  4 bytes.  The size of the chunk in bytes.  
+**kind:**  2 bytes.  The type of chunk?  More research is needed as to the specifics of how it is used.
 
 ### struct sq_standard
+#### Definition:
 ```
 struct sq_standard{
     sq_header header;
@@ -18,6 +39,10 @@ struct sq_standard{
     signed int body[1];
 };
 ```
+#### What Is It:
+
+#### Data Members: 
+
 
 ### struct sq_indicator
 ```
@@ -26,7 +51,52 @@ struct sq_indicator{
     unsigned char icode;
 };
 ```
+### sq_footstep_header
+```
+struct sq_footstep_header{
+    struct{
+        unsigned int panel:4;
+        unsigned int player:4;
+    };
+    unsigned char seq_kind;
+};
+```
+I'll try to flush out more information about these data structures over time.
 
+## The Structure of a SSQ File:
+
+
+# Note:
+This section is more or less a brainfart filled thing full of observations from trying to look 
+at SSQ files myself, and information derived from a (author unknown) SSQ guide that was linked 
+to on DDR Freak a long time ago.  Perhaps I will upload it if nobody has an issue with my doing 
+so, so that it is preserved.  
+
+Hopefully I will get this stuff organized sooner, rather than later.
+# Data Structures:
+### struct sq_header
+```
+struct sq_header{
+    unsigned int size;
+    unsigned short kind;
+    unsigned short division;
+};
+```
+### struct sq_standard
+```
+struct sq_standard{
+    sq_header header;
+    unsigned int num;
+    signed int body[1];
+};
+```
+### struct sq_indicator
+```
+struct sq_indicator{
+    unsigned char class;
+    unsigned char icode;
+};
+```
 ### sq_footstep_header
 ```
 struct sq_footstep_header{
@@ -38,11 +108,6 @@ struct sq_footstep_header{
 };
 ```
 
-# Note:
-This section is more or less gonna be a brainfart filled thing full of observations from trying to look 
-at SSQ files myself, and information derived from a (author unknown) SSQ guide that was linked 
-to on DDR Freak a long time ago.  Perhaps I will upload it if nobody has an issue with my doing 
-so, so that it is preserved.
 
 ### Stepdata Chunks:
 ```
