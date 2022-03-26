@@ -54,6 +54,7 @@ body             4 bytes    A single element array used to provide support varia
                             if you wanted a variable-length data member due to the lack (at the time) of
                             flexible data member support.          
 ```
+The following data structures I've not documented - and will do when able.
 ### struct sq_indicator
 #### Definition:
 ```
@@ -73,7 +74,6 @@ struct sq_footstep_header{
     unsigned char seq_kind;
 };
 ```
-I'll try to flush out more information about these data structures over time.
 
 ## The Structure of a SSQ File:
 
