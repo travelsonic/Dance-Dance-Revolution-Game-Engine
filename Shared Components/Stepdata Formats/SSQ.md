@@ -2,6 +2,10 @@
 This document will attempt to document the SSQ format, which is, and has remained, the dominant
 (though not the only?) way Konami's Dance Dance Revolution stepdata is stored.
 
+SOME of the information here is derived from an old DDR Ultramix oriented SSQ hacking guide that was 
+linked to on DDR Freak a long time ago.  Perhaps I will upload it if nobody has an issue with my doing 
+so, so that it is preserved.  
+
 ## Basics:
 SSQ files are a sequence of chunks, each utilizing a variety of data structures to store information
 about a song's step data, as well as the actual step information for specific step charts.
