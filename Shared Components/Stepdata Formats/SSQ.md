@@ -6,11 +6,11 @@ This document will attempt to document the SSQ format, which is, and has remaine
 SSQ files are a sequence of chunks, each utilizing a variety of data structures to store information
 about a song's step data, as well as the actual step information for specific step charts.
 
-Based on the data structure observations I've made - data structure names specifically, I am tempted
-to say that the "SSQ" format is really specialized form of a more general sequence format that is meant
-to handle a variety of sequence types in the game.  At this point, however, this is speculation, and I 
-won't say anything definitive without doing more research first, as a lot is needed before such things 
-are "proven."
+Based on the data structure observations I've made - data structure names found in leftover debugging
+data specifically, I am tempted to say that the "SSQ" format is really specialized form of a more general 
+sequence format meant to handle many kinds of sequences in the DDR game series.  At this point, however, this 
+is speculation; I won't say anything definitive without doing more research first, as a lot is needed before  
+such things are "proven" IMO.
 
 ## Data Structures:
 The following data structures are used for organizing the data within a SSQ file.
