@@ -88,26 +88,26 @@ struct sq_footstep_header{
 ## Burning Heat! (3 Option Mix), DDRMAX2 -DanceDanceRevolution 7thMIX- CS:
 ### CHUNK 1:
 ```
-Offset(s):                   Data Member:                Value (hex (dec)):                Notes:
+Offset(s):                   Data Member:                    Value (hex (dec)):                Notes:
 0x0000 - 0x0043              sq_standard             
-         0x0000              sq_standard.header.size     0x00000044 (68 decimal)
-         0x0004              sq_standard.header.kind     0x0001     (1 decimal)
-         0x0006              sq_standard.header.size     0x0096     (150 decimal)
-         0x0008              sq_standard.num             0x00000007 (7 decimal)
+         0x0000              sq_standard.header.size         0x00000044 (68 decimal)
+         0x0004              sq_standard.header.kind         0x0001     (1 decimal)
+         0x0006              sq_standard.header.division     0x0096     (150 decimal)
+         0x0008              sq_standard.num                 0x00000007 (7 decimal)
          0x000C - 0x0043     sq_standard.body                                              At this point, struct hack applied
-                                                         0x00000000 (0 decimal)
-                                                         0x00001000 (4,096 decimal)
-                                                         0x00009000 (36,864 decimal)
-                                                         0x00009000 (36,864 decimal)
-                                                         0x0003DC00 (252,928 decimal)
-                                                         0x0003DC00 (252,928 decimal)
-                             check_timing_data[0]        0x00000001 (1 decimal)
-                             check_timing_data[1]        0x000000D9 (217 decimal)
-                             check_timing_data[2]        0x000007A1 (1,953 decimal)
-                             check_timing_data[3]        0x000007D7 (2,007 decimal)
-                             check_timing_data[4]        0x00003487 (13,447 decimal)
-                             check_timing_data[5]        0x000034BD (13,501 decimal)
-                             check_timing_data[6]        0x0000377B (14,203 decimal)
+                                                             0x00000000 (0 decimal)
+                                                             0x00001000 (4,096 decimal)
+                                                             0x00009000 (36,864 decimal)
+                                                             0x00009000 (36,864 decimal)
+                                                             0x0003DC00 (252,928 decimal)
+                                                             0x0003DC00 (252,928 decimal)
+                             check_timing_data[0]            0x00000001 (1 decimal)
+                             check_timing_data[1]            0x000000D9 (217 decimal)
+                             check_timing_data[2]            0x000007A1 (1,953 decimal)
+                             check_timing_data[3]            0x000007D7 (2,007 decimal)
+                             check_timing_data[4]            0x00003487 (13,447 decimal)
+                             check_timing_data[5]            0x000034BD (13,501 decimal)
+                             check_timing_data[6]            0x0000377B (14,203 decimal)
 ```
 
 
