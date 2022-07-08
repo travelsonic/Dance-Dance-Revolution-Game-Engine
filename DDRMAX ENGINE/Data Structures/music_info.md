@@ -37,6 +37,7 @@ struct music_info{
 ```
     
 </details>
+
 ## Playstation2 Mixes:
 ### 65358 - Dance Dance Revolution EXTREME:
 
