@@ -85,7 +85,7 @@ data that is left in each Playstation2 executable, making this possible.
 
 This 6 byte array of characters denotes the shortened song name used for identification, as well as indicating what folder to use to load game data from in the case of system573 mixes.
 
-This array is 6 bytes long, though it appears that the names used don't exceed 5 characters - which means at least 2 possibilities (IMO) - the 6th element is used for a null terminator, OR it is there in case it is ever needed.  More research, of course, is needed.
+This array is 6 bytes long, though it appears that the names used don't exceed 5 characters - and that the last char in the array is always a NULL terminator.
 
 ### kind
 
