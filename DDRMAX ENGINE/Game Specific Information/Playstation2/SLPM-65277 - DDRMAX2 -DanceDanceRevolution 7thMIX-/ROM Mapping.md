@@ -355,7 +355,8 @@ Physical Address(es):       Logical Address(es):        Description:
              0x0016E2A8                  0x0026E228     Menu Choice For Records
              0x0016E2AC                  0x0026E22C     Menu Choice For Information   
              0x0016E2B0                  0x0026E230     Menu Choice For Endless Mode
-             0x0016E2B4                  0x0026E234     EMPTY/UNUSED
+             0x0016E2B4                  0x0026E234     EMPTY/UNUSE
+0x0017C5B0 - 0x0017C714     0x0027C530 - 0x0027C694     Jump Table - Purpose TBD
 0x0017DDE8 - 0x0017F2F8     0x0027DD68 - 0x0027F278     Filedata Entry Table
 0x0017F602 - 0x001DAC88        NO LOGICAL ADDRESSES     Leftover Debugging Data.  Not Recognized By IDA, PS2DIS, Etc.  DWARF 1.0/1/1 format.
 </pre>
