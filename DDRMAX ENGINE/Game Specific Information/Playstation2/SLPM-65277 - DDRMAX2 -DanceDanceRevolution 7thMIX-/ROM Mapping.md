@@ -17,10 +17,11 @@ Physical Address(es):       Logical Address(es):        Description:
 0x0011AA40 - 0x0011AC44     0x0021A9C0 - 0x0021ABC4     Function: void onimode_order_setup()
 0x0011AC50 - 0x0011B858     0x0021ABD0 - 0x0021B7D8     Function: void onimode_random_setup()
 
-
 0x0011C7E0 - 0x0011CB7C     0x0021C760 - 0x0021CAFC     Function: void* sp_ending_get_bk_movie_prim(signed int n)
 0x0011CB80 - 0x0011D380     0x0021CB00 - 0x0021D300     Function: signed int special_ending_disp_step(void* w)
 0x0011D380 - 0x0011D440     0x0021D300 - 0x0021D3C0     Function: void special_ending_disp_init(void* w)
+
+0x0012D808 - 0x0012D840     0x0022D788 - 0x0022D7C0     Function - actual (original) name unknown - Takes a pointer to a char array, and array size, and zeros out said array.
 
              0x00156440                  0x002563C0     Returning DanceDanceRevolution Song Grouping - Red Channel Value
              0x00156444                  0x002563C4     Returning DanceDanceRevolution Song Grouping - Red Channel Value
