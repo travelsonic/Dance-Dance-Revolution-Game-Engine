@@ -36,7 +36,14 @@ Physical Address(es):       Logical Address(es):        Description:
 
 0x0012D808 - 0x0012D840     0x0022D788 - 0x0022D7C0     Function - actual (original) name unknown - 
                                                         Takes a pointer to a char array, and array size, and zeros out [array size] elements.
-
+                                                        
+0x00138EC0 - 0x00138EE8     0x00238E40 - 0x00238E68     Function:
+                                                        unsigned char* mesGetCancel(signed int id0)
+0x00138EF0 - 0x00138F18     0x00238E70 - 0x00238E98     Function:	
+                                                        unsigned char* mesGetOk(signed int id0)
+0x00138F20 - 0x00138F64     0x00238EA0 - 0x00238EE4     Function:	
+                                                        unsigned char* mesGetLanguage01(signed int id0, signed int id1)
+                                                        
              0x00156440                  0x002563C0     Returning DanceDanceRevolution Song Grouping - Red Channel Value
              0x00156444                  0x002563C4     Returning DanceDanceRevolution Song Grouping - Red Channel Value
              0x00156448                  0x002563C8     Returning DanceDanceRevolution Song Grouping - Red Channel Value
