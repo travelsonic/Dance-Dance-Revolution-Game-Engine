@@ -534,9 +534,7 @@ Physical Address(es):       Logical Address(es):        Description:
 0x0016E290 - 0x0016E2B4     0x0026E210 - 0x0026E234     Jump Table - Title Screen Menu Navigation Options
              0x0016E290                  0x0026E210     Menu Choice For Game Mode
              0x0016E294                  0x0026E214     Menu Choice For Diet Mode
-             0x0016E298                  0x0026E218     Brings you back to the main menu
-                                                        Could be unused Lesson Mode option - as this option is supposed to assign a value of "2" which, in
-                                                        relevant switch statements would lead the game to initiate lesson mode.
+             0x0016E298                  0x0026E218     Brings you back to the main menu.  Could be unused Lesson Mode option? (SPECULATION!!)
              0x0016E29C                  0x0026E21C     Menu Choice For Training Mode
              0x0016E2A0                  0x0026E220     Menu Choice For Edit Mode
              0x0016E2A4                  0x0026E224     Menu Choice For Options  
