@@ -71,21 +71,21 @@ Physical Address(es):       Logical Address(es):        Description:
 0x00124BD0 - 0x00124E50     0x00224B50 - 0x00224DD0     Function:
                                                         signed int EdsInitTex(_EDSSYS_W * _eds, signed int _num)
 0x00124E50 - 0x00124E5C     0x00224DD0 - 0x00224DDC     Function:
-                                                        void EdsSystemEnd(void)
+                                                        void EdsSystemEnd()
 0x00124E60 - 0x00124E9C     0x00224DE0 - 0x00224E1C     Function:
-                                                        signed int EdsSystemMain(void)
+                                                        signed int EdsSystemMain()
 0x00124EA0 - 0x00124F5C     0x00224E20 - 0x00224EDC     Function:
                                                         void EdsSystemInit(_GAME_MODE_W * game_mode_w)
 0x00124F60 - 0x00124F68     0x00224EE0 - 0x00224EE8     Function:
-                                                        void EdsSetPreRead(void)
+                                                        void EdsSetPreRead()
 0x00124F70 - 0x00125158     0x00224EF0 - 0x002250D8     Function:
-                                                        signed int Update_Optscr(void)
+                                                        signed int Update_Optscr()
 0x00125160 - 0x001257F8     0x002250E0 - 0x00225778     Function:
-                                                        signed int View_Optscr(void)
+                                                        signed int View_Optscr()
 0x00125800 - 0x00125DA8     0x00225780 - 0x00225D28     Function:
-                                                        signed int Control_Optscr(void)
+                                                        signed int Control_Optscr()
 0x00125DB0 - 0x00125E68     0x00225D30 - 0x00225DE8     Function:
-                                                        signed int Init_Optscr(void)
+                                                        signed int Init_Optscr()
 0x00125E70 - 0x00125EE0     0x00225DF0 - 0x00225E60     Function:
                                                         void set_no_space_msg_cmes_j(unsigned char * str, signed int flag)
 0x00125EE0 - 0x00125F6C     0x00225E60 - 0x00225EEC     Function:
@@ -97,7 +97,7 @@ Physical Address(es):       Logical Address(es):        Description:
 0x001262C0 - 0x00126498     0x00226240 - 0x00226418     Function:
                                                         void EdsCheck(signed int _x, signed int _y, signed int _type, unsigned char _alpha)
 0x001264A0 - 0x00126648     0x00226420 - 0x002265C8     Function:
-                                                        void EdsWinAllDestroy(void)
+                                                        void EdsWinAllDestroy()
 0x00126650 - 0x00126690     0x002265D0 - 0x00226610     Function:
                                                         void EdsWinSetTex(_EDSWIN_W * winw, unsigned char _tex)
 0x00126690 - 0x00126710     0x00226610 - 0x00226690     Function:
@@ -141,11 +141,11 @@ Physical Address(es):       Logical Address(es):        Description:
 0x001284F0 - 0x001286FC     0x00228470 - 0x0022867C     Function:
                                                         void EdsScoreCreate(signed int _value)
 0x00128700 - 0x001289B4     0x00228680 - 0x00228934     Function:
-                                                        void EdsNextStageCreate(void)
+                                                        void EdsNextStageCreate()
 0x001289C0 - 0x00128A60     0x00228940 - 0x002289E0     Function:
-                                                        void EdsBeforeStageDataSet(void)
+                                                        void EdsBeforeStageDataSet()
 0x00128A60 - 0x00128B00     0x002289E0 - 0x00228A80     Function:
-                                                        signed int EdsMOMax(void)
+                                                        signed int EdsMOMax()
 0x00128B00 - 0x00128EB0     0x00228A80 - 0x00228E30     Function:
                                                         signed int EdsPlayFlag(signed int _music, signed int _mode, signed int _bit)
 0x00128EB0 - 0x00128F80     0x00228E30 - 0x00228F00     Function:
@@ -155,7 +155,7 @@ Physical Address(es):       Logical Address(es):        Description:
 0x00129120 - 0x00129488     0x002290A0 - 0x00229408     Function:
                                                         signed int EdsGetLevelType(_EDSSYS_W * _eds, signed int num)
 0x00129490 - 0x00129740     0x00229410 - 0x002296C0     Function:
-                                                        void EdsInitOrderFlag(void)
+                                                        void EdsInitOrderFlag()
 0x00129740 - 0x00129B0C     0x002296C0 - 0x00229A8C     Function:
                                                         void EdsTrackSorting(signed int _flag)
 0x00129B10 - 0x00129BE0     0x00229A90 - 0x00229B60     Function:
