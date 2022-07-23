@@ -13,7 +13,7 @@ Physical Address(es):       Logical Address(es):        Description:
 0x0011A4D0 - 0x0011A79C     0x0021A450 - 0x0021A71C     Function: void onimode_set_order_mode(signed int id, signed int stage_num)
 0x0011A7A0 - 0x0011A9F4     0x0021A720 - 0x0021A974     Function: void onimode_get_order_mode(signed int id, signed int stage_num)
 0x0011AA00 - 0x0011AA30     0x0021A980 - 0x0021A9B0     Function: signed int onimode_is_course_order(signed int id)
-
+0x0011AA30 - 0x0011AA3C     0x0021A9B0 - 0x0021A9BC     Function: signed int onimode_is_course_random(signed int id)
 
 0x0011C7E0 - 0x0011CB7C     0x0021C760 - 0x0021CAFC     Function: void* sp_ending_get_bk_movie_prim(signed int n)
 0x0011CB80 - 0x0011D380     0x0021CB00 - 0x0021D300     Function: signed int special_ending_disp_step(void* w)
