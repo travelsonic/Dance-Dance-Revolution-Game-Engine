@@ -178,7 +178,7 @@ Physical Address(es):       Logical Address(es):        Description:
                                                         void EdsRecordTexture(_EDSSYS_W * _eds)
                                                         
 0x0012D790 - 0x0012D7A4     0x0022D710 - 0x0022D724     Function - actual (original) name unknown:    
-                                                        Takes a signed integer, and returns itself if >= 0, or the negative of the
+                                                        Takes a signed integer, and returns itself if >= 0, or the negation of the
                                                         input value if < 0.
 0x0012D808 - 0x0012D840     0x0022D788 - 0x0022D7C0     Function - actual (original) name unknown:
                                                         Takes a pointer to a char array, and array size, and zeros out [array size] elements.
