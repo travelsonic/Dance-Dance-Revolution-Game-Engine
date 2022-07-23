@@ -34,6 +34,149 @@ Physical Address(es):       Logical Address(es):        Description:
 0x0011D380 - 0x0011D440     0x0021D300 - 0x0021D3C0     Function: 
                                                         void special_ending_disp_init(void* w)
 
+0x00120AB0 - 0x00120CB8     0x00220A30 - 0x00220C38     Function:
+                                                        void EdsSelectPrintDigit(signed int _x, signed int _y, unsigned int _dig00, unsigned int _dig01, char _figure, unsigned char _alpha)
+0x00120CC0 - 0x00122044     0x00220C40 - 0x00221FC4     Function:
+                                                        void EdsOrderCommon(_EDSSYS_W * _eds)
+0x00122050 - 0x001223B0     0x00221FD0 - 0x00222330     Function:
+                                                        void EdsOrderInit(_EDSSYS_W * _eds)
+0x001223B0 - 0x001223C0     0x00222330 - 0x00222340     Function:
+                                                        void EdsToOrderTexInit(_EDSSYS_W * _eds)
+0x001223C0 - 0x001224B8     0x00222340 - 0x00222438     Function:
+                                                        void EdsPlayCommon(_EDSSYS_W * _eds)
+0x001224C0 - 0x00122EA0     0x00222440 - 0x00222E20     Function:
+                                                        void EdsPlayInit(_EDSSYS_W * _eds)
+0x00122EA0 - 0x00122EE8     0x00222E20 - 0x00222E68     Function:
+                                                        void EdsMenuBlackWait(_EDSSYS_W * _eds)
+0x00122EF0 - 0x00123E14     0x00222E70 - 0x00223D94     Function:
+                                                        void EdsMenuCommon(_EDSSYS_W * _eds)
+0x00123E20 - 0x001241B8     0x00223DA0 - 0x00224138     Function:
+                                                        void EdsMenuInit2(_EDSSYS_W * _eds)
+0x001241C0 - 0x0012459C     0x00224140 - 0x0022451C     Function:
+                                                        void EdsMenuInit(_EDSSYS_W * _eds)
+0x001245A0 - 0x001246E8     0x00224520 - 0x00224668     Function:
+                                                        void EdsToMenuTexInit(_EDSSYS_W * _eds)
+0x001246F0 - 0x00124820     0x00224670 - 0x002247A0     Function:
+                                                        void EdsWarningCommon(_EDSSYS_W * _eds)
+0x00124820 - 0x0012487C     0x002247A0 - 0x002247FC     Function:
+                                                        void EdsWarningInit(_EDSSYS_W * _eds)
+0x00124880 - 0x001248E0     0x00224800 - 0x00224860     Function:
+                                                        void EdsMainMenuTexture(_EDSSYS_W * _eds)
+0x001248E0 - 0x00124914     0x00224860 - 0x00224894     Function:
+                                                        void EdsMainMenuInit(_EDSSYS_W * _eds)
+0x00124920 - 0x00124A94     0x002248A0 - 0x00224A14     Function:
+                                                        signed int EdsSelectMain(_EDSSYS_W * _eds)
+0x00124AA0 - 0x00124BC8     0x00224A20 - 0x00224B48     Function:
+                                                        signed int EdsInitBreakTex(_EDSSYS_W * _eds)
+0x00124BD0 - 0x00124E50     0x00224B50 - 0x00224DD0     Function:
+                                                        signed int EdsInitTex(_EDSSYS_W * _eds, signed int _num)
+0x00124E50 - 0x00124E5C     0x00224DD0 - 0x00224DDC     Function:
+                                                        void EdsSystemEnd(void)
+0x00124E60 - 0x00124E9C     0x00224DE0 - 0x00224E1C     Function:
+                                                        signed int EdsSystemMain(void)
+0x00124EA0 - 0x00124F5C     0x00224E20 - 0x00224EDC     Function:
+                                                        void EdsSystemInit(_GAME_MODE_W * game_mode_w)
+0x00124F60 - 0x00124F68     0x00224EE0 - 0x00224EE8     Function:
+                                                        void EdsSetPreRead(void)
+0x00124F70 - 0x00125158     0x00224EF0 - 0x002250D8     Function:
+                                                        signed int Update_Optscr(void)
+0x00125160 - 0x001257F8     0x002250E0 - 0x00225778     Function:
+                                                        signed int View_Optscr(void)
+0x00125800 - 0x00125DA8     0x00225780 - 0x00225D28     Function:
+                                                        signed int Control_Optscr(void)
+0x00125DB0 - 0x00125E68     0x00225D30 - 0x00225DE8     Function:
+                                                        signed int Init_Optscr(void)
+0x00125E70 - 0x00125EE0     0x00225DF0 - 0x00225E60     Function:
+                                                        void set_no_space_msg_cmes_j(unsigned char * str, signed int flag)
+0x00125EE0 - 0x00125F6C     0x00225E60 - 0x00225EEC     Function:
+                                                        void EdsWinSelectAllFrameDisp(unsigned char _alpha)
+0x00125F70 - 0x001261F0     0x00225EF0 - 0x00226170     Function:
+                                                        void EdsWinSelectFrame(signed int _x, signed int _y, unsigned char _alpha, signed int _flag)
+0x001261F0 - 0x001262B4     0x00226170 - 0x00226234     Function:
+                                                        void EdsWinSelectBox(signed int _x, signed int _y, char _flag)
+0x001262C0 - 0x00126498     0x00226240 - 0x00226418     Function:
+                                                        void EdsCheck(signed int _x, signed int _y, signed int _type, unsigned char _alpha)
+0x001264A0 - 0x00126648     0x00226420 - 0x002265C8     Function:
+                                                        void EdsWinAllDestroy(void)
+0x00126650 - 0x00126690     0x002265D0 - 0x00226610     Function:
+                                                        void EdsWinSetTex(_EDSWIN_W * winw, unsigned char _tex)
+0x00126690 - 0x00126710     0x00226610 - 0x00226690     Function:
+                                                        void EdsWinSetMoveXY(_EDSWIN_W * winw, float x, float y)
+0x00126710 - 0x00126768     0x00226690 - 0x002266E8     Function:
+                                                        void EdsWinSetXY(_EDSWIN_W * winw, float x, float y)
+0x00126770 - 0x001267D4     0x002266F0 - 0x00226754     Function:
+                                                        void EdsWinSetType(_EDSWIN_W * winw, char type)
+0x001267E0 - 0x001268FC     0x00226760 - 0x0022687C     Function:
+                                                        void EdsWinSetMode(_EDSWIN_W * winw, signed int mode)
+0x00126900 - 0x001269E0     0x00226880 - 0x00226960     Function:
+                                                        void EdsWinSetDefaultPartsWH(_EDSWIN_W * winw)
+0x001269E0 - 0x00126AB8     0x00226960 - 0x00226A38     Function:
+                                                        void EdsWinDefaultAllSet(_EDSWIN_W * winw)
+0x00126AC0 - 0x00126D58     0x00226A40 - 0x00226CD8     Function:
+                                                        signed int EdsWinAlphaAnime(_EDSWIN_W * winw)
+0x00126D60 - 0x00126F28     0x00226CE0 - 0x00226EA8     Function:
+                                                        signed int EdsWinWHMove(_EDSWIN_W * winw)
+0x00126F30 - 0x00127140     0x00226EB0 - 0x002270C0     Function:
+                                                        signed int EdsWinXYMove(_EDSWIN_W * winw, signed int speed)
+0x00127140 - 0x001273E0     0x002270C0 - 0x00227360     Function:
+                                                        signed int EdsWinXYWHMove(_EDSWIN_W * winw, signed int speed)
+0x001273E0 - 0x00127BF8     0x00227360 - 0x00227B78     Function:
+                                                        void EdsWinDisp(_EDSWIN_W * winw)
+0x00127C00 - 0x00127C60     0x00227B80 - 0x00227BE0     Function:
+                                                        signed int EdsWinDestroy(_EDSWIN_W * winw)
+0x00127C60 - 0x00127E40     0x00227BE0 - 0x00227DC0     Function:
+                                                        signed int EdsWinClose(_EDSWIN_W * winw)
+0x00127E40 - 0x00127F08     0x00227DC0 - 0x00227E88     Function:
+                                                        signed int EdsWinMain(_EDSWIN_W * winw)
+0x00127F10 - 0x00128178     0x00227E90 - 0x002280F8     Function:
+                                                        signed int EdsWinOpen(_EDSWIN_W * winw)
+0x00128180 - 0x0012818C     0x00228100 - 0x0022810C     Function:
+                                                        signed int EdsWinSet(_EDSWIN_W * winw)
+0x00128190 - 0x00128274     0x00228110 - 0x002281F4     Function:
+                                                        _EDSWIN_W * EdsWinGetInit(signed int id)
+0x00128280 - 0x00128340     0x00228200 - 0x002282C0     Function:
+                                                        void EdsWinFunc(_EDSWIN_W * winw)
+0x00128340 - 0x001284F0     0x002282C0 - 0x00228470     Function:
+                                                        void EdsAidPrintFont(signed int _x, signed int _y, char * _str, signed int _color, unsigned char _alpha, signed int texid)
+0x001284F0 - 0x001286FC     0x00228470 - 0x0022867C     Function:
+                                                        void EdsScoreCreate(signed int _value)
+0x00128700 - 0x001289B4     0x00228680 - 0x00228934     Function:
+                                                        void EdsNextStageCreate(void)
+0x001289C0 - 0x00128A60     0x00228940 - 0x002289E0     Function:
+                                                        void EdsBeforeStageDataSet(void)
+0x00128A60 - 0x00128B00     0x002289E0 - 0x00228A80     Function:
+                                                        signed int EdsMOMax(void)
+0x00128B00 - 0x00128EB0     0x00228A80 - 0x00228E30     Function:
+                                                        signed int EdsPlayFlag(signed int _music, signed int _mode, signed int _bit)
+0x00128EB0 - 0x00128F80     0x00228E30 - 0x00228F00     Function:
+                                                        music_info * EdsGetMipTable(signed int _num)
+0x00128F80 - 0x00129118     0x00228F00 - 0x00229098     Function:
+                                                        void EdsInitMipTable(_EDSSYS_W * _eds)
+0x00129120 - 0x00129488     0x002290A0 - 0x00229408     Function:
+                                                        signed int EdsGetLevelType(_EDSSYS_W * _eds, signed int num)
+0x00129490 - 0x00129740     0x00229410 - 0x002296C0     Function:
+                                                        void EdsInitOrderFlag(void)
+0x00129740 - 0x00129B0C     0x002296C0 - 0x00229A8C     Function:
+                                                        void EdsTrackSorting(signed int _flag)
+0x00129B10 - 0x00129BE0     0x00229A90 - 0x00229B60     Function:
+                                                        void EdsInitAllMusicMax(signed int flag)
+0x00129BE0 - 0x00129C34     0x00229B60 - 0x00229BB4     Function:
+                                                        void EdsBreakStageEnd(_EDSSYS_W * _eds)
+0x00129C40 - 0x00129E20     0x00229BC0 - 0x00229DA0     Function:
+                                                        void EdsBreakStageMain(_EDSSYS_W * _eds)
+0x00129E20 - 0x00129F20     0x00229DA0 - 0x00229EA0     Function:
+                                                        void EdsBreakStageInit(_EDSSYS_W * _eds)
+0x00129F20 - 0x0012A130     0x00229EA0 - 0x0022A0B0     Function:
+                                                        void EdsRecordPrintDigit(signed int _x, signed int _y, unsigned int _dig00, unsigned int _dig01, char _figure, unsigned char _alpha)
+0x0012A130 - 0x0012A528     0x0022A0B0 - 0x0022A4A8     Function:
+                                                        signed int EdsRenewalRecord(_EDSSYS_W * _eds, signed int flag)
+0x0012A530 - 0x0012A568     0x0022A4B0 - 0x0022A4E8     Function:
+                                                        void EdsRecordEnd(_EDSSYS_W * _eds)
+0x0012A570 - 0x0012B010     0x0022A4F0 - 0x0022AF90     Function:
+                                                        void EdsRecordCommon(_EDSSYS_W * _eds)
+0x0012B010 - 0x0012B57C     0x0022AF90 - 0x0022B4FC     Function:
+                                                        void EdsRecordTexture(_EDSSYS_W * _eds)
+                                                        
 0x0012D808 - 0x0012D840     0x0022D788 - 0x0022D7C0     Function - actual (original) name unknown - 
                                                         Takes a pointer to a char array, and array size, and zeros out [array size] elements.
                                                         
@@ -43,6 +186,8 @@ Physical Address(es):       Logical Address(es):        Description:
                                                         unsigned char* mesGetOk(signed int id0)
 0x00138F20 - 0x00138F64     0x00238EA0 - 0x00238EE4     Function:	
                                                         unsigned char* mesGetLanguage01(signed int id0, signed int id1)
+                                                        
+
                                                         
              0x00156440                  0x002563C0     Returning DanceDanceRevolution Song Grouping - Red Channel Value
              0x00156444                  0x002563C4     Returning DanceDanceRevolution Song Grouping - Red Channel Value
