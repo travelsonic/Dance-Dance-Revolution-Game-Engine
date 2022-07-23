@@ -6,20 +6,33 @@ The difference between physical and logical addresses is 0xFFF80
 
 <pre>
 Physical Address(es):       Logical Address(es):        Description: 
-0x0011A010 - 0x0011A090     0x00219F90 - 0x0021A010     Function: signed int is_oni_course_passed(signed int course, signed int style)
-0x0011A090 - 0x0011A128     0x0021A010 - 0x0021A0A8     Function: signed int onimode_get_course_nm_color(signed int id)
-0x0011A130 - 0x0011A4AC     0x0021A0B0 - 0x0021A42C     Function: signed int onimode_get_additional_life(signed int id, signed int stage, signed int is_single)
-0x0011A4B0 - 0x0011A4D0     0x0021A430 - 0x0021A450     Function: oni_course* onimode_get_course_list(signed int id)
-0x0011A4D0 - 0x0011A79C     0x0021A450 - 0x0021A71C     Function: void onimode_set_order_mode(signed int id, signed int stage_num)
-0x0011A7A0 - 0x0011A9F4     0x0021A720 - 0x0021A974     Function: void onimode_get_order_mode(signed int id, signed int stage_num)
-0x0011AA00 - 0x0011AA30     0x0021A980 - 0x0021A9B0     Function: signed int onimode_is_course_order(signed int id)
-0x0011AA30 - 0x0011AA3C     0x0021A9B0 - 0x0021A9BC     Function: signed int onimode_is_course_random(signed int id)
-0x0011AA40 - 0x0011AC44     0x0021A9C0 - 0x0021ABC4     Function: void onimode_order_setup()
-0x0011AC50 - 0x0011B858     0x0021ABD0 - 0x0021B7D8     Function: void onimode_random_setup()
+0x0011A010 - 0x0011A090     0x00219F90 - 0x0021A010     Function: 
+                                                        signed int is_oni_course_passed(signed int course, signed int style)
+0x0011A090 - 0x0011A128     0x0021A010 - 0x0021A0A8     Function: 
+                                                        signed int onimode_get_course_nm_color(signed int id)
+0x0011A130 - 0x0011A4AC     0x0021A0B0 - 0x0021A42C     Function: 
+                                                        signed int onimode_get_additional_life(signed int id, signed int stage, signed int is_single)
+0x0011A4B0 - 0x0011A4D0     0x0021A430 - 0x0021A450     Function: 
+                                                        oni_course* onimode_get_course_list(signed int id)
+0x0011A4D0 - 0x0011A79C     0x0021A450 - 0x0021A71C     Function: 
+                                                        void onimode_set_order_mode(signed int id, signed int stage_num)
+0x0011A7A0 - 0x0011A9F4     0x0021A720 - 0x0021A974     Function: 
+                                                        void onimode_get_order_mode(signed int id, signed int stage_num)
+0x0011AA00 - 0x0011AA30     0x0021A980 - 0x0021A9B0     Function: 
+                                                        signed int onimode_is_course_order(signed int id)
+0x0011AA30 - 0x0011AA3C     0x0021A9B0 - 0x0021A9BC     Function: 
+                                                        signed int onimode_is_course_random(signed int id)
+0x0011AA40 - 0x0011AC44     0x0021A9C0 - 0x0021ABC4     Function: 
+                                                        void onimode_order_setup()
+0x0011AC50 - 0x0011B858     0x0021ABD0 - 0x0021B7D8     Function: 
+                                                        void onimode_random_setup()
 
-0x0011C7E0 - 0x0011CB7C     0x0021C760 - 0x0021CAFC     Function: void* sp_ending_get_bk_movie_prim(signed int n)
-0x0011CB80 - 0x0011D380     0x0021CB00 - 0x0021D300     Function: signed int special_ending_disp_step(void* w)
-0x0011D380 - 0x0011D440     0x0021D300 - 0x0021D3C0     Function: void special_ending_disp_init(void* w)
+0x0011C7E0 - 0x0011CB7C     0x0021C760 - 0x0021CAFC     Function: 
+                                                        void* sp_ending_get_bk_movie_prim(signed int n)
+0x0011CB80 - 0x0011D380     0x0021CB00 - 0x0021D300     Function: 
+                                                        signed int special_ending_disp_step(void* w)
+0x0011D380 - 0x0011D440     0x0021D300 - 0x0021D3C0     Function: 
+                                                        void special_ending_disp_init(void* w)
 
 0x0012D808 - 0x0012D840     0x0022D788 - 0x0022D7C0     Function - actual (original) name unknown - 
                                                         Takes a pointer to a char array, and array size, and zeros out [array size] elements.
