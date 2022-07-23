@@ -21,7 +21,8 @@ Physical Address(es):       Logical Address(es):        Description:
 0x0011CB80 - 0x0011D380     0x0021CB00 - 0x0021D300     Function: signed int special_ending_disp_step(void* w)
 0x0011D380 - 0x0011D440     0x0021D300 - 0x0021D3C0     Function: void special_ending_disp_init(void* w)
 
-0x0012D808 - 0x0012D840     0x0022D788 - 0x0022D7C0     Function - actual (original) name unknown - Takes a pointer to a char array, and array size, and zeros out said array.
+0x0012D808 - 0x0012D840     0x0022D788 - 0x0022D7C0     Function - actual (original) name unknown - 
+                                                        Takes a pointer to a char array, and array size, and zeros out [array size] elements.
 
              0x00156440                  0x002563C0     Returning DanceDanceRevolution Song Grouping - Red Channel Value
              0x00156444                  0x002563C4     Returning DanceDanceRevolution Song Grouping - Red Channel Value
