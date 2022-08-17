@@ -96,7 +96,7 @@ Offset(s):                   Data Member:                    Value (hex (dec)): 
          0x0008              sq_standard.num                 0x00000007 (7 decimal)
          0x000C - 0x0043     sq_standard.body                                                  At this point, struct hack applied
                                                              0x00000000 (0 decimal)
-                                                             0x00001000 (4,096 decimal)
+                             herewe_count                    0x00001000 (4,096 decimal)
                                                              0x00009000 (36,864 decimal)
                                                              0x00009000 (36,864 decimal)
                                                              0x0003DC00 (252,928 decimal)
