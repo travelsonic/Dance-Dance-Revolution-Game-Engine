@@ -93,59 +93,59 @@ Physical Address(es):       Logical Address(es):        Description:
 0x000B7AF0 - 0x000B7B30     0x001B7A70 - 0x001B7AB0     Function:
                                                         signed int sysSetMusicBk(unsigned int* load_addr, signed int id);
 0x000C47A0 - 0x000C47E4     0x001C4720 - 0x001C4764     Function:
-                                                        mesGetLanguage01
+                                                        unsigned char* mesGetLanguage01(signed int id0, signed int id1);
 0x000C47F0 - 0x000C4DB0     0x001C4770 - 0x001C4D30     Function:
-                                                        freeze_eff_disp
+                                                        void freeze_eff_disp(signed int bright);
 0x000C4DB0 - 0x000C4DBC     0x001C4D30 - 0x001C4D3C     Function:
-                                                        freeze_eff_off
+                                                        void freeze_eff_off();
 0x000C4DC0 - 0x000C4DD0     0x001C4D40 - 0x001C4D50     Function:
-                                                        freeze_eff_on
+                                                        void freeze_eff_on();
 0x000C4DD0 - 0x000C4DF0     0x001C4D50 - 0x001C4D70     Function:
-                                                        freeze_eff_set
+                                                        void freeze_eff_set(signed int pid, signed int id);
 0x000C4DF0 - 0x000C50C8     0x001C4D70 - 0x001C5048     Function:
-                                                        marker_anime_disp
+                                                        signed int marker_anime_disp(signed int cl, signed int cn, signed int bright);
 0x000C50D0 - 0x000C5114     0x001C5050 - 0x001C5094     Function:
-                                                        marker_anime_set_ct
+                                                        void marker_anime_set_ct(signed int pid, signed int ct);
 0x000C5120 - 0x000C5140     0x001C50A0 - 0x001C50C0     Function:
-                                                        marker_anime_reset
+                                                        void marker_anime_reset(signed int pid);
 0x000C5140 - 0x000C515C     0x001C50C0 - 0x001C50DC     Function:
-                                                        marker_anime_set
+                                                        void marker_anime_set(signed int pid, signed int id);
 0x000C5160 - 0x000C5750     0x001C50E0 - 0x001C56D0     Function:
-                                                        back_anime_disp
+                                                        void back_anime_disp(signed int bright);
 0x000C5750 - 0x000C5758     0x001C56D0 - 0x001C56D8     Function:
-                                                        back_anime_finish
+                                                        void back_anime_finish();
 0x000C5760 - 0x000C5834     0x001C56E0 - 0x001C57B4     Function:
-                                                        back_anime_step
+                                                        void back_anime_step();
 0x000C5840 - 0x000C59A4     0x001C57C0 - 0x001C5924     Function:
-                                                        back_anime_init
+                                                        void back_anime_init();
 0x000C59B0 - 0x000C59C0     0x001C5930 - 0x001C5940     Function:
-                                                        back_anime_set_inst_mode
+                                                        void back_anime_set_inst_mode();
 0x000C59C0 - 0x000C59F0     0x001C5940 - 0x001C5970     Function:
-                                                        back_anime_set_normal_anime
+                                                        void back_anime_set_normal_anime(signed int id);
 0x000C59F0 - 0x000C5A74     0x001C5970 - 0x001C59F4     Function:
-                                                        back_anime_set_anime
+                                                        void back_anime_set_anime(signed int id, signed int anime_id, signed int anime_ct);
 0x000C5A80 - 0x000C5AF0     0x001C5A00 - 0x001C5A70     Function:
-                                                        back_anime_init_can
+                                                        void back_anime_init_can(signed int id);
 0x000C5AF0 - 0x000C5BBC     0x001C5A70 - 0x001C5B3C     Function:
-                                                        down_load_anime
+                                                        signed int down_load_anime(signed int id, void* address);
 0x000C5BC0 - 0x000C5FDC     0x001C5B40 - 0x001C5F5C     Function:
-                                                        play_anime_step_inst
+                                                        void play_anime_step_inst();
 0x000C5FE0 - 0x000C5FE8     0x001C5F60 - 0x001C5F68     Function:
-                                                        play_anime_finish
+                                                        void play_anime_finish();
 0x000C5FF0 - 0x000C6494     0x001C5F70 - 0x001C6414     Function:
-                                                        play_anime_step
+                                                        void play_anime_step();
 0x000C64A0 - 0x000C64F8     0x001C6420 - 0x001C6478     Function:
-                                                        play_anime_init
+                                                        void play_anime_init();
 0x000C6500 - 0x000C6510     0x001C6480 - 0x001C6490     Function:
-                                                        play_anime_set_inst_mode
+                                                        void play_anime_set_inst_mode();
 0x000C6510 - 0x000C651C     0x001C6490 - 0x001C649C     Function:
-                                                        SetBeginnerFlg2p
+                                                        void SetBeginnerFlg2p(signed int flg);
 0x000C6520 - 0x000C652C     0x001C64A0 - 0x001C64AC     Function:
-                                                        SetBeginnerFlg1p
+                                                        void SetBeginnerFlg1p(signed int flg);
 0x000C6530 - 0x000C6598     0x001C64B0 - 0x001C6518     Function:
-                                                        sysReadAnimeWait2
+                                                        signed int sysReadAnimeWait2(signed int player);
 0x000C65A0 - 0x000C6600     0x001C6520 - 0x001C6580     Function:
-                                                        sysReadAnimeInit2
+                                                        signed int sysReadAnimeInit2(signed int player);
 0x000C6600 - 0x000C666C     0x001C6580 - 0x001C65EC     Function:
                                                         a_make
 0x000C6670 - 0x000C66F8     0x001C65F0 - 0x001C6678     Function:
