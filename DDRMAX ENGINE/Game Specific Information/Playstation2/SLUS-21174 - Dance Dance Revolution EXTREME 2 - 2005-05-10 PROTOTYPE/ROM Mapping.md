@@ -83,15 +83,15 @@ Physical Address(es):       Logical Address(es):        Description:
 0x000B7890 - 0x000B7974     0x001B7810 - 0x001B78F4     Function:
                                                         void onimode_boot();
 0x000B7980 - 0x000B79E0     0x001B7900 - 0x001B7960     Function:
-                                                        GetMusicData_by_link_num
+                                                        _tag_cMusicData* GetMusicData_by_link_num(unsigned short link_num);
 0x000B79E0 - 0x000B7A78     0x001B7960 - 0x001B79F8     Function:
-                                                        GetMusicData_by_base_name
+                                                        _tag_cMusicData* GetMusicData_by_base_name(unsigned char* base_name);
 0x000B7A80 - 0x000B7AB0     0x001B7A00 - 0x001B7A30     Function:
-                                                        GetMusicData_by_index
+                                                        _tag_cMusicData* GetMusicData_by_index(signed int id);
 0x000B7AB0 - 0x000B7AE4     0x001B7A30 - 0x001B7A64     Function:
-                                                        sysWaitMusicBk
+                                                        signed int sysWaitMusicBk();
 0x000B7AF0 - 0x000B7B30     0x001B7A70 - 0x001B7AB0     Function:
-                                                        sysSetMusicBk
+                                                        signed int sysSetMusicBk(unsigned int* load_addr, signed int id);
 0x000C47A0 - 0x000C47E4     0x001C4720 - 0x001C4764     Function:
                                                         mesGetLanguage01
 0x000C47F0 - 0x000C4DB0     0x001C4770 - 0x001C4D30     Function:
