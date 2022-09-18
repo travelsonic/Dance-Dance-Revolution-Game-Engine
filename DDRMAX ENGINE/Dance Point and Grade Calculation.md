@@ -7,6 +7,7 @@ Associated with each of these timing judgments is a multiplier value.
 ```
                      
 Judgment:     Multiplier Value (Hexadecimal/Decimal):
+Marvelous*            0x00000002 / 2
 Perfect               0x00000002 / 2
 Great                 0x00000001 / 1
 Good                  0x00000000 / 0
@@ -14,6 +15,8 @@ Boo                   0xFFFFFFF4 /-4
 Miss                  0xFFFFFFF8 /-8
 O.K.                  0x00000006 / 6
 N.G.                  Not Tracked
+
+* DanceDanceRevolution EXTREME and onward
 ```
 
 To calculate the amount of earned D.P, the game takes the number of steps that fall into a particular judgment quality, multiply it by the associated multipliers, then takes that product, and adds it to a sum.
@@ -27,13 +30,26 @@ B = Boo Count, BM = Boo Multiplier,
 M = Miss Count, MM = Miss Multiplier,
 O = O.K Count, and OM = O.K Multiplier.
 
-Earned DP = (P * PM) + (G * GM) + (Go * GoM) + (B * BM) + (M * MM) + (O * OM)
+Total Earned DP = (P * PM) + (G * GM) + (Go * GoM) + (B * BM) + (M * MM) + (O * OM)
 ```
 
-Boos and Misses, as you can see, take away earned D.P - the algorithm uses negative values because this allows the algorithm to take away D.P through the addition of negative values, which keeps the algorithm simple, and consistent.
+Boos and Misses, as you can see, take away earned D.P - the algorithm uses negative values because this allows the algorithm to take away D.P through the addition of said negative values, which keeps the algorithm simple, and consistent.
 
 ## Grade Calculations:
-After the game has calculated the amount of D.P you've earned, it divides that number by the maximum number of D.P that one can earn for a given song/chart difficulty.  This max D.P value is loaded into memory when you select the song from the song wheel.
+After the game has calculated the amount of D.P you've earned, it divides that number by the maximum number of D.P that one can earn for a given song/chart difficulty.
+
+To get the maximum amount of earnable DP in a song:
+```
+Let: 
+TS = Total Step, TSM = Total Step Multiplier
+TF = Total Freez, TFM = Total Freez Multiplier
+WHERE
+Total Step  = a stepchart's total number of non-freeze steps
+Total Freez = a stepchart's total number of freeze steps 
+```
+Maximum Earnable DP = (TS * TSM) + (TF * TFM)
+
+Earned DP percentage = (Total Earned DP * 100) / Maximum Earnable DP
 
 The result of this DIV instruction puts the quotient (earned D.P / max D.P) in $LO, the remainder (earned DP % max DP) in $HI, $LO and $HI being special registers used to access the results of a division operation on a system using a MIPS architecture.
 
@@ -52,4 +68,4 @@ Less than or equal to 0x20 (45%)            D
 Health gauge depleted                       E
 (irrespective of DP quotient value)
 ```
-\* The non-E grades can only be earned if the player is able to keep their health gauge from becoming completely empty.  Once the health gauge runs out, the game defaults to assigning a grade of E, even if, for instance, the player managed to earn enough D.P to earn an A after the health gauge depleted.
+\* The non-E grades can only be earned if the player is able to keep their health gauge from becoming completely empty.  Once the health gauge runs out, the game sets a flag, "dead," to true - which forces the game to give you a grade of E, even if, for instance, the player managed to earn enough D.P to earn an A after the health gauge depleted.
