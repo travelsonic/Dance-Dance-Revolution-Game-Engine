@@ -7,14 +7,14 @@ Associated with each of these timing judgments is a multiplier value.
 ```
                      
 Judgment:     Multiplier Value (Hexadecimal/Decimal):
-Marvelous*            0x00000002 / 2
-Perfect               0x00000002 / 2
-Great                 0x00000001 / 1
-Good                  0x00000000 / 0
-Boo                   0xFFFFFFF4 /-4
-Miss                  0xFFFFFFF8 /-8
-O.K.                  0x00000006 / 6
-N.G.                  Not Tracked
+Marvelous*    0x00000002 / 2
+Perfect       0x00000002 / 2
+Great         0x00000001 / 1
+Good          0x00000000 / 0
+Boo           0xFFFFFFF4 /-4
+Miss          0xFFFFFFF8 /-8
+O.K.          0x00000006 / 6
+N.G.          Not Tracked?
 
 * DanceDanceRevolution EXTREME and onward
 ```
