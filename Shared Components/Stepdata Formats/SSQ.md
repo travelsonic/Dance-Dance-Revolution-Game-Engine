@@ -33,7 +33,7 @@ chunk in a SSQ file has one of these headers.
 ```
 NAME:            SIZE:      WHAT:
 size:            4 bytes    The size of the chunk in bytes.  
-kind:            2 bytes    The type of chunk?  More research is needed as to the specifics of how it is used.
+kind:            2 bytes    A byte identifying the kind of chunk, or what data resides within the chunk.
 division:        2 bytes    Not entirely sure what this data member is for. MORE RESEARCH IS NEEDED.
 ```
 ### struct sq_standard
@@ -94,7 +94,7 @@ Offset(s):                   Data Member:                    Value (hex (dec)): 
          0x0004              sq_standard.header.kind         0x0001     (1 decimal)
          0x0006              sq_standard.header.division     0x0096     (150 decimal)
          0x0008              sq_standard.num                 0x00000007 (7 decimal)
-         0x000C - 0x0043     sq_standard.body                                                  At this point, struct hack applied
+         0x000C - 0x0043     sq_standard.body                At this point, struct hack applied
                                                              0x00000000 (0 decimal)
                              herewe_count                    0x00001000 (4,096 decimal)
                                                              0x00009000 (36,864 decimal)
@@ -109,7 +109,30 @@ Offset(s):                   Data Member:                    Value (hex (dec)): 
                              check_timing_data[5]            0x000034BD (13,501 decimal)
                              check_timing_data[6]            0x0000377B (14,203 decimal)
 ```
-
+### CHUNK 2:
+```
+0x0044 - 0x0029              sq_standard             
+         0x0000              sq_standard.header.size         0x00000030 (48 decimal)
+         0x0004              sq_standard.header.kind         0x0002     (2 decimal)
+         0x0006              sq_standard.header.division     0x001      (1 decimal)
+         0x0008              sq_standard.num                 0x00000006 (6 decimal)
+         0x000C - 0x0029     sq_standard.body                At this point, struct hack applied
+                  0x000C     beat_counts[0]                  0x00000000 (0 decimal)
+                  0x0010     beat_counts[1]                  0x00001000 (4,096 decimal)
+                  0x0014     beat_counts[2]                  0x00009000 (36,864 decimal)
+                  0x0018     beat_counts[3]                  0x00009000 (36,864 decimal)
+                  0x001C     beat_counts[4]                  0x0003DC00 (252,928 decimal)
+                  0x0020     beat_counts[5]                  0x0003DC00 (252,928 decimal)
+                  0x0024     beat_counts[6]                  0x00041C00 (269,312 decimal)
+                  0x0028     music_counts[0]                 0x00000002 (2 decimal)
+                  0x002C     music_counts[1]                 0x000000DA (218 decimal)
+                  0x0030     music_counts[2]                 0x000007A2 (1,954 decimal)
+                  0x0034     music_counts[3]                 0x000007D8 (2,008 decimal)
+                  0x0038     music_counts[4]                 0x00003488 (13,448 decimal)
+                  0x003C     music_counts[5]                 0x000034BE (13,502 decimal)
+                  0x0040     music_counts[6]                 0x00003820 (14,368 decimal)
+         
+```
 
 
 
