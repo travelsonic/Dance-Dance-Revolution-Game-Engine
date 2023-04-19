@@ -180,7 +180,7 @@ Physical Address(es):       Logical Address(es):        Description:
 0x0012D790 - 0x0012D7A4     0x0022D710 - 0x0022D724     Function - actual (original) name unknown:    
                                                         Takes a signed integer, and returns itself if >= 0, or the negation of the
                                                         input value if < 0.
-0x0012D808 - 0x0012D840     0x0022D788 - 0x0022D7C0     Function (from SYSCLIB - Standard C Library library)
+0x0012D808 - 0x0012D840     0x0022D788 - 0x0022D7C0     Function (from SYSCLIB - system C library)
                                                         void bzero( void* dst, size_t n);
                                                         
 0x00138EC0 - 0x00138EE8     0x00238E40 - 0x00238E68     Function:
