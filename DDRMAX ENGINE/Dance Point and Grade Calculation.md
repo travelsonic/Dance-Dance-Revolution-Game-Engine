@@ -69,3 +69,15 @@ Health gauge depleted                       E
 (irrespective of DP quotient value)
 ```
 \* The non-E grades can only be earned if the player is able to keep their health gauge from becoming completely empty.  Once the health gauge runs out, the game sets a flag, "dead," to true - which forces the game to give you a grade of E, even if, for instance, the player managed to earn enough D.P to earn an A after the health gauge depleted.
+
+### Checking for a Full Great + Perfect Combo:
+In Dancing Stage Megamix, after the dance_level is calculated, the game will check to see if this value is either a 1, for a AAA, or 2 for a AA.
+
+If it is not, that is, the player earned below a AA, the game will check to see if the number of PERFECT steps, and GREAT steps, add up to the total number of non-freeze steps (total_step).
+
+If it does add up to this value, then the player's dance_level is changed to a value of 2, or a AA, overriding the A, B, or C that they would have otherwise
+earned.
+
+### Checking that the Dance Level is Within a Valid Range:
+The game will wrap up the dance_level calculation function by checking to see if the dance_level is within a valid range of 1 to 6 (or, 1 >= X <= 6).
+If it is, for whatever reason, outside of this range, the game will set your dance_level to 6, or a grade of "D."
