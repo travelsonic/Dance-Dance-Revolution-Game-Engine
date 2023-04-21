@@ -71,7 +71,9 @@ Health gauge depleted                       E
 \* The non-E grades can only be earned if the player is able to keep their health gauge from becoming completely empty.  Once the health gauge runs out, the game sets a flag, "dead," to true - which forces the game to give you a grade of E, even if, for instance, the player managed to earn enough D.P to earn an A after the health gauge depleted.
 
 ### Checking for a Full Great + Perfect Combo:
-In Dancing Stage Megamix, after the dance_level is calculated, the game will check to see if the value is greater than 2, and less than 6, that is, if the player earned an "A," "B," or "C."
+In several mixes (though not universal to every mix in the DDRMAX-EXTREME era), such as Dancing Stage Megamix, and the US release of DDRMAX2, there is an additional step.
+
+After the dance_level is calculated, the game will check to see if the value is greater than 2, and less than 6, that is, if the player earned an "A," "B," or "C."
 
 If the player did earn either an "A," "B," or "C," the game will check to see if the number of PERFECT steps, and GREAT steps, add up to the total number of non-freeze steps (total_step).
 
