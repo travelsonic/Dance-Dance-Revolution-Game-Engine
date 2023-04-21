@@ -79,5 +79,6 @@ If it does add up to this value, then the player's dance_level is changed to a v
 earned.
 
 ### Checking that the Dance Level is Within a Valid Range:
-The game will wrap up the dance_level calculation function by checking to see if the dance_level is within a valid range of 1 to 6 (or, 1 >= X <= 6).
-If it is, for whatever reason, outside of this range, the game will set your dance_level to 6, or a grade of "D."
+The game will wrap up the dance_level calculation function by checking to see if the dance_level is within a valid range of 1 to 6 (or, 1 >= X <= 6), specifically, checking to see if the value is greater than 6 (or a grade of "D") since the value is unsigned.
+
+If it is, for whatever reason, greater than 6, the game will set your dance_level to 6, or a grade of "D."
