@@ -492,11 +492,80 @@ Physical Address(es):       Logical Address(es):        Description:
              0x00163778                  0x002636F8     Empty Preview Sound Index Array Element
              0x0016377C                  0x002636FC     Empty Preview Sound Index Array Element
 0x00166DC0 - 0x00166EE4     0x00266D40 - 0x00266E64     Table of addresses pertaining to loading a song's static background image
-             0x00166DC0                  0x00266D40     Long Train Runnin' Static Background Image
-             0x00166DC4                  0x00266D44     Maximum Overdrive Static Background Image
-             0x00166DC8                  0x00266D48     Waka Laka Static Background Image
-             0x00166DCC                  0x00266D4C     Baby Love Me Static Background Image
-             0x00166DD0                  0x00266D50     D2R Static Background Image
+             0x00166DC0                  0x00266D40     Long Train Runnin' Static Background Image Information Related Address
+             0x00166DC4                  0x00266D44     Maximum Overdrive Static Background Image Information Related Address
+             0x00166DC8                  0x00266D48     Waka Laka Static Background Image Information Related Address
+             0x00166DCC                  0x00266D4C     Baby Love Me Static Background Image Information Related Address
+             0x00166DD0                  0x00266D50     D2R Static Background Image Information Related Address
+             0x00166DD4                  0x00266D54     Destiny Static Background Image Information Related Address
+             0x00166DD8                  0x00266D58     Living In America Static Background Image Information Related Address
+             0x00166DDC                  0x00266D5C     Sweet Sweet ? Magic Static Background Image Information Related Address
+             0x00166DE0                  0x00266D60     Ever Snow Static Background Image Information Related Address
+             0x00166DE4                  0x00266D64     AM-3P (303 BASS MIX) Static Background Image Information Related Address
+             0x00166DE8                  0x00266D68     The Reflex Static Background Image Information Related Address
+             0x00166DEC                  0x00266D6C     So Fabulous So Fierce (Freak Out!) Static Background Image Information Related Address
+             0x00166DF0                  0x00266D70     Drifting Away Static Background Image Information Related Address
+             0x00166DF4                  0x00266D74     Stay Static Background Image Information Related Address
+             0x00166DF8                  0x00266D78     Secret Rendez-vous Static Background Image Information Related Address
+             0x00166DFC                  0x00266D7C     Little Boy (Boy Oh Boy Mix) Static Background Image Information Related Address
+             0x00166E00                  0x00266D80     Rain of Sorrow Static Background Image Information Related Address
+             0x00166E04                  0x00266D84     Maxx Unlimited Static Background Image Information Related Address
+             0x00166E08                  0x00266D88     Dive To The Night Static Background Image Information Related Address
+             0x00166E0C                  0x00266D8C     Tsugaru Static Background Image Information Related Address
+             0x00166E10                  0x00266D90     BRE?K DOWN! Static Background Image Information Related Address
+             0x00166E14                  0x00266D94     Burning Heat! (3 Option Mix) Static Background Image Information Related Address
+             0x00166E18                  0x00266D98     Nothing Gonna Stop Static Background Image Information Related Address
+             0x00166E1C                  0x00266D9C     Fantasy Static Background Image Information Related Address
+             0x00166E20                  0x00266DA0     i feel ... Static Background Image Information Related Address
+             0x00166E24                  0x00266DA4     CANDY ?  Static Background Image Information Related Address
+             0x00166E28                  0x00266DA8     Spin the Disc Static Background Image Information Related Address
+             0x00166E2C                  0x00266DAC     Trance De Janeiro Static Background Image Information Related Address
+             0x00166E30                  0x00266DB0     Look At Us Static Background Image Information Related Address
+             0x00166E34                  0x00266DB4     The Whistle Song (Blow My Whistle Bitch) Static Background Image Information Related Address
+             0x00166E38                  0x00266DB8     ?? (Kakumei) Static Background Image Information Related Address
+             0x00166E3C                  0x00266DBC     AFRONOVA (From Nonstop Megamix) Static Background Image Information Related Address
+             0x00166E40                  0x00266DC0     AM-3P (AM EAST MIX) Static Background Image Information Related Address
+             0x00166E44                  0x00266DC4     Brillant 2U (K.O.G G3 Mix) Static Background Image Information Related Address
+             0x00166E48                  0x00266DC8     B4U (B4 ZA BEAT MIX) Static Background Image Information Related Address
+             0x00166E4C                  0x00266DCC     DROP OUT (From Nonstop Megamix) Static Background Image Information Related Address
+             0x00166E50                  0x00266DD0     Dynamite Rave (B4 ZA BEAT MIX) Static Background Image Information Related Address
+             0x00166E54                  0x00266DD4     Hysteria 2001 Static Background Image Information Related Address
+             0x00166E58                  0x00266DD8     ? JAPAN (From Nonstop Megamix) Static Background Image Information Related Address
+             0x00166E5C                  0x00266DDC     SEXY PLANET (From Nonstop Megamix) Static Background Image Information Related Address
+             0x00166E60                  0x00266DE0     Super Star (From Nonstop Megamix) Static Background Image Information Related Address
+             0x00166E64                  0x00266DE4     Still In My Heart (MOMO MIX) Static Background Image Information Related Address
+             0x00166E68                  0x00266DE8     Wild Rush (From Nonstop Megamix) Static Background Image Information Related Address
+             0x00166E6C                  0x00266DEC     Burnin' The Floor (BLUE Fire mix) Static Background Image Information Related Address
+             0x00166E70                  0x00266DF0     Tsugaru (Apple Mix) Static Background Image Information Related Address
+             0x00166E74                  0x00266DF4     Ecstacy (Mifnight Blue Mix) Static Background Image Information Related Address
+             0x00166E78                  0x00266DF8     Silent Hill (3rd Christmas Mix) Static Background Image Information Related Address
+             0x00166E7C                  0x00266DFC     Celebrate Nite (Euro Trance Style) Static Background Image Information Related Address
+             0x00166E80                  0x00266E00     Higher (Next Morning Mix) Static Background Image Information Related Address
+             0x00166E84                  0x00266E04     My Summer Love (Tommy's Smile Mix) Static Background Image Information Related Address
+             0x00166E88                  0x00266E08     Look to the Sky (True Color Mix) Static Background Image Information Related Address
+             0x00166E8C                  0x00266E0C     Cutie Chaser (Morning Mix) Static Background Image Information Related Address
+             0x00166E90                  0x00266E10     Do It Right (Harmonized 25step Mix) Static Background Image Information Related Address
+             0x00166E94                  0x00266E14     Drop the Bomb -System S.F Mix- Static Background Image Information Related Address
+             0x00166E98                  0x00266E18     Dynamite Rave (Down Bird SOTA Mix) Static Background Image Information Related Address
+             0x00166E9C                  0x00266E1C     I'm For Real Static Background Image Information Related Address
+             0x00166EA0                  0x00266E20     Jam & Marmalade Static Background Image Information Related Address
+             0x00166EA4                  0x00266E24     Kind Lady Static Background Image Information Related Address
+             0x00166EA8                  0x00266E28     Logical Dash Static Background Image Information Related Address
+             0x00166EAC                  0x00266E2C     Overblast!! Static Background Image Information Related Address
+             0x00166EB0                  0x00266E30     Peace-Out Static Background Image Information Related Address
+             0x00166EB4                  0x00266E34     So In Love Static Background Image Information Related Address
+             0x00166EB8                  0x00266E38     The Shining Polaris Static Background Image Information Related Address
+             0x00166EBC                  0x00266E3C     Look To The Sky (Trance Mix) Static Background Image Information Related Address
+             0x00166EC0                  0x00266E40     Do It Right (80s Electro Mix) Static Background Image Information Related Address
+             0x00166EC4                  0x00266E44     Kind Lady (Interlude) Static Background Image Information Related Address
+             0x00166EC8                  0x00266E48     B4U Static Background Image Information Related Address
+             0x00166ECC                  0x00266E4C     Crash! Static Background Image Information Related Address
+             0x00166ED0                  0x00266E50     Dead End Static Background Image Information Related Address
+             0x00166ED4                  0x00266E54     Drop Out Static Background Image Information Related Address
+             0x00166ED8                  0x00266E58     Dynamite Rave Static Background Image Information Related Address
+             0x00166EDC                  0x00266E5C     LOVE ? SHINE Static Background Image Information Related Address
+             0x00166EE0                  0x00266E60     PARANOiA Survivor Static Background Image Information Related Address
+             0x00166EE4                  0x00266E64     PARANOiA Rebirth Static Background Image Information Related Address
 0x0016D180 - 0x0016D194     0x0026D100 - 0x0026D114     In-Stage Timing Judgment Label Widths
 0x0016D6B0 - 0x0016D6BC     0x0026D630 - 0x0026D63C     Step Judgment Timing Windows - Lower Bounds
              0x0016D6B0                  0x0026D630     Timing Windows Lower Bounds For Perfects  | A value of -5
