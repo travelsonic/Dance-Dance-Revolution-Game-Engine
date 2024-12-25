@@ -12,7 +12,7 @@ struct oni_steps{
 
 ### link_num
 
-***Data Type:** unsigned int
+***Data Type:** unsigned int*
 
 ***Purpose:*** 
 
@@ -20,7 +20,7 @@ I need to figure out how to describe the link_num, sorry folks.
 
 ### steps
 
-***Data Type:** unsigned short[2][]
+***Data Type:** unsigned short[2][]*
 
 ***Purpose:*** 
 
