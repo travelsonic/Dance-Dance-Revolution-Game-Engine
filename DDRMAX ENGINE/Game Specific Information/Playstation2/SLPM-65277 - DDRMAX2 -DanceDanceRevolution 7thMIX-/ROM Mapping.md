@@ -566,6 +566,84 @@ Physical Address(es):       Logical Address(es):        Description:
              0x00166EDC                  0x00266E5C     LOVE ? SHINE Static Background Image Information Related Address
              0x00166EE0                  0x00266E60     PARANOiA Survivor Static Background Image Information Related Address
              0x00166EE4                  0x00266E64     PARANOiA Rebirth Static Background Image Information Related Address
+0x001690A0 - 0x001696A4     0x00269020 - 0x00269624     oni_steps[77] oni_steps_table
+             0x001690A0                  0x00269020     oni_steps data for Long Train Runnin'
+             0x001690B4                  0x00269034     oni_steps data for Maximum Overdrive
+             0x001690C8                  0x00269048     oni_steps data for
+             0x001690DC                  0x0026905C     oni_steps data for
+             0x001690F0                  0x00269070     oni_steps data for
+             0x00169104                  0x00269084     oni_steps data for
+             0x00169118                  0x00269098     oni_steps data for
+             0x0016912C                  0x002690AC     oni_steps data for
+             0x00169140                  0x002690C0     oni_steps data for
+             0x00169154                  0x002690D4     oni_steps data for
+             0x00169168                  0x002690E8     oni_steps data for
+             0x0016917C                  0x002690FC     oni_steps data for
+             0x00169190                  0x00269110     oni_steps data for
+             0x001691A4                  0x00269124     oni_steps data for
+             0x001691B8                  0x00269138     oni_steps data for
+             0x001691CC                  0x0026914C     oni_steps data for
+             0x001691E0                  0x00269160     oni_steps data for
+             0x001691F4                  0x00269174     oni_steps data for
+             0x00169208                  0x00269188     oni_steps data for
+             0x0016921C                  0x0026919C     oni_steps data for
+             0x00169230                  0x002691B0     oni_steps data for
+             0x00169244                  0x002691C4     oni_steps data for
+             0x00169258                  0x002691D8     oni_steps data for
+             0x0016926C                  0x002691EC     oni_steps data for
+             0x00169280                  0x00269200     oni_steps data for
+             0x00169294                  0x00269214     oni_steps data for
+             0x001692A8                  0x00269228     oni_steps data for
+             0x001692BC                  0x0026923C     oni_steps data for
+             0x001692D0                  0x00269250     oni_steps data for
+             0x001692E4                  0x00269264     oni_steps data for
+             0x001692F8                  0x00269278     oni_steps data for
+             0x0016930C                  0x0026928C     oni_steps data for
+             0x00169320                  0x002692A0     oni_steps data for
+             0x00169334                  0x002692B4     oni_steps data for
+             0x00169348                  0x002692C8     oni_steps data for
+             0x0016935C                  0x002692DC     oni_steps data for
+             0x00169370                  0x002692F0     oni_steps data for
+             0x00169384                  0x00269304     oni_steps data for
+             0x00169398                  0x00269318     oni_steps data for
+             0x001693AC                  0x0026932C     oni_steps data for
+             0x001693C0                  0x00269340     oni_steps data for
+             0x001693D4                  0x00269354     oni_steps data for
+             0x001693E8                  0x00269368     oni_steps data for
+             0x001693FC                  0x0026937C     oni_steps data for
+             0x00169410                  0x00269390     oni_steps data for
+             0x00169424                  0x002693A4     oni_steps data for
+             0x00169438                  0x002693B8     oni_steps data for
+             0x0016944C                  0x002693CC     oni_steps data for
+             0x00169460                  0x002693E0     oni_steps data for
+             0x00169474                  0x002693F4     oni_steps data for
+             0x00169488                  0x00269408     oni_steps data for
+             0x0016949C                  0x0026941C     oni_steps data for
+             0x001694B0                  0x00269430     oni_steps data for
+             0x001694C4                  0x00269444     oni_steps data for
+             0x001694D8                  0x00269458     oni_steps data for
+             0x001694EC                  0x0026946C     oni_steps data for
+             0x00169500                  0x00269480     oni_steps data for
+             0x00169514                  0x00269494     oni_steps data for
+             0x00169528                  0x002694A8     oni_steps data for
+             0x0016953C                  0x002694BC     oni_steps data for
+             0x00169550                  0x002694D0     oni_steps data for
+             0x00169564                  0x002694E4     oni_steps data for
+             0x00169578                  0x002694F8     oni_steps data for
+             0x0016958C                  0x0026950C     oni_steps data for
+             0x001695A0                  0x00269520     oni_steps data for
+             0x001695B4                  0x00269534     oni_steps data for
+             0x001695C8                  0x00269548     oni_steps data for
+             0x001695DC                  0x0026955C     oni_steps data for
+             0x001695F0                  0x00269570     oni_steps data for
+             0x00169604                  0x00269584     oni_steps data for
+             0x00169618                  0x00269598     oni_steps data for
+             0x0016962C                  0x002695AC     oni_steps data for
+             0x00169640                  0x002695C0     oni_steps data for
+             0x00169654                  0x002695D4     oni_steps data for
+             0x00169668                  0x002695E8     oni_steps data for
+             0x0016967C                  0x002695FC     oni_steps data for
+             0x00169690                  0x00269610     oni_steps data for
 0x0016D180 - 0x0016D194     0x0026D100 - 0x0026D114     In-Stage Timing Judgment Label Widths
 0x0016D6B0 - 0x0016D6BC     0x0026D630 - 0x0026D63C     Step Judgment Timing Windows - Lower Bounds
              0x0016D6B0                  0x0026D630     Timing Windows Lower Bounds For Perfects  | A value of -5
