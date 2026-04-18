@@ -6,4 +6,5 @@ The difference between physical and logical addresses is 0xFFF80.
 
 <pre>
 Physical Address(es):       Logical Address(es):        Description:   
+0x0015E998 - 0x0015EA38     0x0025E918 - 0x0025E9B8     LEFTOVER FROM 6thMIX AC - Name Entry Word Blacklist
 </pre>
