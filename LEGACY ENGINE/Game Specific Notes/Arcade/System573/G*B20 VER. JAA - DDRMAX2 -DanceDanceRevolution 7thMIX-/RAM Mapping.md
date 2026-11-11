@@ -11,6 +11,5 @@ Physical Address(es):      Logical Address(es):       Description:              
 0x001A3B28 - 0x001A7778    0x801A3B28 - 0x801A7778    minfo_tab - song metadata table (music_info minfo_tab[45]) 15,444 bytes
 0x000E68D8 -               0x800E68D8 -               Global g_game_w Structure (g_game_w g_game_w)  
              0x000E68D8                 0x800E68D8    g_game_w.state                                             2 bytes
-       4 bytes
 </pre>
 
