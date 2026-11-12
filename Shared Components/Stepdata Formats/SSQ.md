@@ -51,15 +51,13 @@ The sq_standard data structure represents an entire SSQ file chunk.
 ```
 NAME:            SIZE:      WHAT:
 header           8 bytes    The SSQ chunk's header.
-num              4 bytes    NOT ENTIRE SURE, most likely the number of elements in 
-                            an array that follows this data member.
+num              4 bytes    Number of elements in the body array.
 body             4 bytes    The main body of data that the chunk is meant to hold - whether it be timing data, step information,
                             or whatnot.
-                            A single element array is used to provide support for variable-length data members. Prior to the C99 
-                            version of the C standard, this "struct hack" was a necessity if you wanted a variable-length data 
-                            member due to the lack (at the time) of flexible data member support. In later versions of the format, 
-                            this was probably replaced with a proper flexible data members, however, more research is needed to
-                            know for sure.       
+                            A single element array is used to provide support for variable-length data members of any type.
+                            Basically, you can use the fact that the first element decays to a pointer, combined with type
+                            casting to "store" any type in a sq sequence - using the chunk size, num value to get the byte
+                            size of each element and size of the array to ensure the game stays within the array bounds.     
 ```
 Use of the aforementioned struct hack what allows (allowed?) each SSQ chunk to have the same general layout, but also hold completely different pieces of data in their respective body data members.
 
