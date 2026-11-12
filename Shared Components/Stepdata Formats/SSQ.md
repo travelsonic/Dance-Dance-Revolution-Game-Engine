@@ -112,7 +112,7 @@ Offset(s):                   Data Member:                    Value (hex (dec)): 
 0x0044 - 0x0029              sq_standard             
          0x0000              sq_standard.header.size         0x00000030 (48 decimal)
          0x0004              sq_standard.header.kind         0x0002     (2 decimal)
-         0x0006              sq_standard.header.division     0x001      (1 decimal)
+         0x0006              sq_standard.header.division     0x0001     (1 decimal)
          0x0008              sq_standard.num                 0x00000006 (6 decimal)
          0x000C - 0x0029     sq_standard.body                At this point, struct hack applied
                   0x000C     beat_counts[0]                  0x00000000 (0 decimal)
