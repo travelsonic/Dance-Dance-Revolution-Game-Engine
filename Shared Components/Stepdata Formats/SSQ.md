@@ -92,7 +92,7 @@ Offset(s):                   Data Member:                    Value (hex (dec)): 
          0x0004              sq_standard.header.kind         0x0001     (1 decimal)
          0x0006              sq_standard.header.division     0x0096     (150 decimal)
          0x0008              sq_standard.num                 0x00000007 (7 decimal)
-         0x000C - 0x0043     sq_standard.body                At this point, struct hack applied
+         0x000C - 0x0043     sq_standard.body                
                                                              0x00000000 (0 decimal)
                              herewe_count                    0x00001000 (4,096 decimal)
                                                              0x00009000 (36,864 decimal)
@@ -114,7 +114,7 @@ Offset(s):                   Data Member:                    Value (hex (dec)): 
          0x0004              sq_standard.header.kind         0x0002     (2 decimal)
          0x0006              sq_standard.header.division     0x0001     (1 decimal)
          0x0008              sq_standard.num                 0x00000006 (6 decimal)
-         0x000C - 0x0029     sq_standard.body                At this point, struct hack applied
+         0x000C - 0x0029     sq_standard.body                
                   0x000C     beat_counts[0]                  0x00000000 (0 decimal)
                   0x0010     beat_counts[1]                  0x00001000 (4,096 decimal)
                   0x0014     beat_counts[2]                  0x00009000 (36,864 decimal)
