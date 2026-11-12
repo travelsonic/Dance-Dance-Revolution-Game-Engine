@@ -7,9 +7,9 @@ Bemani System573, an emulator that supports the Bemani System573, and many rever
 In this game, the difference between the physical, and logical addresses, is 0x80000000.
 
 <pre>
-Physical Address(es):      Logical Address(es):       Description:                                                Size:
-0x000E68D8 -               0x800E68D8 -               Global g_game_w Structure (g_game_w g_game_w)  
-             0x000E68D8                 0x800E68D8    g_game_w.state                                              2 bytes
-0x001A3B28 - 0x001A7778    0x801A3B28 - 0x801A7778    minfo_tab - song metadata table (music_info minfo_tab[143]) 15,444 bytes
+Physical Address(es):      Logical Address(es):       Description:                                                          Size:
+0x000E68D8 -               0x800E68D8 -               g_game_w - global game work structure (g_game_w g_game_w)  
+             0x000E68D8                 0x800E68D8    g_game_w.state                                                        2 bytes
+0x001A3B28 - 0x001A7778    0x801A3B28 - 0x801A7778    minfo_tab - global song metadata table (music_info minfo_tab[143])    15,444 bytes
 </pre>
 
