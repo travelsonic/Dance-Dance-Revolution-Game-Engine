@@ -8,8 +8,7 @@ In this game, the difference between the physical, and logical addresses, is 0x8
 
 <pre>
 Physical Address(es):      Logical Address(es):       Description:                                                         Size:
-0x000DAC98 -               0x800DAC98 -               g_game_w - global game work structure (g_game_w g_game_w)  
-                                                                                                                                
+0x000DAC98 -               0x800DAC98 -               g_game_w - global game work structure (g_game_w g_game_w)                                                                            
              0x000DAC98                 0x800DAC98    g_game_w.state                                                           2 bytes
              0x000DAC9A                 0x800DAC9A    g_game_w.genre                                                           2 bytes
              0x000DAC9C                 0x800DAC9C    g_game_w.mip                                                             4 bytes
