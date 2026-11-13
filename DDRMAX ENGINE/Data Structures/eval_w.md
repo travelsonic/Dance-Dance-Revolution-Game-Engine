@@ -27,22 +27,31 @@ Each value gets its own 4-byte integer.
 ***Array elements & what they store:***
 ```
 Element:   Data:
-0          Perfect Count      
-1          Great Count    
+0          PERFECT!! Count      
+1          GREAT! Count    
 2          Good Count    
 3          Boo Count    
 4          Miss Count    
 5          TODO: Find what this element is used for
-6          Elapsed step count?  TODO: Find out with certainty what this array element is used for
+6          The sum of PERFECT!! and GREAT! step counts.
 ```
 
 
 ### freez_value_ct
-***Data Type:** unsigned int[4]*
+***Data Type:** unsigned int[3]*
 
 ***Purpose:*** 
 
-TODO: Find out what this is actually used for.
+Tracks freeze step quality.
+
+***Array elements & what they store:***
+```
+Element:   Data:
+0          O.K.! Count      
+1          N.G. Count    
+2          The sum of O.K.! and N.G. freeze step counts.
+```
+
 
 
 ### groov_bonus
@@ -82,7 +91,7 @@ TODO: Figure out what this is for
 
 ***Purpose:*** 
 
-TODO: Figure out what this is for
+The number of jump steps (2 arrows on a beat).
 
 
 ### dance_level
@@ -90,7 +99,7 @@ TODO: Figure out what this is for
 
 ***Purpose:*** 
 
-TODO: Figure out what this is for
+Your letter grade.  0 for AAA, 1 for AA, 2, for A, 3 for B, 4 for C, 5 for D, and 5 for E.
 
 
 ### fixed_level
