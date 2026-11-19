@@ -1,4 +1,4 @@
-##onimode.c
+## onimode.c
 
 SCED-52169 - Dancing Stage Fusion - 2004-09-15 Prototype Build
 <pre>
